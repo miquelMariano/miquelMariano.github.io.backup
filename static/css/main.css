@@ -1,219 +1,184 @@
-/**
- * Master styling
- */
+/* Main page with stikky-footer
+-------------------------------------------------- */
+html,
 body {
-    font-family: "Roboto Condensed", Arial, sans-serif;
-    background-color: #fff;
-    font-size: 16px;
-    line-height: 1.5em;
-    color: #666;
-    font-weight: 300;
+  height: 100%;
+  background-color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  /* The html and body elements cannot have any padding or margin. */
+  border-top: 3px solid #27A822;
 }
-hr {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 0;
-    border-top: 1px solid #F7F1F1;
-    border-bottom: 1px solid #fff;
-}
-
-/**
- * Font and link declarations
- */
-span.time, span.categories {
-    color: #ADADAD;
-    margin-bottom: 5px;
-    font-size: 11px;
+/* Wrapper for page content to push down footer */
+#wrap {
+  padding-bottom: 50px;	
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -65px;
+  /* Pad bottom by footer height */
+  /*padding: 0 0 60px;*/
 }
 
-h1 {
-    font-weight: normal;
-    color: #696969;
-    margin-bottom: 10px;
-    font-size: 25px;
+/* Navbar
+-------------------------------------------------- */
+
+.navbar-static-top {
+  margin-bottom: 10px;
+}
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+.navbar-default .navbar-brand {
+  color: #6b6b6b;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #6b6b6b;
+}
+.navbar-default .navbar-text {
+  color: #6b6b6b;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #6b6b6b;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #6b6b6b;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #6b6b6b;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #6b6b6b;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #6b6b6b;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #6b6b6b;
+}
+.navbar-default .navbar-link {
+  color: #6b6b6b;
+}
+.navbar-default .navbar-link:hover {
+  color: #6b6b6b;
+}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #6b6b6b;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #6b6b6b;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #6b6b6b;
+    background-color: #ffffff;
+  }
 }
 
-h2 {
-    font-weight: normal;
-    margin-bottom: 5px;
-    color: #666666;
+/* Custom page CSS
+-------------------------------------------------- */
+
+.container {
+  width: auto;
+  max-width: 800px;
+  text-align: center;
 }
-        
-h3 {
-    font-weight: normal;
-    margin-bottom: 5px;
-    color: #666666;
+.container .text-muted {
+  margin: 20px 0;
+}
+.container a {
+  color: #27A822;
+}
+.container a:hover {
+  color: #267723;
+}
+.img-responsive {
+ display: block;
+ height: auto;
+ max-width: 100%;
+}
+.panel-default h4 {
+  text-align: left;
+  line-height: 24px;
+  font-size: 22px;
+}
+.panel-default h5 {
+  text-align: left;
+  line-height: 30px;
+  font-size: 18px;
+}
+.panel-default h6 {
+  font-size: 15px;
+}
+.panel-default h4 a, h5 a {
+  color: #27A822;
+}
+.panel-default h4 a:hover, h5 a:hover {
+  color: #267723;
+}
+.panel{
+  border-style: none;
+}
+.panel-body {
+  padding-top: -10px;
+  text-align: left;
+}
+.social {
+  padding-top: 12px;
+  word-spacing: 25px;
+}
+.social h4 > a {
+  color: #000000;
+}
+.avatar {
+  padding-top: 5%;
+}
+.blog-post{
+  padding-top: 15px;
+}
+.blog-title{
+  padding-top: 2px;
+}
+.related-posts h4 {
+  text-align: center;
+}
+.page-not-found {
+  padding-top: 20%;
+}
+.disqus {
+  padding-bottom: 15px;
 }
 
-a, a:link, a:active {
-    text-decoration: none;
-    color: #8C8C8C;
+.blogpost{
+  text-align: left;
+  line-height: 30px;
+  font-size: 18px;
 }
 
-a:hover {
-    color: #B3B3B3;
-    text-decoration: underline;
-}
+/* Footer 
+-------------------------------------------------- */
 
-/**
- * /////////////////
- * Container element
- * /////////////////
- */
-div#container {
-    width: 700px;
-    margin: auto;
+.footer {
+  text-decoration: none !important;
 }
-
-/**
- * //////////////////////////////////
- * Right aka content column formatting
- * //////////////////////////////////
- */
-div.right {
-    width: 500px;
-    float: left;
+.text-muted {
+	color: #6b6b6b;
 }
-           
-div.content {
-    border-top: 1px solid #E6E6E6;
-    margin-top: 5px;
-    padding-top: 5px;
+div.footer{
+  border-bottom: 5px solid #27A822;;
 }
-
-div.content pre {
-    background: #333333;
-    padding: 10px;
-    color: #FFF;
-    overflow-x: auto;
-    font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
-    font-size: 12px;
-    border: none;
-}
-
-div.content .highlight {
-	background: #333333;
-}
-
-footer {
-    border-top: 1px solid #F7F1F1;
-    width: 100%;
-    height: 10px;
-    margin-top: 10px;
-    margin-bottom: 3em;
-    padding-top: 10px;
-    color: #C2C2C2;
-    font-size: 11px;
-    bottom: 0;
-    padding-bottom: 10px;
-}
-
-footer div#github {
-	text-align: right;
-}
-
-div.right h1 {
-	margin-bottom: -2px;
-}
-
-div.right ul {
-	list-style: none;
-	margin-left: 0;
-	padding: 0;
-}
-
-div.right ul li {
-	margin-top: 5px;
-	margin-left: 0;
-	padding: 0;
-}
-
-div.right .post ul {
-	list-style: square;
-	margin-left: 15px;
-}
-
-/**
- * Left column aka nav bar formatting
- */
-div.col-sm-3 {
-        margin-top: 100px;
-        font-size: 11px;
-        color: #666;
-}
-
-div.col-sm-3 strong {
-        font-size: 16px;
-        color: #4A4A4A;
-        font-weight: normal;
-}
-
-div.col-sm-3 div#about {
-        margin-top: 10px;
-		color: #8C8C8C;
-}
-
-div.col-sm-3 img#about {
-    -webkit-border-radius: 150px;
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.PageNavigation {
-    font-size: 14px;
-    display: block;
-    width: auto;
-    overflow: hidden;
-}
-
-.PageNavigation a {
-    display: block;
-    width: 50%;
-    float: left;
-    margin: 1em 0;
-}
-
-.PageNavigation .next {
-    text-align: right;
-}
-.PageNavigation .prev {
-    text-align: left;
-}
-
-.social{
-    display: block;
-    margin: 10px 0;
-}
-.social ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-.social ul li {
-    display: inline-block;
-    margin: 0 5px;
-}
-.social li a {
-    font-size: 16px;
-}
-
-.share-page {
-    padding: 10px 10px 5px;
-    border-top: 1px solid #f0f0f0;
-    border-bottom: 1px solid #f0f0f0;
-}
-.post-content img, .content img {max-width: 100%}
-
-/* Responsive Conditional */
-@media (min-width: 1024px) {
-    .fixed-condition {
-        position: fixed;
-        max-width: 255px;
-    }
-}
-@media (max-width: 768px) {
-    div.col-sm-3 {
-        margin-top: 30px;
-    }
-}
+/* Set the fixed height of the footer here */
+/*.footer {
+  height: 50px;
+  padding-bottom: 15px;
+  
+}*/

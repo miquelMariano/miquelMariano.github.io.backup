@@ -1,51 +1,31 @@
-title: Stack Problems
-description: My Personal Stack Problems
-author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I am freelance developer. Currently doing more in backend, actually in Python and Django.
-disqus_shortname: stackproblems
-google_analytics: UA-XXXXXXXX-Y
+# top level stuff you probably don't need to touch
+highlighter: pygments
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 3000
+safe: true
 
-enableTags: true
-tagarray: []
 
-collections:
-  project:
-    output: true
-    permalink: /project/:path/
+# edit here to achieve your personal greatness
+url: http://username.github.io/
+baseurl: /sustain/
+title: Chris Turner
+author: Chris Turner
+description: Personal blog and resume
+avatar: profile.png
+email: yourname@email.com
+github: biomadeira/sustain # username
+twitter: username
+linkedin: username
+stackoverflow: username   #e.g: users/2735833/proton1h1
+#Comment out if you don't want disqus 
+disqus: username
+google_analytics: UA-69391421-1
 
-social:
-    - icon: fa-facebook
-      link: "#"
-    - icon: fa-skype
-      link: "#"
-    - icon: fa-twitter
-      link: "https://twitter.com/agusmakmun6"
-    - icon: fa-linkedin
-      link: "#"
-    - icon: fa-stack-exchange
-      link: "#"
 
-share:
-  twitter_username: agusmakmun6
-  fb_appid: 1749788565247320
-
-urls:
-    - text: About Me
-      url: /about/
-    - text: Projects
-      url: /projects/
-    - text: Github
-      url: https://github.com/agusmakmun
-    - text: XML Feed
-      url: /feed.xml
-
-url: "https://agusmakmun.github.io"
-baseurl: ""
-paginate: 20
-per_page: 20
-paginate_path: "/page:num/"
-markdown: kramdown
-gems:
-  - jekyll-paginate
-  - jekyll-gist
+# needed for travis-ci build
+exclude: [vendor]
