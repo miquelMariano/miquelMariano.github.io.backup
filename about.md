@@ -1,12 +1,13 @@
 ---
 layout: page
-title: About
+title: Sobre mí
 permalink: /about/
 ---
 
 Consultor TI con 10 años de experiencia en el ámbito de sistemas.
 
 En los últimos años he centrado mi trayectoria profesional especializandome en todo lo relacionado con la virtualización del datacenter:
+
 - Diseño e implementación de VMware vSphere
 - Instalación y configuración de VMware ESXi 4.x, 5.x, 6.x
 - Instalación y configuración de almacenamiento Hitachi HUS, EMC VNXe, IBM Storwize, QNAP
