@@ -4,6 +4,7 @@ description: 'Apasionado de la montaña y de todo lo relacionado con mover los p
 url: 'https://miquelMariano.github.com' 
 baseurl: '/'
 about: '/about'
+imagesposts2016: '/images/posts/2016/'
 #google_analytics: 'UA-501066-1'
 # disqus_shortname: 'your-disqus-name'
 
