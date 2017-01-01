@@ -5,7 +5,7 @@ url: 'https://miquelMariano.github.com'
 baseurl: '/'
 about: '/about'
 imagesposts2016: '/images/posts/2016/'
-#google_analytics: 'UA-89683320-1'
+google_analytics: 'UA-89683320-1'
 # disqus_shortname: 'your-disqus-name'
 
 author:
