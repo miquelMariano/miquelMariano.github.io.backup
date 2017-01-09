@@ -16,7 +16,7 @@ Tengo mas de 10 años de experiencia en el ámbito de sistemas y en los últimos
  - Instalación y configuración Brocade FC SAN Switches
  - Disaster Recovery, Veeam Backup & Replication
  - Análisis de carga de trabajo y dimensionamiento de máquinas virtuales
- - Automatización, Ansible, PowerCLI..
+ - Automatización, Ansible, PowerCLI...
  - Análisis de performance y resolución de problemas en VMWare vSphere
 
 He tenido la suerte de poder certificarme en VCP5/6-DCV y este último año, VMWare me ha nombredo vExpert
