@@ -60,11 +60,22 @@ $ [NCORA] [root@ansible-srv /etc/ansible]#
 Para realizar el inventario de servidores, a mí me gusta crear mis propios ficheros y no utilizar el de hosts que viene por defecto:
 
 
-7.PNG
 
+```
+$ [NCORA] [root@ansible-srv /etc/ansible]# mkdir inventory
+$ [NCORA] [root@ansible-srv /etc/ansible]# vim inventory/servidores-lab
+```
+Y en ese fichero, definiremos nuestros servidores a manejar
 
-Captura%2Bde%2Bpantalla%2B2016-01-28%2Ba%2Blas%2B9.35.56.png
+``` yaml
+[all:children]
+laboratorio
 
+[laboratorio]
+servidor1
+servidor2
+servidor3
+```
 
 
 
