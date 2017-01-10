@@ -25,15 +25,15 @@ Insertar código CSS:
 
 Insertar código YAML:
 
-```
+``` yaml 
 ---
 #Las variables deben ir siempre entre { dobles
 
-- hosts: "\{\{ servers \}\}:!localhost"
+- hosts: "{ servers }:!localhost"
   user: root
   serial: 15
   roles:
-   - "miquelMariano.ESXi_\{\{ role \}\}"
+   - "miquelMariano.ESXi_{ role }"
 
 ```
 
