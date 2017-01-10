@@ -27,7 +27,7 @@ Insertar código YAML:
 
 ``` yaml
 ---
-#Las variables deben ir siempre entre {{ dobles
+#Las variables deben ir siempre entre { dobles
 
 - hosts: "{ servers }:!localhost"
   user: root
