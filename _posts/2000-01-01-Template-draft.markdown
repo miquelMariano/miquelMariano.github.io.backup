@@ -5,12 +5,13 @@ tags: [draft]
 published: true
 ---
 
+Insertar código HTML:
 
 ``` html
 <img src="{{#if posts.[0]}}{{posts.[0].author.image}}{{else}}{{post.author.image}}{{/if}}" class="profile-image" alt="My Profile Photo"/>
 ```
 
-Add this to your css file:
+Insertar código CSS:
 
 ``` css
 .profile-image {
@@ -21,6 +22,20 @@ Add this to your css file:
       border-radius:100%;
 }
 ```
+
+Insertar código YAML
+
+``` yaml
+---
+
+- hosts: "{{ servers }}:!localhost"
+  user: root
+  serial: 15
+  roles:
+   - "miquelMariano.ESXi_{{ role }}"
+```
+
+Insertar código sin especificar lenguaje
 
 ``` 
 title: Template draft
