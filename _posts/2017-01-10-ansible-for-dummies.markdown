@@ -16,7 +16,7 @@ Otra cosa que también puede suceder es que, después de 1 año y por el motivo 
 
 Ansible puede ser la solución. Ansible es una herramienta de automatización IT que nos permite realizar acciones masivas basadas en un archivo de definición llamado playbook. Un playbook es simplemente una definición de las instrucciones que queremos que se ejecuten sobre nuestros servidores.
 
-![ansible-logo]({{ site.imagesposts2017 }}ansible-logo.png)
+![ansible-logo]({{ site.imagesposts2017 }}ansible_logo.png)
 
 
 ¿Por qué Ansible?
