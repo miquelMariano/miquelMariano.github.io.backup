@@ -96,8 +96,25 @@ $ [NCORA] [root@ansible-srv /etc/ansible]# ssh-copy-id -i /root/.ssh/id_rsa.pub 
 
 Si las claves se han copiado correctamente y tenemos bien configurado nuestro fichero de inventario, ya deberíamos poder ejecutar comandos remotamente en nuestros servidores:
 
-10.PNG
+```
+$ [NCORA] [root@ansible-srv /etc/ansible]# ansible -m ping -i inventory/servidores-lab
+servidor1 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
 
+inventory/servidores-lab
+servidor2 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+
+inventory/servidores-lab
+servidor3 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+```
 
 Y hasta aquí por hoy. En próximos posts veremos el funcionamiento de los roles y playbooks con más profundidad.
 
