@@ -45,9 +45,9 @@ Para este laboratorio he utilizado una distribución de CentOS 7, pero Ansible [
 
 ``` bash
 ##Ansible se encuentra en los repositorios epel
-$ [root@ansible-srv ~]# yum install -y epel-release
+$ [NCORA] [root@ansible-srv ~]# yum install -y epel-release
 
-$ [root@ansible-srv ~]# yum install -y ansible
+$ [NCORA] [root@ansible-srv ~]# yum install -y ansible
 ```
 
 El path de instalación por defecto es /etc/ansible, así que éste será nuestro directorio de trabajo.
@@ -81,24 +81,18 @@ servidor3
 Como comentábamos al principio, Ansible utiliza claves SSH para conectarse con los "clientes".
 
 
-Para generar la clave SSH en el servidor de Ansible, simplemente deberemos seguir el asistente:
+Para generar la clave SSH en el servidor de Ansible, simplemente deberemos seguir el asistente del siguiente comando:
 
-
-
-ssh-keygen
-
-
-
-5.PNG
-
+```
+$ [NCORA] [root@ansible-srv /etc/ansible]# ssh-keygen
+```
 
 Una vez tengamos el certificado, deberemos copiarlo en todos los servidores que queremos manejar con Ansible.
 
-ssh-copy-id -i /root/.ssh/id_rsa.pub root@test-lab01
+```
+$ [NCORA] [root@ansible-srv /etc/ansible]# ssh-copy-id -i /root/.ssh/id_rsa.pub root@servidor1
 
-
-9.PNG
-
+```
 
 Si las claves se han copiado correctamente y tenemos bien configurado nuestro fichero de inventario, ya deberíamos poder ejecutar comandos remotamente en nuestros servidores:
 
