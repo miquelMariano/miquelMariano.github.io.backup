@@ -14,7 +14,7 @@ Otra cosa que también puede suceder es que, después de 1 año y por el motivo 
 
 
 
-Ansible puede ser la solución. Ansible es una herramienta de automatización IT que nos permite realizar acciones masivas basadas en un archivo de definición llamado playbook. Un playbook es simplemente una definición de las instrucciones que queremos que se ejecuten sobre nuestros servidores.
+[Ansible](http://www.ansible.com/) puede ser la solución. Ansible es una herramienta de automatización IT que nos permite realizar acciones masivas basadas en un archivo de definición llamado playbook. Un playbook es simplemente una definición de las instrucciones que queremos que se ejecuten sobre nuestros servidores.
 
 ![ansible-logo]({{ site.imagesposts2017 }}ansible_logo.png)
 
@@ -33,15 +33,15 @@ Ansible tiene una ventaja sobre otros productos debido a su simplicidad. Los pla
 
 Con lo de ser padre, me hizo mucha gracia esta foto ;)
 
-Otra de las ventajas que ofrece esta herramienta son los módulos, unidades de trabajo en Ansible. Cada módulo es autosuficiente y puede ser escrito en el lenguaje estándar de scripting, como Python, Perl, Ruby, Bash, etc. Una de las propiedades principales de los módulos es la idempotencia, la cual asegura que ninguna operación se realizará una vez el sistema haya alcanzado el estado deseado.
+Otra de las ventajas que ofrece esta herramienta son los módulos, unidades de trabajo en Ansible. Cada módulo es autosuficiente y puede ser escrito en el lenguaje estándar de scripting, como Python, Perl, Ruby, Bash, etc. Una de las propiedades principales de los módulos es la [idempotencia](https://es.wikipedia.org/wiki/Idempotencia), la cual asegura que ninguna operación se realizará una vez el sistema haya alcanzado el estado deseado.
 
 
 
 Empecemos!!
 
-Instalación
+# Instalación
 
-Para este laboratorio he utilizado una distribución de CentOS 7, pero Ansible se puede instalar sobre Debian, Gentoo, BSD, Mac OSX, Solaris, etc.
+Para este laboratorio he utilizado una distribución de CentOS 7, pero Ansible [se puede instalar sobre Debian, Gentoo, BSD, Mac OSX, Solaris, etc.](http://docs.ansible.com/ansible/intro_installation.html)
 
 
 
