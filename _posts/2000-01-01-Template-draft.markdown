@@ -27,13 +27,13 @@ Insertar código YAML:
 
 ``` yaml
 ---
-##{{
- test }}
-- hosts: "{{ servers }}:!localhost"
+#Las variables deben ir siempre entre {{ dobles
+
+- hosts: "{ servers }:!localhost"
   user: root
   serial: 15
   roles:
-   - "miquelMariano.ESXi_{{ role }}"
+   - "miquelMariano.ESXi_{ role }"
 
 ```
 
