@@ -45,9 +45,9 @@ Para este laboratorio he utilizado una distribución de CentOS 7, pero Ansible [
 
 ``` bash
 ##Ansible se encuentra en los repositorios epel
-$ yum install -y epel-release
+$ [root@ansible-srv ~]# yum install -y epel-release
 
-$ yum install -y ansible
+$ [root@ansible-srv ~]# yum install -y ansible
 ```
 
 El path de instalación por defecto es /etc/ansible, así que éste será nuestro directorio de trabajo.
@@ -56,9 +56,7 @@ El path de instalación por defecto es /etc/ansible, así que éste será nuestr
 $ [NCORA] [root@ansible-srv /etc/ansible]#
 ```
 
-
 Para realizar el inventario de servidores, a mí me gusta crear mis propios ficheros y no utilizar el de hosts que viene por defecto:
-
 
 
 ```
@@ -78,11 +76,9 @@ servidor3
 ```
 
 
-
 # *Claves SSH*
 
 Como comentábamos al principio, Ansible utiliza claves SSH para conectarse con los "clientes".
-
 
 
 Para generar la clave SSH en el servidor de Ansible, simplemente deberemos seguir el asistente:
