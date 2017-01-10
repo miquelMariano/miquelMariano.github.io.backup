@@ -27,7 +27,8 @@ Insertar código YAML
 
 ``` yaml
 ---
-##{{ test }}
+##{{
+ test }}
 - hosts: "{{ servers }}:!localhost"
   user: root
   serial: 15
