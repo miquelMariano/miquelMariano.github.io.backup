@@ -19,7 +19,7 @@ Otra cosa que también puede suceder es que, después de 1 año y por el motivo 
 ![ansible-logo]({{ site.imagesposts2017 }}ansible_logo.png)
 
 
-¿Por qué Ansible?
+# *¿Por qué Ansible?*
 
 La mayor diferencia con otros productos de automatización IT es la arquitectura sin agentes. Ansible solo utiliza SSH (bueno, también Python, que ya viene por defecto en la mayoría de distribuciones modernas). En contraste con Chef o Puppet, por ejemplo, que tienen dependencias que deben instalarse en los servidores antes de que puedan ejecutarse, con Ansible simplemente utilizando SSH nos podemos conectar a los servidores remotos y ejecutar los comandos deseados.
 
@@ -39,7 +39,7 @@ Otra de las ventajas que ofrece esta herramienta son los módulos, unidades de t
 
 Empecemos!!
 
-# Instalación
+# *Instalación*
 
 Para este laboratorio he utilizado una distribución de CentOS 7, pero Ansible [se puede instalar sobre Debian, Gentoo, BSD, Mac OSX, Solaris, etc.](http://docs.ansible.com/ansible/intro_installation.html)
 
