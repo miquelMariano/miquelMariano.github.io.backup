@@ -25,7 +25,7 @@ Insertar código CSS:
 
 Insertar código YAML
 
-```
+``` yaml
 ---
 
 - hosts: "{{ servers }}:!localhost"
