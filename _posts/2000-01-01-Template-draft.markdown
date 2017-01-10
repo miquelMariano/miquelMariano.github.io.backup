@@ -25,8 +25,8 @@ Insertar código CSS:
 
 Insertar código YAML:
 
-{{ hola }}
-{ hola }
+{{ hola1 }}
+{ hola1 }
 
 \{\{ hola \}\}
 \{ hola \}
