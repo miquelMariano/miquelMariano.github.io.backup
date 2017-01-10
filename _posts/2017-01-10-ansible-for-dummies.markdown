@@ -45,8 +45,8 @@ Para este laboratorio he utilizado una distribución de CentOS 7, pero Ansible [
 
 ``` bash
 ##Ansible se encuentra en los repositorios epel
-$ [NCORA] [root@ansible-srv /home]# yum install -y epel-release
-$ [NCORA] [root@ansible-srv /home]# yum install -y ansible
+$ [root@ansible-srv]# yum install -y epel-release
+$ [root@ansible-srv]# yum install -y ansible
 ```
 
 El path de instalación por defecto es /etc/ansible, así que éste será nuestro directorio de trabajo.
