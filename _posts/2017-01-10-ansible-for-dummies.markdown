@@ -50,18 +50,11 @@ $ yum install -y epel-release
 $ yum install -y ansible
 ```
 
-1.PNG
-
-
-2.PNG
-
-
-3.PNG
-
-
 El path de instalación por defecto es /etc/ansible, así que éste será nuestro directorio de trabajo.
 
-4.PNG
+```
+$ [NCORA] [root@ansible-srv /etc/ansible]#
+```
 
 
 Para realizar el inventario de servidores, a mí me gusta crear mis propios ficheros y no utilizar el de hosts que viene por defecto:
