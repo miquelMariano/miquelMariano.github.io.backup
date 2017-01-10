@@ -45,22 +45,23 @@ Para este laboratorio he utilizado una distribución de CentOS 7, pero Ansible [
 
 ```
 ##Ansible se encuentra en los repositorios epel
-$ [root@ansible-srv]# yum install -y epel-release
-$ [root@ansible-srv]# yum install -y ansible
+$ [root@ansible-srv ~]# yum install -y epel-release
+$ [root@ansible-srv ~]# yum install -y ansible
 ```
 
 El path de instalación por defecto es /etc/ansible, así que éste será nuestro directorio de trabajo.
 
 ```
-$ [NCORA] [root@ansible-srv /etc/ansible]#
+$ [root@ansible-srv ~]# cd /etc/ansible
+$ [root@ansible-srv /etc/ansible]#
 ```
 
 Para realizar el inventario de servidores, a mí me gusta crear mis propios ficheros y no utilizar el de hosts que viene por defecto:
 
 
 ```
-$ [NCORA] [root@ansible-srv /etc/ansible]# mkdir inventory
-$ [NCORA] [root@ansible-srv /etc/ansible]# vim inventory/servidores-lab
+$ [root@ansible-srv /etc/ansible]# mkdir inventory
+$ [root@ansible-srv /etc/ansible]# vim inventory/servidores-lab
 ```
 Y en ese fichero, definiremos nuestros servidores a manejar
 
@@ -83,20 +84,20 @@ Como comentábamos al principio, Ansible utiliza claves SSH para conectarse con 
 Para generar la clave SSH en el servidor de Ansible, simplemente deberemos seguir el asistente del siguiente comando:
 
 ```
-$ [NCORA] [root@ansible-srv /etc/ansible]# ssh-keygen
+$ [root@ansible-srv /etc/ansible]# ssh-keygen
 ```
 
 Una vez tengamos el certificado, deberemos copiarlo en todos los servidores que queremos manejar con Ansible.
 
 ```
-$ [NCORA] [root@ansible-srv /etc/ansible]# ssh-copy-id -i /root/.ssh/id_rsa.pub root@servidor1
+$ [root@ansible-srv /etc/ansible]# ssh-copy-id -i /root/.ssh/id_rsa.pub root@servidor1
 
 ```
 
 Si las claves se han copiado correctamente y tenemos bien configurado nuestro fichero de inventario, ya deberíamos poder ejecutar comandos remotamente en nuestros servidores:
 
 ```
-$ [NCORA] [root@ansible-srv /etc/ansible]# ansible -m ping -i inventory/servidores-lab
+$ [root@ansible-srv /etc/ansible]# ansible -m ping -i inventory/servidores-lab
 servidor1 | SUCCESS => {
     "changed": false,
     "ping": "pong"
