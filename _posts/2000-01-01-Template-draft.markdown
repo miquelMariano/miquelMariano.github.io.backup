@@ -23,7 +23,7 @@ Insertar código CSS:
 }
 ```
 
-Insertar código YAML
+Insertar código YAML:
 
 ``` yaml
 ---
@@ -37,7 +37,7 @@ Insertar código YAML
 
 ```
 
-Insertar código sin especificar lenguaje
+Insertar código sin especificar lenguaje:
 
 ``` 
 title: Template draft
