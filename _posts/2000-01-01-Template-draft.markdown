@@ -25,6 +25,12 @@ Insertar código CSS:
 
 Insertar código YAML:
 
+{{ hola }}
+{ hola }
+
+\{\{ hola \}\}
+\{ hola \}
+
 ``` yaml
 ---
 #Las variables deben ir siempre entre { dobles
