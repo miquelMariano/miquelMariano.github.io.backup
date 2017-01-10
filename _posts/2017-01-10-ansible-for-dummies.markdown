@@ -39,14 +39,16 @@ Otra de las ventajas que ofrece esta herramienta son los módulos, unidades de t
 
 *Empecemos!!*
 
-# + *Instalación*
+# *Instalación*
 
 Para este laboratorio he utilizado una distribución de CentOS 7, pero Ansible [se puede instalar sobre Debian, Gentoo, BSD, Mac OSX, Solaris, etc.](http://docs.ansible.com/ansible/intro_installation.html)
 
+``` bash
+##Ansible se encuentra en los repositorios epel
+$ yum install -y epel-release
 
-
-yum install ansible
-
+$ yum install -y ansible
+```
 
 1.PNG
 
@@ -73,7 +75,7 @@ Captura%2Bde%2Bpantalla%2B2016-01-28%2Ba%2Blas%2B9.35.56.png
 
 
 
-# + *Claves SSH*
+# *Claves SSH*
 
 Como comentábamos al principio, Ansible utiliza claves SSH para conectarse con los "clientes".
 
