@@ -28,7 +28,7 @@ La mayor diferencia con otros productos de automatización IT es la arquitectura
 Ansible tiene una ventaja sobre otros productos debido a su simplicidad. Los playbooks usan un lenguaje descriptivo simple, basado en YAML y gracias a eso conseguimos una suave curva de aprendizaje.
 
 
-
+![ansible-baby]({{ site.imagesposts2017 }}ansible_baby.png)
 
 
 Con lo de ser padre, me hizo mucha gracia esta foto ;)
