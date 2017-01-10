@@ -28,11 +28,12 @@ Insertar código YAML
 ``` yaml
 ---
 
-- hosts: "{{ servers }}:!localhost"
+- hosts: "{ servers }}:!localhost"
   user: root
   serial: 15
   roles:
    - "miquelMariano.ESXi_{{ role }}"
+
 ```
 
 Insertar código sin especificar lenguaje
