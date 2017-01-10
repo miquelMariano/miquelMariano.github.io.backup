@@ -43,7 +43,7 @@ Otra de las ventajas que ofrece esta herramienta son los módulos, unidades de t
 
 Para este laboratorio he utilizado una distribución de CentOS 7, pero Ansible [se puede instalar sobre Debian, Gentoo, BSD, Mac OSX, Solaris, etc.](http://docs.ansible.com/ansible/intro_installation.html)
 
-``` bash
+```
 ##Ansible se encuentra en los repositorios epel
 $ [root@ansible-srv]# yum install -y epel-release
 $ [root@ansible-srv]# yum install -y ansible
