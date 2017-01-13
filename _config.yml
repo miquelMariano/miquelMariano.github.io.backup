@@ -8,7 +8,7 @@ ansible-galaxy: 'https://galaxy.ansible.com/miquelMariano/'
 imagesposts2016: '/images/posts/2016/'
 imagesposts2017: '/images/posts/2017/'
 google_analytics: 'UA-89683320-1'
-# disqus_shortname: 'your-disqus-name'
+disqus_shortname: 'miquelmariano'
 
 author:
   name: 'Miquel Mariano'
