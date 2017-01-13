@@ -1,8 +1,8 @@
 # Site settings
 title: Miquel Mariano
-description: 'Apasionado de la montaña | Bike | Trail | Run | Consultor TI en Ncora | VCP5/6-DCV | vExpert2016 | Padre de Aina'
-description2: line2
-description3: line3
+description: Consultor TI en Ncora | VCP5/6-DCV | vExpert2016
+description2: Apasionado de la montaña | Bike | Trail | Run
+description3: Padre de Aina
 url: 'https://miquelMariano.github.com' 
 baseurl: '/'
 about: '/about'
