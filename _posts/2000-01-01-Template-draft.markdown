@@ -3,7 +3,7 @@ title: Template draft
 date: '2000-01-01 00:00:00'
 tags: [draft]
 published: true
-comments: true
+comments: false
 ---
 
 Insertar código HTML:
