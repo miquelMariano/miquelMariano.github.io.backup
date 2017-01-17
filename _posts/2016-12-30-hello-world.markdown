@@ -2,6 +2,7 @@
 title: Hello World
 date: '2016-12-30 20:10:00'
 tags: [miscelanea]
+published: true
 ---
 
 [![hello-world]({{ site.imagesposts2016 }}hello_world.jpg)](https://miquelmariano.github.io/2016/12/hello-world/)
