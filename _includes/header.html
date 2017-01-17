@@ -114,11 +114,15 @@
              </a>
 
 
-            <div class="super-search" id="js-super-search">
-               <a href="javascript:void(0)" onclick="superSearch.toggle()" class="super-search__close-btn">X</a>
-               <input type="text" placeholder="search" class="super-search__input" id="js-super-search__input">
-               <ul class="super-search__results" id="js-super-search__results"></ul>
-             </div>
+            <<div class="search" id="js-search">
+      <a href="javascript:void(0)" onclick="toggleSearch()" class="search__close-btn">
+        <svg style="width:48px;height:48px" viewBox="0 0 24 24">
+        <path d="M13.46,12L19,17.54V19H17.54L12,13.46L6.46,19H5V17.54L10.54,12L5,6.46V5H6.46L12,10.54L17.54,5H19V6.46L13.46,12Z" />
+        </svg>
+      </a>
+      <input type="text" placeholder="Type here to search" class="search__input" id="js-search__input">
+      <ul class="search__results" id="js-search__results"></ul>
+    </div>
 
              <script src="/supersearch/super-search.js"></script>
              <script>superSearch({
