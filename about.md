@@ -4,7 +4,7 @@ title: Sobre mí
 permalink: /about/
 ---
 
-Hola, me llamo Miquel Mariano y soy Consultor TI en [Ncora](https://www.ncora.com/)
+Hola, me llamo Miquel Mariano Ramis y soy Consultor TI en [Ncora](https://www.ncora.com/)
 
 Tengo mas de 10 años de experiencia en el ámbito de sistemas y en los últimos años he centrado mi trayectoria profesional especializándome en todo lo relacionado con la virtualización y automaticación del datacenter:
 
@@ -20,4 +20,6 @@ Tengo mas de 10 años de experiencia en el ámbito de sistemas y en los últimos
  - Análisis de performance y resolución de problemas en VMWare vSphere
 
 He tenido la suerte de poder certificarme en VCP5/6-DCV y este último año, VMWare me ha nombrado vExpert
+
+![logo-vExpert16]({{ site.images }}vExpert16.png)
 
