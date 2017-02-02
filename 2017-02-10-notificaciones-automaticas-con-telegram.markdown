@@ -39,6 +39,7 @@ Una vez finalizado, BotFather nos dará un token único con el que podremos acce
 Bot name: Notificaciones Infraestructura
 Username: @notificacionesinfraestructurabot
 Token: 304017237:AAHpKXZBaw_wOF3H-ryhWl3F3wqIVP_Zqf8
+URL API: https://api.telegram.org/bot{token}
 ```
 
 Con la siguiente URL `/getUpdates` podremos ver si nuestro bot está up & ready
