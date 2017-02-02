@@ -10,6 +10,7 @@ layout: post
 ---
 
 Buenos días a todos!
+
 Hoy os vengo a contar una de las funcionalidades  que mas me ha llamado la atención de Telegram.
 Como sabeis, Telegram es un sistema de mensajería instantánea, muy similar a WatsApp, pero con algunas funcionalidades extra, por ejemplo los bots.
 [Transcribiendo de la Wikipedia](https://es.wikipedia.org/wiki/Bot), un bot es un programa informático, imitando el comportamiento de un humano. Pues bien, vamos a crear uno de esos bots para que nos envíe notificaciones de nuestra infraestructura. Cualquier "cosa" que sea capaz de invocar una URL será capaz de enviarnos notificaciones via Telegram.
