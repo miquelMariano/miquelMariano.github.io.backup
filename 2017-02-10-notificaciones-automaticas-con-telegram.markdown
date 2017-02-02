@@ -36,14 +36,14 @@ Con el comando `/newbot arrancaremos el asistente de creación que nos guiará p
 Una vez finalizado, BotFather nos dará un token único con el que podremos acceder via HTTP a la API de nuestro nuevo bot. Recordemos los datos...
 
 ```
-boot name: Notificaciones Infraestructura
-username: @notificacionesinfraestructurabot
-Use this token to access the HTTP API: 304017237:AAHpKXZBaw_wOF3H-ryhWl3F3wqIVP_Zqf8
+Bot name: Notificaciones Infraestructura
+Username: @notificacionesinfraestructurabot
+Token: 304017237:AAHpKXZBaw_wOF3H-ryhWl3F3wqIVP_Zqf8
 ```
 
 Con la siguiente URL `/getUpdates` podremos ver si nuestro bot está up & ready
  
-`https://api.telegram.org/bot304017237:AAHpKXZBaw_wOF3H-ryhWl3F3wqIVP_Zqf8/getUpdates`
+`https://api.telegram.org/bot304017237:AAHpKXZBaw_wOF3H-ryhWl3F3wqIVP_Zqf8/getUpdates
 
 El resultado deberia ser algo similar a este:
 
