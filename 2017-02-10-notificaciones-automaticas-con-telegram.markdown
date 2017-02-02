@@ -24,7 +24,7 @@ Lo primero que necesitaremos es "hacernos amigo" del gran BotFather, es el bot q
 ![bf02]({{ site.imagesposts2017 }}bf02.png)
 
 
-Con el comando `/newbot` arrancaremos el asistente de creación que nos guiará paso a paso
+Con el comando `/newbot arrancaremos el asistente de creación que nos guiará paso a paso
 
 ![bf03]({{ site.imagesposts2017 }}bf03.png)
 
@@ -68,7 +68,7 @@ Recordad:
 La información será similar a esta, y lo mas importante es el ID del chat, en mi caso **6343788**
  
 ```
-"message":{"message_id":2,"from":{"id":6343788,"first_name":"Miquel","last_name":"Mariano","username":"miquelMariano"},"chat":{"id":6343788,"first_name":"Miquel","last_name":"Mariano","username":"miquelMariano","type":"private"},"date":1485939966,"text":"/start","entities":[{"type":"bot_command","offset":0,"length":6}]}}]}
+{"message_id":2,"from":{"id":6343788,"first_name":"Miquel","last_name":"Mariano","username":"miquelMariano"},"chat":{"id":6343788,"first_name":"Miquel","last_name":"Mariano","username":"miquelMariano","type":"private"},"date":1485939966,"text":"/start","entities":[{"type":"bot_command","offset":0,"length":6}]}}]}
 ```
 
 Con la información del token y la del chat_id, ya estaremos en disposición de invocar a nuestro bot via http, por ejemplo:
