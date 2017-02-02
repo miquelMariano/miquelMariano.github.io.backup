@@ -67,7 +67,7 @@ Recordad:
  
 La información será similar a esta, y lo mas importante es el ID del chat, en mi caso **6343788**
  
-``` xml
+```
 "message":{"message_id":2,"from":{"id":6343788,"first_name":"Miquel","last_name":"Mariano","username":"miquelMariano"},"chat":{"id":6343788,"first_name":"Miquel","last_name":"Mariano","username":"miquelMariano","type":"private"},"date":1485939966,"text":"/start","entities":[{"type":"bot_command","offset":0,"length":6}]}}]}
 ```
 
@@ -77,7 +77,7 @@ Con la información del token y la del chat_id, ya estaremos en disposición de 
 
 El resultado de la API será algo similar a esto:
 
-``` xml
+```
 {"ok":true,"result":{"message_id":4,"from":{"id":304017237,"first_name":"Notificaciones infraestructura","username":"notificacionesinfraestructurabot"},"chat":{"id":6343788,"first_name":"Miquel","last_name":"Mariano","username":"miquelMariano","type":"private"},"date":1485940456,"text":"Hello World"}}
 ```
 
@@ -95,10 +95,10 @@ Y ya tendríamos foto de perfil para nuestro bot :)
  
 Con todo esto, ya queda a la imaginación de cada uno ver que uso le podemos dar a nuestro bot. 
 Por ejemplo, los usos mas comunes que yo le estoy dando son:
-* Alertas del sistema de monitorización (PRTG, Zabbix, Nagios)
-* Alertas del propio vCenter
-* Scripts que se ejecutan periodicamente en nuestro crontab y/o tareas programadas de windows
-* ...
++	Alertas del sistema de monitorización (PRTG, Zabbix, Nagios)
++	Alertas del propio vCenter
++	Scripts que se ejecutan periodicamente en nuestro crontab y/o tareas programadas de windows
++	...
 
 ¿Y a vosotros, que utilidad se os ocurre?
  
