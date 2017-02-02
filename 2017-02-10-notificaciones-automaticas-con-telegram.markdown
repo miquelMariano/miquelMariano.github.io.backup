@@ -1,6 +1,6 @@
 ---
 title: Notificaciones automáticas con Telegram
-date: '2017-01-10 00:00:00'
+date: '2017-02-10 00:00:00'
 tags: [telegram,automatización,devops]
 categories: [prueba1]
 published: true
@@ -96,7 +96,7 @@ Por ejemplo, los usos mas comunes que yo le estoy dando son:
 	* Alertas del propio vCenter
 	* Scripts que se ejecutan periodicamente en nuestro crontab y/o tareas programadas de windows
  	* ...
- 	
+
 ¿Y a vosotros, que utilidad se os ocurre?
  
 Un saludo
