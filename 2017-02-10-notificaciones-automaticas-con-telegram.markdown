@@ -24,7 +24,7 @@ Lo primero que necesitaremos es "hacernos amigo" del gran BotFather, es el bot q
 ![bf02]({{ site.imagesposts2017 }}bf02.png)
 
 
-Con el comando `/newbot` arrancaremos el asistente de creación que nos guiará paso a paso
+Con el comando `/newbot arrancaremos el asistente de creación que nos guiará paso a paso
 
 ![bf03]({{ site.imagesposts2017 }}bf03.png)
 
@@ -43,11 +43,11 @@ Token: 304017237:AAHpKXZBaw_wOF3H-ryhWl3F3wqIVP_Zqf8
 
 Con la siguiente URL `/getUpdates` podremos ver si nuestro bot está up & ready
  
-`https://api.telegram.org/bot304017237:AAHpKXZBaw_wOF3H-ryhWl3F3wqIVP_Zqf8/getUpdates
+`https://api.telegram.org/bot304017237:AAHpKXZBaw_wOF3H-ryhWl3F3wqIVP_Zqf8/getUpdates`
 
 El resultado deberia ser algo similar a este:
 
-``` xml
+```
 {"ok":true,"result":[]}
 ```
 
