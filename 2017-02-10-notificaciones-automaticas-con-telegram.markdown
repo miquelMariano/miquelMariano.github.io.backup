@@ -6,6 +6,7 @@ categories: [prueba1]
 published: true
 comments: true
 permalink: /borrador/
+layout: post
 ---
 
 Buenos dias a todos!
