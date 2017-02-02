@@ -20,7 +20,7 @@ Como sabeis, Telegram es un sistema de mensajería instantánea, muy similar a W
 Vamos al lío!
 Lo primero que necesitaremos es "hacernos amigo" del gran BotFather, es el bot que pone Telegram a disposición de los usuarios para crear otros bot.
 
-![bf01]({{ site.imagesposts2017 }}/02bf01.png)
+![bf01]({{ site.imagesposts2017 }}/02/bf01.png)
 
 ![bf02]({{ site.imagesposts2017 }}/02/bf02.png)
 
