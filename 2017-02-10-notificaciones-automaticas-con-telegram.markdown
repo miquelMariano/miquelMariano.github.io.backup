@@ -20,18 +20,18 @@ Como sabeis, Telegram es un sistema de mensajería instantánea, muy similar a W
 Vamos al lío!
 Lo primero que necesitaremos es "hacernos amigo" del gran BotFather, es el bot que pone Telegram a disposición de los usuarios para crear otros bot.
 
-![bf01]({{ site.imagesposts2017 }}bf01.png)
+![bf01]({{ site.imagesposts2017 }}/02bf01.png)
 
-![bf02]({{ site.imagesposts2017 }}bf02.png)
+![bf02]({{ site.imagesposts2017 }}/02/bf02.png)
 
 
 Con el comando `/newbot` arrancaremos el asistente de creación que nos guiará paso a paso
 
-![bf03]({{ site.imagesposts2017 }}bf03.png)
+![bf03]({{ site.imagesposts2017 }}/02/bf03.png)
 
-![bf04]({{ site.imagesposts2017 }}bf04.png)
+![bf04]({{ site.imagesposts2017 }}/02/bf04.png)
 
-![bf05]({{ site.imagesposts2017 }}bf05.png)
+![bf05]({{ site.imagesposts2017 }}/02/bf05.png)
 
 
 Una vez finalizado, BotFather nos dará un token único con el que podremos acceder vía HTTP a la API de nuestro nuevo bot. Recordemos los datos...
@@ -55,11 +55,11 @@ El resultado deberia ser algo similar a este:
 
 De la misma forma que inicialmente hemos buscado el BotFather, ahora podremos encontrar nuestro bot en la búsqueda global e iniciar un chat con él
 
-![bf06]({{ site.imagesposts2017 }}bf06.png)
+![bf06]({{ site.imagesposts2017 }}/02/bf06.png)
 
-![bf06]({{ site.imagesposts2017 }}bf07.png)
+![bf06]({{ site.imagesposts2017 }}/02/bf07.png)
 
-![bf08]({{ site.imagesposts2017 }}bf08.png)
+![bf08]({{ site.imagesposts2017 }}/02/bf08.png)
 
 En cuanto tengamos un chat abierto con nuestro bot, la información del `/getUpdates` cambiará
 Recordad:  
@@ -84,15 +84,15 @@ El resultado de la API será algo similar a esto:
 
 Y en nuestro chat, tendremos el mensaje de nuestro bot :)
 
-![bf09]({{ site.imagesposts2017 }}bf09.png)
+![bf09]({{ site.imagesposts2017 }}/02/bf09.png)
 
 Por cierto, que casi se me olvida, a parte de crear nuevos bots, el BotFather nos puede ayudar a customizar nuestros bots, como por ejemplo, asignándoles una imagen de perfil
  
-![bf10]({{ site.imagesposts2017 }}bf10.png)
+![bf10]({{ site.imagesposts2017 }}/02/bf10.png)
  
 Y ya tendríamos foto de perfil para nuestro bot :)
  
-![bf11]({{ site.imagesposts2017 }}bf11.png) 
+![bf11]({{ site.imagesposts2017 }}/02/bf11.png) 
  
 Con todo esto, ya queda a la imaginación de cada uno ver que uso le podemos dar a nuestro bot. 
 Por ejemplo, los usos mas comunes que yo le estoy dando son:
