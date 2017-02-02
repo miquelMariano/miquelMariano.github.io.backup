@@ -6,7 +6,7 @@ published: true
 comments: true
 ---
 
-[![hello-world]({{ site.imagesposts2016 }}hello_world.jpg)](https://miquelmariano.github.io/2016/12/hello-world/)
+[![hello-world]({{ site.imagesposts2016 }}/12/hello_world.jpg)](https://miquelmariano.github.io/2016/12/hello-world/)
 
 Bienvenidos a mi blog,
 

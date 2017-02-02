@@ -17,7 +17,7 @@ Otra cosa que también puede suceder es que, después de 1 año y por el motivo 
 
 [Ansible](http://www.ansible.com/) puede ser la solución. Ansible es una herramienta de automatización IT que nos permite realizar acciones masivas basadas en un archivo de definición llamado playbook. Un playbook es simplemente una definición de las instrucciones que queremos que se ejecuten sobre nuestros servidores.
 
-![ansible-logo]({{ site.imagesposts2017 }}ansible_logo.png)
+![ansible-logo]({{ site.imagesposts2017 }}/01/ansible_logo.png)
 
 
 # *¿Por qué Ansible?*
@@ -29,7 +29,7 @@ La mayor diferencia con otros productos de automatización IT es la arquitectura
 Ansible tiene una ventaja sobre otros productos debido a su simplicidad. Los playbooks usan un lenguaje descriptivo simple, basado en YAML y gracias a eso conseguimos una suave curva de aprendizaje.
 
 
-![ansible-baby]({{ site.imagesposts2017 }}ansible_baby.jpg)
+![ansible-baby]({{ site.imagesposts2017 }}/01/ansible_baby.jpg)
 
 
 Con lo de ser padre, me hizo mucha gracia esta foto ;)
