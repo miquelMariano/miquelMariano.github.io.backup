@@ -96,10 +96,11 @@ Y ya tendríamos foto de perfil para nuestro bot :)
  
 Con todo esto, ya queda a la imaginación de cada uno ver que uso le podemos dar a nuestro bot. 
 Por ejemplo, los usos mas comunes que yo le estoy dando son:
-+	Alertas del sistema de monitorización (PRTG, Zabbix, Nagios)
-+	Alertas del propio vCenter
-+	Scripts que se ejecutan periodicamente en nuestro crontab y/o tareas programadas de windows
-+	...
+
+- Alertas del sistema de monitorización (PRTG, Zabbix, Nagios)
+- Alertas del propio vCenter
+- Scripts que se ejecutan periodicamente en nuestro crontab y/o tareas programadas de windows
+- ...
 
 ¿Y a vosotros, que utilidad se os ocurre?
  
