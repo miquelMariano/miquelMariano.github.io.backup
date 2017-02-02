@@ -5,8 +5,8 @@ tags: [telegram,automatización,devops]
 categories: [prueba1]
 published: true
 comments: true
-permalink: /tmp/
-layout: default
+permalink: /borrador/
+layout: post
 ---
 
 Buenos dias a todos!
