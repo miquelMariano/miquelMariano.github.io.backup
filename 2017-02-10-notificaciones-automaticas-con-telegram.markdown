@@ -12,7 +12,9 @@ layout: post
 Buenos dias a todos!
 Hoy os vengo a contar una de las funcionalidades  que mas me ha llamado la atención de Telegram.
 Como sabeis, Telegram es un sistema de mensajería instantánea, muy similar a WatsApp, pero con algunas funcionalidades extra, por ejemplo los bots.
-Transcribiendo de la Wikipedia, un bot es un programa informático, imitando el comportamiento de un humano. Pues bien, vamos a crear uno de esos bots para que nos envíe notificaciones de nuestra infraestructura. Cualquier "cosa" que sea capaz de invocar una URL será capaz de enviarnos notificaciones via Telegram.
+[Transcribiendo de la Wikipedia](https://es.wikipedia.org/wiki/Bot), un bot es un programa informático, imitando el comportamiento de un humano. Pues bien, vamos a crear uno de esos bots para que nos envíe notificaciones de nuestra infraestructura. Cualquier "cosa" que sea capaz de invocar una URL será capaz de enviarnos notificaciones via Telegram.
+
+[ansible-telegram]({{ site.imagesposts2017 }}ansible_telegram.png)
 
 Vamos al lio!
 Lo primero que necesitaremos es "hacernos amigo" del gran BotFather, es el bot que pone Telegram a disposición de los usuarios para crear otros bot.
