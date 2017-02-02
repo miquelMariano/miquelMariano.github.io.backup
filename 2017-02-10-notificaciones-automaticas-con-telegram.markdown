@@ -60,7 +60,9 @@ De la misma forma que inicialmente hemos buscado el BotFather, ahora podremos en
 ![bf08]({{ site.imagesposts2017 }}bf08.png)
 
 En cuanto tengamos un chat abierto con nuestro bot, la información del `/getUpdates` cambiará
-Recordad:  `https://api.telegram.org/bot304017237:AAHpKXZBaw_wOF3H-ryhWl3F3wqIVP_Zqf8/getUpdates`
+Recordad:  
+
+`https://api.telegram.org/bot304017237:AAHpKXZBaw_wOF3H-ryhWl3F3wqIVP_Zqf8/getUpdates`
  
 La información será similar a esta, y lo mas importante es el ID del chat, en mi caso **6343788**
 
@@ -78,7 +80,7 @@ El resultado de la API será algo similar a esto:
 {"ok":true,"result":{"message_id":4,"from":{"id":304017237,"first_name":"Notificaciones infraestructura","username":"notificacionesinfraestructurabot"},"chat":{"id":6343788,"first_name":"Miquel","last_name":"Mariano","username":"miquelMariano","type":"private"},"date":1485940456,"text":"Hello World"}}
 ```
 
-Y en nuestro chat, tendremos el mensaje de nuestro bot (sonrisa)
+Y en nuestro chat, tendremos el mensaje de nuestro bot :)
 
 ![bf09]({{ site.imagesposts2017 }}bf09.png)
 
@@ -86,7 +88,7 @@ Por cierto, que casi se me olvida, a parte de crear nuevos bots, el BotFather no
  
 ![bf10]({{ site.imagesposts2017 }}bf10.png)
  
-Y ya tendriamos fodo de perfil para nuestro bot (sonrisa)
+Y ya tendriamos fodo de perfil para nuestro bot :)
  
 ![bf11]({{ site.imagesposts2017 }}bf11.png) 
  

@@ -45,5 +45,6 @@ kramdown:
 
 gems:
   - jekyll-sitemap
+  - jemoji
 #gems: ['jekyll-paginate']
 #exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'src']
