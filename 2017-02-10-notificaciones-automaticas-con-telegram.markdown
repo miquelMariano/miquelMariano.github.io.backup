@@ -24,7 +24,7 @@ Lo primero que necesitaremos es "hacernos amigo" del gran BotFather, es el bot q
 ![bf02]({{ site.imagesposts2017 }}bf02.png)
 
 
-Con el comando `/newbot arrancaremos el asistente de creación que nos guiará paso a paso
+Con el comando `/newbot` arrancaremos el asistente de creación que nos guiará paso a paso
 
 ![bf03]({{ site.imagesposts2017 }}bf03.png)
 
