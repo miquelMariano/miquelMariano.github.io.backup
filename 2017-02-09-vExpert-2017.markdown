@@ -5,7 +5,6 @@ tags: [vExpert,VMWare]
 categories: [prueba1]
 published: true
 comments: true
-permalink: /vExpert/
 layout: post
 ---
 
