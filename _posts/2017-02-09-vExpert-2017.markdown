@@ -9,11 +9,11 @@ permalink: /vExpert/
 layout: post
 ---
 
+![vexpert-logo]({{ site.imagesposts2017 }}/02/logo_vexpert2017.png)
+
 Buenos días a todos!
 
 Ayer tuvo lugar el [anuncio de los nuevos VMWare vExpert 2017](https://blogs.vmware.com/vmtn/2017/02/vexpert-2017-award-announcement.html)
-
-![vexpert-logo]({{ site.imagesposts2017 }}/02/logo_vexpert2017.png)
 
 Como sabéis, el título de vExpert no es ninguna certificación técnica ni nada por el estilo. Mas bien es un reconocimiento que VMWare otorga a todas aquellas personas que ya sea a través de RRSS, blogs, foros, grupos VMUG, etc, etc, etc, se encarga de evangelizar la marca, compartiendo conocimientos, experiencia....
 
