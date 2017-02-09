@@ -1,11 +1,10 @@
 ---
-title: vExperts 2017
+title: vExpert 2017 Award Announcement
 date: '2017-02-09 00:14:00'
 tags: [vExpert,VMWare]
 categories: [prueba1]
 published: true
 comments: true
-permalink: /vExpert/
 layout: post
 ---
 
