@@ -19,7 +19,9 @@ Tengo mas de 10 años de experiencia en el ámbito de sistemas y en los últimos
  - Automatización, Ansible, PowerCLI...
  - Análisis de performance y resolución de problemas en VMWare vSphere
 
-He tenido la suerte de poder certificarme en VCP5/6-DCV y este último año, VMWare me ha nombrado vExpert
+He tenido la suerte de poder certificarme en VCP5/6-DCV y en estos últimos 2 años, VMWare me ha nombrado vExpert
 
-![logo-vExpert16]({{ site.images }}vExpert16.png)
+![logo-vExpert17]({{ site.images }}logo_vexpert2017.png) 
+
+![logo-vcp6]({{ site.images }}logo_vcp6.png) 
 
