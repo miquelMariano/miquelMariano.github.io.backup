@@ -1,6 +1,6 @@
 ---
 title: Notificaciones automáticas con Telegram
-date: '2017-02-10 00:00:00'
+date: '2017-02-15 00:00:00'
 tags: [telegram,automatización,devops]
 categories: [prueba1]
 published: true
