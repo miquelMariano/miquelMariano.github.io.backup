@@ -105,4 +105,5 @@ Por ejemplo, los usos mas comunes que yo le estoy dando son:
 ¿Y a vosotros, que utilidad se os ocurre?
  
 Un saludo
+
 Miquel.
