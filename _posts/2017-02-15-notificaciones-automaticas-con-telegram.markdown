@@ -5,7 +5,6 @@ tags: [telegram,automatización,devops]
 categories: [prueba1]
 published: true
 comments: true
-permalink: /borrador/
 layout: post
 ---
 
