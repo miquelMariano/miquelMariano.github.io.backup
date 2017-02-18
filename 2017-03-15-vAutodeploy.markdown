@@ -1,11 +1,11 @@
 ---
-title: Migrar configuración de un vCenter a otro
+title: vAutodeploy
 date: '2017-03-15 00:00:00'
 tags: [VMWare,vSphere,vExpert,automatización]
 categories: [prueba1]
 published: true
 comments: true
-permalink: /borrador2/
+permalink: /vAutodeploy/
 layout: post
 ---
 
