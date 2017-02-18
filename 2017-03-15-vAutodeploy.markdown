@@ -14,7 +14,7 @@ Buenos días a todos!
 
 ![vAutodeploy]({{ site.imagesposts2017 }}/04/vAutodeploy.png)
 
-
+*Number of VMs:* Bla bla bla
  
 Un saludo
 
