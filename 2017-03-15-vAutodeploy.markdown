@@ -14,7 +14,11 @@ Buenos días a todos!
 
 ![vAutodeploy]({{ site.imagesposts2017 }}/04/vAutodeploy.png)
 
-*Number of VMs:* Bla bla bla
+**Number of VMs:** Bla bla bla
+**Basename:**
+**Firts sufix value:**
+**CPUs**
+**RAM (GB):**
  
 Un saludo
 
