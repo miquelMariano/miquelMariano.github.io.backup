@@ -12,6 +12,7 @@ layout: post
 Buenos días a todos!
 
 
+![vAutodeploy]({{ site.imagesposts2017 }}/04/vAutodeploy.png)
 
 
  
