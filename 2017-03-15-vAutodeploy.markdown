@@ -17,7 +17,7 @@ Se trata de un script de PowerCLI que me ayuda a desplegar máquinas virtuales d
 
 ![vAutodeploy]({{ site.imagesposts2017 }}/04/vAutodeploy.png)
 
-A continuación una breve descripción de cada campo :)
+A continuación una breve descripción de cada campo:
 
 **Number of VMs:** Si, tal cual :) es el nº de máquinas que queremos desplegar
 
@@ -49,9 +49,9 @@ A continuación una breve descripción de cada campo :)
 
 **Secondary DNS:** DNS Secundario
 
-Habrá muchos aspectos que se tendrán/podrán mejorar/depurar, así que espero vuestros comentarios.
+Habrá muchos aspectos que se tendrán/podrán mejorar/depurar, así que espero vuestros comentarios ;-)
 
-Podéis descargaos una copia del repositorio GitHub desde [aquí](https://github.com/miquelMariano/vAutodeploy)
+Podéis descargaros una copia del repositorio GitHub desde [aquí](https://github.com/miquelMariano/vAutodeploy)
  
 Un saludo
 
