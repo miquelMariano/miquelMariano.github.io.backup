@@ -25,7 +25,7 @@ A continuación una breve descripción de cada campo :)
 
 **First sufix value:** Es un número autoincremental por el cual empezará a contar la primera VM a desplegar
 
-**CPUs:** Nº de CPUs que tendran nuestras VMs a desplegar
+**CPUs:** Nº de CPUs que tendrán nuestras VMs a desplegar
 
 **RAM (GB):** Cantidad de RAM asignada a cada VM
 
@@ -51,7 +51,7 @@ A continuación una breve descripción de cada campo :)
 
 Habrá muchos aspectos que se tendrán/podrán mejorar/depurar, así que espero vuestros comentarios.
 
-Podeis descargar/clonar el repositorio GitHub desde [aquí](https://github.com/miquelMariano/vAutodeploy)
+Podéis descargaos una copia del repositorio GitHub desde [aquí](https://github.com/miquelMariano/vAutodeploy)
  
 Un saludo
 
