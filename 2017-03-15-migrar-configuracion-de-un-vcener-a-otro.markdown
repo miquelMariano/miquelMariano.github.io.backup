@@ -15,11 +15,11 @@ En el post de hoy voy a mostraros como migrar las configuraciones de un vCenter 
 
 El problema se plantea cuando por un motivo u otro es necesario hacer una reinstalación "start from the scratch" y claro, necesitamos mantener ciertas configuraciones:
 
-*vdSwitches
-*Roles
-*Permisos
-*Estructura de carpetas
-*Configuración/reglas de DRS
++ vdSwitches
++ Roles
++ Permisos
++ Estructura de carpetas
++ Configuración/reglas de DRS
 
 
 
