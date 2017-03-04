@@ -1,10 +1,6 @@
 ---
 title: vAutodeploy, despliegue masivo de VMs con PowerCLI
 date: '2017-04-15 00:00:00'
-<<<<<<< HEAD
-author: @miquelMariano
-=======
->>>>>>> parent of 266128a... add author
 tags: [VMWare,vSphere,vExpert,automatización,PowerCLI]
 categories: [prueba1]
 published: true
