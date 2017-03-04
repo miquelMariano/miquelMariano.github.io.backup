@@ -1,7 +1,6 @@
 ---
 title: Hello World
 date: '2016-12-30 20:10:00'
-author: miquelMariano
 tags: [miscelanea]
 published: true
 comments: true
