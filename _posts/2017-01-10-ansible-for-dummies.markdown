@@ -1,6 +1,7 @@
 ---
 title: Ansible for dummies
 date: '2017-01-10 00:00:00'
+author: miquelMariano
 tags: [ansible]
 published: true
 comments: true
