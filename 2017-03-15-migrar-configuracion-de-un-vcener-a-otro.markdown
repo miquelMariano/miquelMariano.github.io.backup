@@ -28,9 +28,30 @@ El reto se plantea al querer migrar el resto de configuraciones, que por su vol�
 
 Gracias a la comunidad, encontré este [post](https://virtuallyjason.blogspot.com.es/2016/02/migrating-from-one-vcenter-to-another.html) que me resultó tremendamente interesente para hacer la migración de una manera menos "dolorosa"
 
-Antes de empezar, deberemos descargarnos [estos modulos DRS](https://github.com/PowerCLIGoodies/DRSRule) e importarlos a PowerCLI, en mi caso, con el comando
+Antes de empezar, deberemos descargarnos [estos modulos DRS](https://github.com/PowerCLIGoodies/DRSRule) e importarlos a PowerCLI, en mi caso, con el comando:
 
 `Import-Module .\DRSRule-master\DRSRule.psm1`
+
+El proceso es sencillo, para exportar:
+
+```
+.\Get-SourceSettings.ps1 -directory c:/tmp -datacenter VDC
+```
+
+Y para el import:
+
+```
+.\Set-SourceSettings.ps1 -directory c:/tmp -datacenter VDC -vms
+```
+
+Con los siguienes "modificadores" podremos indicar que queremos importar
+
++ -VMs
++ -Folders
++ -Permissions
++ -DRS 
++ -Roles
+
 
 ### Get-SourceSettings.ps1
 
@@ -192,11 +213,6 @@ $clusters | foreach {
 $allClusters | export-clixml $directory\$($datacenter)-Cluster-Description.xml
 ```
 
-El export se puede realizar con el siguiente comando:
-
-```
-.\Get-SourceSettings.ps1 -directory c:/tmp -datacenter VDC
-```
 
 ### Set-SourceSettings.ps1
 
@@ -515,21 +531,8 @@ if (!($VMs -or $folders -or $permissions -or $roles -or $drs))
 }
 ```
 
-Y para el import:
 
-```
-.\Set-SourceSettings.ps1 -directory c:/tmp -datacenter VDC -vms
-```
-
-Con los siguienes "modificadores" podremos indicar que queremos importar
-
-+ -VMs
-+ -Folders
-+ -Permissions
-+ -DRS 
-+ -Roles
-
-
+Espero que os sea de utilidad tanto como a mi y os pueda sacar de algún que otro apuro ;-)
  
 Un saludo
 
