@@ -192,6 +192,12 @@ $clusters | foreach {
 $allClusters | export-clixml $directory\$($datacenter)-Cluster-Description.xml
 ```
 
+El export se puede realizar con el siguiente comando:
+
+```
+.\Get-SourceSettings.ps1 -directory c:/tmp -datacenter VDC
+```
+
 ### Set-SourceSettings.ps1
 
 ```
@@ -509,6 +515,19 @@ if (!($VMs -or $folders -or $permissions -or $roles -or $drs))
 }
 ```
 
+Y para el import:
+
+```
+.\Set-SourceSettings.ps1 -directory c:/tmp -datacenter VDC -vms
+```
+
+Con los siguienes "modificadores" podremos indicar que queremos importar
+
++ -VMs
++ -Folders
++ -Permissions
++ -DRS 
++ -Roles
 
 
  
