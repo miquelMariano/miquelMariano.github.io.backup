@@ -10,6 +10,17 @@ permalink: /vault/
 layout: post
 ---
 
+Siguiendo con temática [Ansible](https://miquelmariano.github.io/tags/#ansible), en el post de hoy vamos a ver la funcionalidad de ansible-vault.
+
+Esta [feature](http://docs.ansible.com/ansible/playbooks_vault.html#id4) lleva disponible desde la versión 1.5 y nos permite encriptar cualquier fichero dentro de la estructura de Ansible
+
+De esta forma, podemos ocultar datos sensibles de nuestro entorno, como contraseñas, IPs, claves SSH...
+
+
+
+
+
+
 Por si todavía quedan vSphere admins que no sepan lo que son las RVTools, deciros que:
 
 + RVTools es una aplicación de Windows .NET 4.0 que utiliza el VI SDK para mostrar información sobre entornos virtuales. 
