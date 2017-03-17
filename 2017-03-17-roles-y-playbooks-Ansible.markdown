@@ -62,7 +62,7 @@ Ejemplo de playbook llamando a un role:
     - { role: apache }
 ```
 
-# Roles
+# *Roles*
 
 A medida que vamos añadiendo funcionalidad y complejidad a nuestros playbooks, cada vez se hace más difícil manejarlo con un solo fichero. Los roles, nos permiten crear un playbook con una mínima configuración y definir toda la complejidad y lógica de las acciones a más bajo nivel.
 
@@ -78,7 +78,9 @@ ansible-galaxy init webservers
 
 Una vez creado el role, tendremos la siguiente estructura. Para entender bien los roles es importante entender dicha estructura:
 
-![ansible-role-structure]({{ site.imagesposts2017 }}/03/ansible-role-structure-png)
+![ansible-role-structure]({{ site.imagesposts2017 }}/03/ansible-role-structure.png)
+
++ Defaults:Este directorio debe contener un fichero llamado main.yml que contendrá información de las variables globales utilizadas por este role; como el directorio de instalación de apache o el puerto de escucha por defecto, entre otros.
 
 
 
