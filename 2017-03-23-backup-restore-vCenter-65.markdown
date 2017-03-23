@@ -14,8 +14,7 @@ En el post de hoy, voy a compartir este #NcoraTutorial, publicado hace unos dias
 
 Espero que os guste!
 
-[![Ncora tutorial 15](https://img.youtube.com/vi/ZNw2t3CUHyE/0.jpg)](https://www.youtube.com/watch?v=https://img.youtube.com/vi/ZNw2t3CUHyE/0.jpg "Backup y restore de vCenter 6.5")
-
+[![Ncora tutorial 15](https://img.youtube.com/vi/ZNw2t3CUHyE/0.jpg)](https://www.youtube.com/watch?v=ZNw2t3CUHyE "Backup y restore de vCenter 6.5")
 
 Un saludo
 
