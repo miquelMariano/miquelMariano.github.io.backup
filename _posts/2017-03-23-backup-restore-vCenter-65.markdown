@@ -9,7 +9,7 @@ comments: true
 layout: post
 ---
 
-En el post de hoy, voy a compartir este #NcoraTutorial, publicado hace unos dias, en el que vemos paso a paso cómo en vSphere 6.5 podemos realizar un backup y una restauración del vCenter, pieza clave en nuestro entorno corporativo y que probablemente queremos proteger por todos los medios posibles.
+En el post de hoy, voy a compartir este [#NcoraTutorial](https://www.ncora.com/tv/program/ncora-tutorials/), publicado hace unos dias, en el que vemos paso a paso cómo en vSphere 6.5 podemos realizar un backup y una restauración del vCenter, pieza clave en nuestro entorno corporativo y que probablemente queremos proteger por todos los medios posibles.
 
 Espero que os guste!
 
