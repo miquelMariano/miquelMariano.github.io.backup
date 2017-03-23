@@ -10,9 +10,11 @@ permalink: /vc65/
 layout: post
 ---
 
-En este tutorial vemos paso a paso cómo en vSphere 6.5 podemos realizar un backup y una restauración del vCenter, que es una pieza clave en nuestro entorno corporativo y que probablemente queremos proteger por todos los medios posibles.
+En el post de hoy, voy a compartir este #NcoraTutorial en el que vemos paso a paso cómo en vSphere 6.5 podemos realizar un backup y una restauración del vCenter, pieza clave en nuestro entorno corporativo y que probablemente queremos proteger por todos los medios posibles.
 
-[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
+Espero que os guste!
+
+[![Ncora tutorial 15](https://img.youtube.com/vi/ZNw2t3CUHyE/0.jpg)](https://www.youtube.com/watch?v=https://img.youtube.com/vi/ZNw2t3CUHyE/0.jpg "Backup y restore de vCenter 6.5")
 
 
 
