@@ -1,12 +1,11 @@
 ---
 title: Backup y restore de vCenter 6.5
-date: '2017-07-15 00:00:00'
+date: '2017-03-23 18:00:00'
 author: miquelMariano
 tags: [VMWare,vSphere,vExpert,devops]
 categories: [prueba1]
 published: true
 comments: true
-permalink: /vc65/
 layout: post
 ---
 
