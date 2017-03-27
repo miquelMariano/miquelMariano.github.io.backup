@@ -13,7 +13,7 @@ En el post de hoy, voy a compartir este [#NcoraTutorial](https://www.ncora.com/t
 
 Espero que os guste!
 
-[![Ncora tutorial 15](https://img.youtube.com/vi/ZNw2t3CUHyE/0.jpg)](https://www.youtube.com/watch?v=ZNw2t3CUHyE "Backup y restore de vCenter 6.5")
+[![Ncora tutorial 15](https://img.youtube.com/vi/qT5KGAJQJdY/0.jpg)](https://www.youtube.com/watch?v=qT5KGAJQJdY "Backup y restore de vCenter 6.5")
 
 Un saludo
 
