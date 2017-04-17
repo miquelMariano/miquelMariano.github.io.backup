@@ -1,12 +1,11 @@
 ---
 title: Programar export automático de RVTools
-date: '2017-06-15 00:00:00'
+date: '2017-04-17 00:00:00'
 author: miquelMariano
 tags: [VMWare,vSphere,vExpert,automation]
 categories: [prueba1]
 published: true
 comments: true
-permalink: /rvtools/
 layout: post
 ---
 
@@ -25,7 +24,7 @@ Dicho esto, al bueno de [Sneddo](https://github.com/Sneddo) no se le ha ocurrido
 
 A mi si, y en un entorno pequeño no cuesta mucho ir conectandote uno a uno a tus ESXi para ver si está y encenderlo. Pero, y si tu infra cuenta con decenas de ESXi en el cúster. Estás buscando una aguja en un pajar!!!
 
-Pues para eso está el script, para poder configurar una tarea programada en nuestro Windows y tener una copia periódica de toda la información de nuestra infraestructura en un excel.
+Pues para eso está este script, para poder configurar una tarea programada en nuestro Windows y tener una copia periódica de toda la información de nuestra infraestructura en un excel.
 
 Las únicas variables que tenemos que cambiar del script son el vCenter al que se conectará, el path donde guardará los .xls y la retención (en días) que queramos mantener
 
