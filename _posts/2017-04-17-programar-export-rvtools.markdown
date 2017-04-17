@@ -18,6 +18,8 @@ Por si todavía quedan vSphere admins que no sepan lo que son las RVTools, decir
 + Soporta vCenter 6.5 y ESX 6.5.
 + Puede exportar la información a .xls o .csv
 
+![rvtools-logo]({{ site.imagesposts2017 }}/04/RVTools_logo.png)
+
 Dicho esto, al bueno de [Sneddo](https://github.com/Sneddo) no se le ha ocurrido otra cosa que programar un [script](https://github.com/Sneddo/Powershell/blob/master/VMware/Export-RVTools.ps1) para poder programar un export automático de toda la información de nuestra infraestructura.
 
 ¿No os ha pasado alguna vez que se hos ha parado el vCenter (voluntaria o involuntariamente) y luego no sabéis en que ESXi está inventariado para volver a encenderlo?
