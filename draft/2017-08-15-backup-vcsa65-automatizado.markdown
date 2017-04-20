@@ -1,8 +1,8 @@
 ---
-title: ansible-vault o como ocultar datos sensibles en nuestros ficheros Ansible
+title: Programar backup automático en VCSA 6.5
 date: '2017-07-15 00:00:00'
 author: miquelMariano
-tags: [ansible,devops,automation]
+tags: [vmware,vexpert,devops,automation]
 categories: [prueba1]
 published: true
 comments: true
