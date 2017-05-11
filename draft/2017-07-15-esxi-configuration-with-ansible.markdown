@@ -37,9 +37,13 @@ Una vez copiada la clave, ya podremos generar un inventario y ejecutar roles con
 En el repositorio [Galaxy](https://galaxy.ansible.com/miquelMariano/) he creado algunos roles para las configuraciones básicas que se realizan nada mas instalar un ESXi
 
 [ESXi_ssh](https://galaxy.ansible.com/miquelMariano/ESXi_ssh)→ Evidentemente, como Ansible funciona a través de SSH, deberemos tenerlo activado en nuestros ESXi. Con este role deshabitaremos los warnings que aparecen a nivel de vCenter a parte de configurar el daemon para que arranque automáticamente al arrancar el servidor.
+
 [ESXi_dns](https://galaxy.ansible.com/miquelMariano/ESXi_dns)→ Configura los servidores DNS, y el dominio de búsqueda por defecto
+
 [ESXi_ipv6](https://galaxy.ansible.com/miquelMariano/ESXi_ipv6)→ Deshabilita ipv6.
+
 [ESXi_ntp](https://galaxy.ansible.com/miquelMariano/ESXi_ntp_config)→ Configura los servidores NTP y configura el daemon para que arranque automáticamente al arrancar el servidor.
+
 [ESXi_syslog](https://galaxy.ansible.com/miquelMariano/ESXi_syslog)→ Configura en envío de logs a un servidor syslog remoto a parte de guardar los logs en un datastore local.
 Un abrazo y gracias por leernos :-)
 
