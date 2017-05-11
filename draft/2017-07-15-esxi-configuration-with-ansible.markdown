@@ -10,6 +10,8 @@ permalink: /ansible-esxi/
 layout: post
 ---
 
+![ansible-esxi]({{ site.imagesposts2017 }}/05/ansible-esxi.jpg)
+
 Muy buenos días amigos.
 
 En el post de hoy voy a enseñaros como podemos empezar a automatizar las configuraciones de nuestros ESXi.
