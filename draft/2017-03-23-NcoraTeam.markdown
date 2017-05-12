@@ -1,5 +1,5 @@
 ---
-title: #NcoraTeam Miquel Mariano
+title: NcoraTeam | Miquel Mariano
 date: '2017-03-23 18:00:00'
 author: miquelMariano
 tags: [VMWare,vSphere,vExpert,devops,NcoraTeam]
