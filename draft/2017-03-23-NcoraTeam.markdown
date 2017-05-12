@@ -1,8 +1,8 @@
 ---
-title: Backup y restore de vCenter 6.5
+title: #NcoraTeam Miquel Mariano
 date: '2017-03-23 18:00:00'
 author: miquelMariano
-tags: [VMWare,vSphere,vExpert,devops]
+tags: [VMWare,vSphere,vExpert,devops,NcoraTeam]
 categories: [prueba1]
 published: true
 comments: true
@@ -14,11 +14,7 @@ En el post de hoy, voy a compartir este [#NcoraTutorial](https://www.ncora.com/t
 
 Espero que os guste!
 
-[![Ncora tutorial 15](https://img.youtube.com/vi/qT5KGAJQJdY/0.jpg)](https://www.youtube.com/watch?v=qT5KGAJQJdY "Backup y restore de vCenter 6.5")
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=OL7RC8_KI1A
-" target="_blank"><img src="http://img.youtube.com/vi/OL7RC8_KI1A/0.jpg" 
-alt="ncora-team" width="240" height="180" border="10" /></a>
+[![Ncora tutorial 15](https://img.youtube.com/vi/OL7RC8_KI1A/0.jpg)](https://www.youtube.com/watch?v=OL7RC8_KI1A "Backup y restore de vCenter 6.5")
 
 Un saludo
 
