@@ -46,7 +46,7 @@ En el repositorio [Galaxy](https://galaxy.ansible.com/miquelMariano/) he creado 
 
 [ESXi_syslog](https://galaxy.ansible.com/miquelMariano/ESXi_syslog)→ Configura en envío de logs a un servidor syslog remoto a parte de guardar los logs en un datastore local.
 
-Un abrazo y gracias por leernos :-)
+Un abrazo saludo!
 
 Miquel.
 
