@@ -10,17 +10,33 @@ layout: post
 permalink: /winrm/
 ---
 
+Buenos dias queridos lectores!
+
+En el post de hoy vamos a ver como con unos sencillos pasos, podremos configurar nuestros servidores windows para que puedan ser manejados desde Ansible.
 
 * Preparar servidores widows
+
+Inicialmente será necesario configurar el [WinRM](https://msdn.microsoft.com/en-us/library/aa384426%28v=vs.85%29.aspx?f=255&MSPPError=-2147217396
+) de tal forma que acepte conexiones desde nuestro nodo de control.
+
+Los chicos de Ansible, se han currado un script en PowerShell, con lo que solo con descargarlo y ejecutarlo ya tendremos esta parte configurada  
+
+```
 https://raw.githubusercontent.com/ansible/ansible/devel/examples/scripts/ConfigureRemotingForAnsible.ps1
+```
+
+![WinRM]({{ site.imagesposts2017 }}/05/WinRM.png)
 
 * Preparar servidor Ansible
 
+Para ello, hay que instalar el gestor de paquetes de python-pip y todos los modulos necesarios, como pywinrm o kerberos:
+
+```
 yum install -y python-pip
 pip install https://github.com/diyan/pywinrm/archive/master.zip#egg=pywinrm
-
 yum -y install gcc python-devel krb5-devel krb5-workstation
 pip install kerberos
+```
 
 * Crear inventario
 
