@@ -14,7 +14,7 @@ Buenos dias queridos lectores!
 
 En el post de hoy vamos a ver como con unos sencillos pasos, podremos configurar nuestros servidores windows para que puedan ser manejados desde Ansible.
 
-* Preparar servidores widows
+# Preparar servidores widows
 
 Inicialmente será necesario configurar el [WinRM](https://msdn.microsoft.com/en-us/library/aa384426%28v=vs.85%29.aspx?f=255&MSPPError=-2147217396
 ) de tal forma que acepte conexiones desde nuestro nodo de control.
@@ -27,7 +27,7 @@ https://raw.githubusercontent.com/ansible/ansible/devel/examples/scripts/Configu
 
 ![WinRM]({{ site.imagesposts2017 }}/05/WinRM.png)
 
-* Preparar servidor Ansible
+# Preparar servidor Ansible
 
 Para ello, hay que instalar el gestor de paquetes de python-pip y todos los modulos necesarios, como pywinrm o kerberos:
 
@@ -38,7 +38,7 @@ yum -y install gcc python-devel krb5-devel krb5-workstation
 pip install kerberos
 ```
 
-* Crear inventario
+# Crear inventario
 
 vim inventory/group_vars/windows.yml
 
@@ -52,7 +52,7 @@ ansible_winrm_server_cert_validation: ignore
 
 
 
-* Comprobar
+# Comprobar
 ansible -m win_ping -i inventory/servers windows -vvv
 
 ansible -m win_file -a 'path=c:\\test.txt state=touch' -i inventory/servers windows
