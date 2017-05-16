@@ -19,11 +19,7 @@ En el post de hoy vamos a ver como con unos sencillos pasos, podremos configurar
 Inicialmente será necesario configurar el [WinRM](https://msdn.microsoft.com/en-us/library/aa384426%28v=vs.85%29.aspx?f=255&MSPPError=-2147217396
 ) de tal forma que acepte conexiones desde nuestro nodo de control.
 
-Los chicos de Ansible, se han currado un script en PowerShell, con lo que solo con descargarlo y ejecutarlo ya tendremos esta parte configurada  
-
-```
-https://raw.githubusercontent.com/ansible/ansible/devel/examples/scripts/ConfigureRemotingForAnsible.ps1
-```
+Los chicos de Ansible, se han currado un [script en PowerShell](https://raw.githubusercontent.com/ansible/ansible/devel/examples/scripts/ConfigureRemotingForAnsible.ps1), con lo que solo con descargarlo y ejecutarlo ya tendremos esta parte configurada  
 
 ![WinRM]({{ site.imagesposts2017 }}/05/WinRM.png)
 
