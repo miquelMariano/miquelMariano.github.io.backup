@@ -81,6 +81,8 @@ ansible -m win_ping -i inventory/servers windows -vvv
 ansible -m win_file -a 'path=c:\\test.txt state=touch' -i inventory/servers windows
 
 ansible -m win_updates -a 'category_names=SecurityUpdates' -i inventory/servers windows
+
+ansible -m win_updates -a 'category_names=CriticalUpdates' -i inventory/servers windows
 ```
 
 ...o através de nuestros [playbooks y roles](https://miquelmariano.github.io/2017/04/roles-y-playbooks-Ansible/) pada dotar a nuestras tareas de mas complejidad
