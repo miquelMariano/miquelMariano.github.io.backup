@@ -71,6 +71,8 @@ curl -vk -d "" -u administrator:MySuperSecretPass123! http://myserver.ncora.loca
 ```
 ...y deberiamos ver una salida similar a esta:
 
+![curlº]({{ site.imagesposts2017 }}/05/curl.png)
+
 ### Enjoy
 
 Si hemos seguido todos los pasos y ya tenemos nuesto entorno configurado para que pueda ser manejado con Ansible, no nos queda nada mas que empezar a ejecutar comandos sobre nuestra granja. De manera ad-hoc:
