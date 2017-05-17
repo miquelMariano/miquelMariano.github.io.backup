@@ -2,7 +2,7 @@
 title: Configuración de windows para ser manejado con Ansible
 date: '2017-03-23 18:00:00'
 author: miquelMariano
-tags: [VMWare,vSphere,vExpert,devops,NcoraTeam]
+tags: [ansible,automation,devops,windows]
 categories: [prueba1]
 published: true
 comments: true
@@ -19,7 +19,7 @@ En el post de hoy vamos a ver como con unos sencillos pasos, podremos configurar
 Inicialmente será necesario configurar el [WinRM](https://msdn.microsoft.com/en-us/library/aa384426%28v=vs.85%29.aspx?f=255&MSPPError=-2147217396
 ) de tal forma que acepte conexiones desde nuestro nodo de control.
 
-Los chicos de Ansible, se han currado un [script en PowerShell](https://raw.githubusercontent.com/ansible/ansible/devel/examples/scripts/ConfigureRemotingForAnsible.ps1), con lo que solo con descargarlo y ejecutarlo ya tendremos esta parte configurada  
+Los chicos de Ansible, se han currado un [script en PowerShell](https://raw.githubusercontent.com/ansible/ansible/devel/examples/scripts/ConfigureRemotingForAnsible.ps1), con lo que solo con descargarlo y ejecutarlo ya tendremos esta parte configurada 
 
 ![WinRM]({{ site.imagesposts2017 }}/05/WinRM.png)
 
@@ -61,7 +61,6 @@ demo02
 demo03
 ``
 
-
 ### Comprobar
 
 Para comprobar que podemos conectarnos sin problemas a nuestros Windows, podremos ejecutar el siguiente comando desde nuestro servidor Ansible:
@@ -86,7 +85,6 @@ ansible -m win_updates -a 'category_names=SecurityUpdates' -i inventory/servers 
 ```
 
 ...o através de nuestros [playbooks y roles](https://miquelmariano.github.io/2017/04/roles-y-playbooks-Ansible/) pada dotar a nuestras tareas de mas complejidad
-
 
 Un saludo y hasta el próximo post
 
