@@ -1,6 +1,6 @@
 ---
-title: Configuración de windows para ser manejado con Ansible
-date: '2017-03-23 18:00:00'
+title: Configuración de Windows para ser manejado con Ansible
+date: '2017-05-17 18:00:00'
 author: miquelMariano
 tags: [ansible,automation,devops,windows]
 categories: [prueba1]
