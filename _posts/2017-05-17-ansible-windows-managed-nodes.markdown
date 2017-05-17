@@ -7,7 +7,6 @@ categories: [prueba1]
 published: true
 comments: true
 layout: post
-permalink: /winrm/
 ---
 
 Buenos dias queridos lectores!
