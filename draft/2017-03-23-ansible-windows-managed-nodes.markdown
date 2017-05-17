@@ -59,7 +59,7 @@ En nuestro fiechero de inventario, deberemos de crear un bloque con el mismo nom
 demo01
 demo02
 demo03
-```
+``
 
 ### Comprobar
 
@@ -70,7 +70,7 @@ curl -vk -d "" -u administrator:MySuperSecretPass123! http://myserver.ncora.loca
 ```
 ...y deberiamos ver una salida similar a esta:
 
-![curlº]({{ site.imagesposts2017 }}/05/curl.png)
+![curl]({{ site.imagesposts2017 }}/05/curl.png)
 
 ### Enjoy
 
