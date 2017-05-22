@@ -35,7 +35,7 @@ pip install kerberos
 
 ### Crear inventario
 
-Antes de crear o modificar nuestro fichero de inventario, deberemos crear las variables necesarias para conectarnos a nuestros windows, para ello, en el mismo directorio donde tengamos nuestro fiehero de inventario, crearemos la carpeta group_vars y el fichero de variabmes:
+Antes de crear o modificar nuestro fichero de inventario, deberemos crear las variables necesarias para conectarnos a nuestros windows, para ello, en el mismo directorio donde tengamos nuestro fiehero de inventario, crearemos la carpeta group_vars y el fichero de variables:
 
 ```
 vim inventory/group_vars/windows.yml
@@ -51,7 +51,7 @@ ansible_connection: winrm
 ansible_winrm_server_cert_validation: ignore
 ```
 
-En nuestro fiechero de inventario, deberemos de crear un bloque con el mismo nombre que el fichero de variables, en nuestro caso 'windows'
+En nuestro fiechero de inventario, deberemos crear un bloque con el mismo nombre que el fichero de variables, en nuestro caso 'windows'
 
 ```
 [windows]
@@ -86,6 +86,8 @@ ansible -m win_updates -a 'category_names=CriticalUpdates' -i inventory/servers 
 ```
 
 ...o através de nuestros [playbooks y roles](https://miquelmariano.github.io/2017/04/roles-y-playbooks-Ansible/) pada dotar a nuestras tareas de mas complejidad
+
+Recordad que hay una [extensa lista](http://docs.ansible.com/ansible/list_of_windows_modules.html) de módulos para windows que nos simplificarán mucho la vida a la hora de administrar nuestra granja.
 
 Un saludo y hasta el próximo post
 
