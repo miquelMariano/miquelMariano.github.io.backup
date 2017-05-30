@@ -114,23 +114,16 @@ Zero Status: Key naa.60060e801332e000502032e000003106 not found
 Delete Status: Key naa.60060e801332e000502032e000003106 not found
  
 * Comandos a lanzar:
- Executing: esxcli storage vmfs unmap -n 200 -l 7IDEAS_AUTO_02
- Executing: esxcli storage vmfs unmap -n 200 -l APSL_AUTO_03
- Executing: esxcli storage vmfs unmap -n 200 -l 7IDEAS_AUTO_04
- Executing: esxcli storage vmfs unmap -n 200 -l APSL_AUTO_02
- Executing: esxcli storage vmfs unmap -n 200 -l APSL_AUTO_01
- Executing: esxcli storage vmfs unmap -n 200 -l 7IDEAS_AUTO_05
- Executing: esxcli storage vmfs unmap -n 200 -l 7IDEAS_AUTO_03
- Executing: esxcli storage vmfs unmap -n 200 -l 7IDEAS_AUTO_06
- Executing: esxcli storage vmfs unmap -n 200 -l 7IDEAS_AUTO_07
- Executing: esxcli storage vmfs unmap -n 200 -l 7IDEAS_AUTO_01
- Executing: esxcli storage vmfs unmap -n 200 -l SHARED01
- Executing: esxcli storage vmfs unmap -n 200 -l ISOs_Plantillas
+ Executing: esxcli storage vmfs unmap -n 200 -l HUS110_Datastore000
+ Executing: esxcli storage vmfs unmap -n 200 -l VSPG800_Datastore000
+ Executing: esxcli storage vmfs unmap -n 200 -l VSPG800_Datastore002
+ Executing: esxcli storage vmfs unmap -n 200 -l VSPG800_Datastore003
+ Executing: esxcli storage vmfs unmap -n 200 -l HUSVM_Datastore000
  
 * Datastore erroneos:
  
 * Fin.
-```
+``
  
 Un saludo
 
