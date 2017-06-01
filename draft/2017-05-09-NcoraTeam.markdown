@@ -1,6 +1,6 @@
 ---
 title: NcoraTeam | Miquel Mariano
-date: '2017-03-23 18:00:00'
+date: '2017-05-09 18:00:00'
 author: miquelMariano
 tags: [VMWare,vSphere,vExpert,devops,NcoraTeam]
 categories: [prueba1]
@@ -10,7 +10,7 @@ layout: post
 permalink: /ncorateam/
 ---
 
-Hoy os dejo con una entrevista que me hizo [@josepros](https://twitter.com/josepros) para el programa de NcoraTV
+Hoy os dejo con una entrevista que me hizo [@josepros](https://twitter.com/josepros) para el programa de [NcoraTV](https://www.youtube.com/channel/UCgOZpO7E3HEh0nHH2JSJOPA)
 
 En ella hablamos de virtualización, automatización, de la importancia del almacenamiento, de los consejos que le daría a nuevos profesionales TIC, etc etc...
 
