@@ -10,7 +10,7 @@ layout: post
 permalink: /ncorateam/
 ---
 
-Hoy os dejo con una entrevista que me hizo @josepros para el programa de NcoraTV
+Hoy os dejo con una entrevista que me hizo [@josepros](https://twitter.com/josepros) para el programa de NcoraTV
 
 En ella hablamos de virtualización, automatización, de la importancia del almacenamiento, de los consejos que le daría a nuevos profesionales TIC, etc etc...
 
