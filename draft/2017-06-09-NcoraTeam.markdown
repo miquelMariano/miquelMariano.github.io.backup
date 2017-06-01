@@ -1,6 +1,6 @@
 ---
 title: NcoraTeam | Miquel Mariano
-date: '2017-05-09 18:00:00'
+date: '2017-06-09 18:00:00'
 author: miquelMariano
 tags: [VMWare,vSphere,vExpert,devops,NcoraTeam]
 categories: [prueba1]
