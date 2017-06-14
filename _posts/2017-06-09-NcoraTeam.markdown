@@ -7,7 +7,6 @@ categories: [prueba1]
 published: true
 comments: true
 layout: post
-permalink: /ncorateam/
 ---
 
 Hoy os dejo con una entrevista que me hizo [@josepros](https://twitter.com/josepros) para el programa de [NcoraTV](https://www.youtube.com/channel/UCgOZpO7E3HEh0nHH2JSJOPA)
