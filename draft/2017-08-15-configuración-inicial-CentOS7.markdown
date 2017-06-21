@@ -6,7 +6,7 @@ tags: [windows,vexpert,devops]
 categories: [prueba1]
 published: true
 comments: true
-permalink: /gpt/
+permalink: /centos7/
 layout: post
 ---
 
