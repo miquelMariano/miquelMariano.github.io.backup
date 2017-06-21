@@ -26,7 +26,7 @@ Los chicos de Ansible, se han currado un [script en PowerShell](https://raw.gith
 
 Para ello, hay que instalar el gestor de paquetes de python-pip y todos los modulos necesarios, como pywinrm o kerberos:
 
-```ssh
+```
 $ yum install -y python-pip
 $ pip install https://github.com/diyan/pywinrm/archive/master.zip#egg=pywinrm
 $ yum -y install gcc python-devel krb5-devel krb5-workstation
@@ -37,7 +37,7 @@ $ pip install kerberos
 
 Antes de crear o modificar nuestro fichero de inventario, deberemos crear las variables necesarias para conectarnos a nuestros windows, para ello, en el mismo directorio donde tengamos nuestro fiehero de inventario, crearemos la carpeta group_vars y el fichero de variables:
 
-```ssh
+```
 $ vim inventory/group_vars/windows.yml
 ```
 
@@ -53,7 +53,7 @@ ansible_winrm_server_cert_validation: ignore
 
 En nuestro fiechero de inventario, deberemos crear un bloque con el mismo nombre que el fichero de variables, en nuestro caso 'windows'
 
-```
+```ini
 [windows]
 demo01
 demo02
@@ -64,7 +64,7 @@ demo03
 
 Para comprobar que podemos conectarnos sin problemas a nuestros Windows, podremos ejecutar el siguiente comando desde nuestro servidor Ansible:
 
-```ssh
+```
 $ curl -vk -d "" -u administrator:MySuperSecretPass123! http://myserver.ncora.local:5985/wsman
 ```
 ...y deberiamos ver una salida similar a esta:
@@ -75,7 +75,7 @@ $ curl -vk -d "" -u administrator:MySuperSecretPass123! http://myserver.ncora.lo
 
 Si hemos seguido todos los pasos y ya tenemos nuesto entorno configurado para que pueda ser manejado con Ansible, no nos queda nada mas que empezar a ejecutar comandos sobre nuestra granja. De manera ad-hoc:
 
-```ssh
+```
 $ ansible -m win_ping -i inventory/servers windows -vvv
 
 $ ansible -m win_file -a 'path=c:\\test.txt state=touch' -i inventory/servers windows
