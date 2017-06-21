@@ -9,6 +9,8 @@ comments: true
 layout: post
 ---
 
+![ansible-win-logo]({{ site.imagesposts2017 }}/05/ansible-win.png)
+
 Buenos dias queridos lectores!
 
 En el post de hoy vamos a ver como con unos sencillos pasos, podremos configurar nuestros servidores windows para que puedan ser manejados desde Ansible.
