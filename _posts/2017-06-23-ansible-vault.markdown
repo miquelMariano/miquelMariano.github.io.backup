@@ -6,7 +6,6 @@ tags: [ansible,devops,automation]
 categories: [prueba1]
 published: true
 comments: true
-permalink: /vault/
 layout: post
 ---
 
