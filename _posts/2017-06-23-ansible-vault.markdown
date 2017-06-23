@@ -20,14 +20,14 @@ En el ejemplo que voy a mostrar, vamos a encriptar un fichero de variables que c
 Para crear el fichero ejecutamos `ansible-vault create myfile.yml` y lo protegemos con una contraseña:
 
 ```
-ansible-vault create role/ESXi_reboot/vars/main.yml
-New Vault password:
-Confirm New Vault password:
+$ ansible-vault create role/ESXi_reboot/vars/main.yml
+$ New Vault password:
+$ Confirm New Vault password:
 ```
 
 Mi fichero contendrá las siguientes variables:
 
-```
+```yaml
 ---
 
 vCenter_ip: 10.0.0.100
@@ -53,8 +53,8 @@ $ANSIBLE_VAULT;1.1;AES256
 Para editarlo, necesitaremos otra vez del comando `ansible-vault edit myfile.yml` y nos pedira la contraseña de desencriptación
 
 ```
-ansible-vault edit roles/ESXi_reboot/vars/main.yml
-Vault password:
+$ ansible-vault edit roles/ESXi_reboot/vars/main.yml
+$ Vault password:
 ```
 
 Para poder usar este fichero encriptado, dispondremos de 2 métodos:
@@ -62,14 +62,14 @@ Para poder usar este fichero encriptado, dispondremos de 2 métodos:
 Que nos pida credenciales en tiempo de ejecución
 
 ```
-ansible-playbook playbooks/ESXi_config.yml  --ask-vault-pass
-Vault password:
+$ ansible-playbook playbooks/ESXi_config.yml  --ask-vault-pass
+$ Vault password:
 ```
 
 O pasarle por parámetro un fichero .txt que contiene unicamente la contraseña del fichero encriptado. Es importante que este fichero solo contenga una sola linea con la contraseña
 
 ```
-ansible-playbook playbooks/ESXi_config.yml --vault-password-file ~/.vault_pass.txt
+$ ansible-playbook playbooks/ESXi_config.yml --vault-password-file ~/.vault_pass.txt
 ```
 
 
