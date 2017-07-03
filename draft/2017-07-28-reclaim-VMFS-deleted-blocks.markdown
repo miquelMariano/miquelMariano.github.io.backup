@@ -10,6 +10,13 @@ permalink: /reclaim/
 layout: post
 ---
 
+Buenos dias, en el post de hoy vamos a ver como reclamar bloques eliminados en nuestros datastores VMFS.
+
+El proceso, consiste en reclamar el espacio que ya no se está utilizando en un datastore VMFS y devolverlo a la cabina para su posterior reutilización.
+
+Es un proceso es y se ejecuta en backgroud sin afectar al funcionamiento normal de la cabina. Para que se pueda recuperar este espacio no utilizado, es necesario que el ESXi marque estos bloques a 0, indicando de esta forma a la cabina, que no los está utilizando. En la nueva versión ESXi 6.5 el [proceso de unmap aparece como una de las mejoras](https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/whitepaper/vsphere/vmw-white-paper-vsphr-whats-new-6-5.pdf), pero si disponemos una versión anterior, debejemos ejecutar el siguiente procedimiento.
+
+
 
 
 ```python
