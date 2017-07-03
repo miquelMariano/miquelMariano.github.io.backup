@@ -1,6 +1,6 @@
 ---
 title: Reclamar bloques eliminados en datastores VMFS
-date: '2017-05-15 00:00:00'
+date: '2017-07-28 00:00:00'
 author: miquelMariano
 tags: [VMWare,vSphere,vExpert,storage,VMFS]
 categories: [prueba1]
@@ -123,7 +123,7 @@ Delete Status: Key naa.60060e801332e000502032e000003106 not found
 * Datastore erroneos:
  
 * Fin.
-``
+```
  
 Un saludo
 

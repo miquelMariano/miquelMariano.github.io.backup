@@ -31,6 +31,15 @@ Ansible en sí era (y sigue siendo) bastante nuevo, por lo que la mayoría de su
 
 # *Instalación*
 
++ Instalar ansible core
+yum install -y ansible
++ Configure Ansible Tower installation
+./configure
++ Start installation
+./setup.sh
++ Enjoy and automate!
+http://<hostname>
+
 # *Conclusión*
 
 

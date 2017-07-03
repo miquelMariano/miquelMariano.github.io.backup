@@ -1,6 +1,6 @@
 ---
 title: Automatizar configuración de ESXi con Ansible
-date: '2017-07-15 00:00:00'
+date: '2017-07-07 00:00:00'
 author: miquelMariano
 tags: [ansible,devops,automation,vExpert]
 categories: [prueba1]
@@ -10,7 +10,7 @@ permalink: /ansible-esxi/
 layout: post
 ---
 
-![ansible-esxi]({{ site.imagesposts2017 }}/05/ansible-esxi.jpg)
+![ansible-esxi]({{ site.imagesposts2017 }}/07/ansible-esxi.jpg)
 
 Muy buenos días amigos.
 
