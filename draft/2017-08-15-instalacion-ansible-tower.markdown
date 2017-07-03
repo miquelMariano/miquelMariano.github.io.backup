@@ -10,6 +10,9 @@ permalink: /tower/
 layout: post
 ---
 
+https://blog.confirm.ch/ansible-tower-offline-installation-on-a-red-hat-system/
+
+
 ![ansible-win-logo]({{ site.imagesposts2017 }}/08/tower_logo.png)
 
 Buenos dias a tod@s!!!
@@ -22,7 +25,7 @@ Ansible en sí era (y sigue siendo) bastante nuevo, por lo que la mayoría de su
 
 # *Pre-instalación*
 
-+ Verificar que tenemos 10Gb de espacio disponible en `/var
++ Verificar que tenemos 10Gb de espacio disponible en `/var`
 + Asegurarnos que tenemos instalado el repositorio EPEL
 + Descargar la fuente del paquete desde [Ansible](https://releases.ansible.com/ansible-tower/setup-bundle/)
 
