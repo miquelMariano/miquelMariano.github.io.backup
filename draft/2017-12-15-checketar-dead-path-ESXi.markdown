@@ -11,7 +11,7 @@ layout: post
 ---
 
 
-```
+```powershell
 <# 
 .DESCRIPTION
    This script checks ESXi dead LUN path
