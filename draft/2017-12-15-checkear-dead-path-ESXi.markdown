@@ -1,5 +1,5 @@
 ---
-title: Checketar dead path en ESXi
+title: Checkear dead path en ESXi
 date: '2017-07-15 00:00:00'
 author: miquelMariano
 tags: [vExpert,devops,vSphere,ESXi,PowerCLI]
