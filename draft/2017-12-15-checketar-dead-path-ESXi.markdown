@@ -39,18 +39,18 @@ if (-not (Get-PSSnapin VMware.VimAutomation.Core -ErrorAction SilentlyContinue))
     Catch { Write-Host "Unable to load PowerCLI, is it installed?" -ForegroundColor Red; Exit }
 }
 
-#--------------VARIABLES GLOBALES----------------------
-$vCenter = "lgmadvc01.corp.logitravelgroup.com"
+#--------------GLOBAL VARS----------------------
+$vCenter = "vcenter65.ncoraformacion.local"
 $vCenteruser ="powercliuser"
 
 $PathToCredentials = "C:\dead-lun-path\"
 
 $OutputDir = "C:\dead-lun-path\log\"
 $OutputFile = "debug.log"
-#--------------VARIABLES GLOBALES---------
+#--------------GLOBAL VARS---------
 
 
-#--------------ENCRIPTAR CREDENCIALES---------
+#--------------ENCRYPT CREDENTIALS---------
 #You must change these values to securely save your credential files
 $Key = [byte]29,36,18,22,72,33,85,52,73,44,14,21,98,76,18,28
 
@@ -74,7 +74,7 @@ Function Get-Credentials {
 	$Credential = New-Object System.Management.Automation.PsCredential($AuthUser,$Password)
     Return $Credential
 }
-#--------------ENCRIPTAR CREDENCIALES---------
+#--------------ENCRYPT CREDENTIALS---------
 
 $now = Get-Date -format "dd-MM-yy HH:mm:ss | "
 $log = "`r`n$now Connecting vCenter..." + $log
