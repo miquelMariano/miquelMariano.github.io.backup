@@ -9,11 +9,12 @@ comments: true
 layout: post
 ---
 
-![ansible-esxi]({{ site.imagesposts2017 }}/07/ansible-esxi.jpg)
 
 Muy buenos días amigos.
 
 En el post de hoy voy a enseñaros como podemos empezar a automatizar las configuraciones de nuestros ESXi.
+
+![ansible-esxi]({{ site.imagesposts2017 }}/07/ansible-esxi.jpg)
 
 **¿Por que automatizar?**
 
