@@ -14,7 +14,7 @@ Hola a tod@s!!
 
 Hoy os dejo con un video tutorial para el programa de [NcoraTV](https://www.ncora.com/tv/)
 
-En él veremos como instalar un vCenter Server Appliance 6.5
+En él vemos como instalar un vCenter Server Appliance 6.5
 
 Espero que os guste
 
