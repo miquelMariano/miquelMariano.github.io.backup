@@ -6,7 +6,7 @@ tags: [VMWare,vSphere,vExpert,devops,NcoraTutorial]
 categories: [prueba1]
 published: true
 comments: true
-permalink: /tutorial21/
+permalink: /tutorial/
 layout: post
 ---
 
