@@ -10,6 +10,12 @@ permalink: /deadpath/
 layout: post
 ---
 
+Buenos dias a tod@s!!
+
+En el post de hoy os voy a mostrar la manera que he ideado para poder monitorizar el estado de los paths de los datastores VMFS en nuestros ESXi.
+
+La ejecución del script nos creará un log
+
 
 ```powershell
 <# 
