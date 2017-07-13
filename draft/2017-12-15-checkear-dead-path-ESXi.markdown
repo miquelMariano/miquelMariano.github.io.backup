@@ -28,7 +28,7 @@ La ejecución del script nos creará un log
    Version    : 1
 
 .USAGE
-	Execute directly
+	 Execute directly
    
 .CHANGELOG
    v1	20/04/2017	Script creation
