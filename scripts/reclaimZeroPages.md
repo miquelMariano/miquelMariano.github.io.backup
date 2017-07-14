@@ -5,6 +5,8 @@ permalink: /reclaimZeroPages/
 layout: post
 ---
 
+Ir al [post](https://miquelMariano.github.io/reclaim)
+
 ```python
 #!/bin/python
  
