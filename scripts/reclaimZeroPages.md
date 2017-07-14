@@ -1,9 +1,6 @@
 ---
 title: reclaimZeroPages.py
-date: '2017-07-28 00:00:00'
-author: miquelMariano
 published: true
-comments: true
 permalink: /reclaimZeroPages/
 layout: post
 ---
