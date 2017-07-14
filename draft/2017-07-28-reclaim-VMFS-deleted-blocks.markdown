@@ -21,7 +21,7 @@ Es un proceso sencillo y se ejecuta en backgroud sin afectar al funcionamiento n
 
 ```
 esxcli storage core device list
-``
+```
 
 ![esxcli_storage_core_device_list]({{ site.imagesposts2017 }}/07/esxcli_storage_core_device_list.png)
 
@@ -145,7 +145,7 @@ Ejemplo de salida del script:
 
 ```
 python /tmp/reclaimZeroPages.py
-```
+``
 
 
 ```
