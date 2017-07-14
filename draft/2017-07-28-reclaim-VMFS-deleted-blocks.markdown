@@ -142,7 +142,11 @@ sys.exit
 ```
 
 Ejemplo de salida del script:
+
+```
 python /tmp/reclaimZeroPages.py
+```
+
 
 ```
 * Analizando datatores...
