@@ -2,7 +2,7 @@
 title: Módulo de Telegram para Ansible
 date: '2017-08-11 00:00:00'
 author: miquelMariano
-tags: [ansible,automation,devops]
+tags: [ansible,automation,devops,telegram]
 categories: [prueba1]
 published: true
 comments: true
