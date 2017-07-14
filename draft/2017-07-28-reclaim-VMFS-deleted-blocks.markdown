@@ -17,6 +17,7 @@ El proceso, consiste en reclamar el espacio que ya no se está utilizando en un 
 Es un proceso sencillo y se ejecuta en backgroud sin afectar al funcionamiento normal de la cabina. Para que se pueda recuperar este espacio no utilizado, es necesario que el ESXi marque estos bloques a 0, indicando de esta forma a la cabina, que no los está utilizando. En la nueva versión ESXi 6.5 el [proceso de unmap aparece como una de las mejoras](https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/whitepaper/vsphere/vmw-white-paper-vsphr-whats-new-6-5.pdf), pero si disponemos una versión anterior, debejemos ejecutar el siguiente procedimiento:
 
 1) Accedemos a cualquier ESXi del clúster por SSH
+
 2) Verificamos que todos los volúmenes tienen Thin Provisioning habilitado:
 
 ```
@@ -45,18 +46,19 @@ esxcli storage vmfs unmap -l DATASTORE01
 ![esxtop1]({{ site.imagesposts2017 }}/07/esxtop1.png)
 
 
-[^nota]: Para obtener esta vista en esxtop es necesario entrar en el menú de selección de columnas pusando f y seleccionar  solo las columnas a o p
+Para obtener esta vista en esxtop es necesario entrar en el menú de selección de columnas pusando f y seleccionar  solo las columnas a o p
 Los valores mostrados en la columna Delete es el nº de bloques que se van a eliminar. El valor de cada bloque en VMFS5 es de 1MB
 
 
 Como habréis podido deducir, el reclamado de espacio se tiene que ejecutar sobre cada uno de los datastores VMFS que tengamos en nuestra infraestructura y eso, no siempre es una tarea sencilla. Para ello, podemos utilizar [este script](https://miquelmariano.github.io/reclaimZeroPages/)
 
 
-Una vez ejecutado, tendremos una salida similar a esta:
+Una vez ejecutado... 
 
 ```
 python /tmp/reclaimZeroPages.py
 ```
+...tendremos una salida similar a esta:
 
 
 ```
