@@ -1,8 +1,7 @@
 ---
 title: reclaimZeroPages.py
-published: true
 permalink: /reclaimZeroPages/
-layout: post
+layout: page
 ---
 
 Ir al [post](https://miquelMariano.github.io/reclaim)

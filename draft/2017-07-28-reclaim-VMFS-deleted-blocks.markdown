@@ -49,7 +49,7 @@ esxcli storage vmfs unmap -l DATASTORE01
 Los valores mostrados en la columna Delete es el nº de bloques que se van a eliminar. El valor de cada bloque en VMFS5 es de 1MB
 
 
-Como habréis podido deducir, el reclamado de espacio se tiene que ejecutar sobre cada uno de los datastores VMFS que tengamos en nuestra infraestructura y eso, no siempre es una tarea sencilla. Para ello, podemos utilizar [este script]({{ site }}/_posts/scripts/reclaimZeroPages.md)
+Como habréis podido deducir, el reclamado de espacio se tiene que ejecutar sobre cada uno de los datastores VMFS que tengamos en nuestra infraestructura y eso, no siempre es una tarea sencilla. Para ello, podemos utilizar [este script](https://miquelmariano.github.io/reclaimZeroPages/)
 
 
 Una vez ejecutado, tendremos una salida similar a esta:
