@@ -4,7 +4,7 @@ date: '2017-07-28 00:00:00'
 author: miquelMariano
 published: true
 comments: true
-permalink: /reclaimZeroPages.py
+permalink: /reclaimZeroPages/
 layout: post
 ---
 
