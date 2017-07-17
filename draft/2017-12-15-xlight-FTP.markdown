@@ -10,15 +10,15 @@ permalink: /ftp/
 layout: post
 ---
 
-Buenos dias queridos lectores!!
+Buenos días queridos lectores!!
 
 En el post de hoy voy a enseñaros una pequeña utilidad que me ha venido como anillo al dedo en alguna que otra ocasión.
 
-¿Cuantas veces no habeis necesitado de un servidor FTP para realizar alguna tarea sobre vuestra infraestructura? 
+¿Cuántas veces no habéis necesitado de un servidor FTP para realizar alguna tarea sobre vuestra infraestructura? 
 
 Actualizar algún firmware en nuestros servidores, extraer algún tipo de report de alguna aplicación o realizar un backup de la configuración son escenarios habituales en los que necesitamos un servidor FTP
 
-Pues bien, con [Xlight](https://www.xlightftpd.com/) podremos tener ese ansiado FTP server sin tener que instalar nada en ningun servidor y de manera "portable"
+Pues bien, con [Xlight](https://www.xlightftpd.com/) podremos tener ese ansiado FTP server sin tener que instalar nada en ningún servidor y de manera "portable"
 
 ![ftplogo]({{ site.imagesposts2017 }}/08/ftplogo.png)
 
@@ -39,7 +39,7 @@ Y la configuración es de lo mas sencillo:
 
 ![ftp4]({{ site.imagesposts2017 }}/08/ftp4.png)
 
-Por supuesto que la aplicación tiene muchas mas opciones y configuraciones avenzadas, pero para levantar un FTP server de manera temporal en un momento dado, estas pequeñas configuraciones serán mas que suficientes.
+Por supuesto que la aplicación tiene muchas mas opciones y configuraciones avanzadas, pero para levantar un FTP server de manera temporal en un momento dado, estas pequeñas configuraciones serán mas que suficientes.
 
 Espero que os sea de utilidad :)
 
