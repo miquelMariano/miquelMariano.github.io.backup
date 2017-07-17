@@ -43,5 +43,8 @@ Por supuesto que la aplicación tiene muchas mas opciones y configuraciones avan
 
 Espero que os sea de utilidad :)
 
+Un saludo!
+
+
 
 Miquel.
