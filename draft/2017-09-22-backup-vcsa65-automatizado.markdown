@@ -13,8 +13,16 @@ layout: post
 
 https://vm.knutsson.it/2017/01/vmware-vcsa-6-5-scheduled-backup/
 
+Buenos dias a tod@as!!
+
+Hace varias semanas, publicamos un [#NcoraTutorial](https://miquelmariano.github.io/2017/03/backup-restore-vCenter-65/) sobre como hacer un backup de la configuración de un vCenter Appliance 6.5
+
+En aquella ocasion, el procedimiento era algo manual ya que se hacia a través de la propia GUI de la administración del appliance.
+
+En esta ocasión, veremos como podemos automatizar ese procedimiento y hacer backup de forma periódica de nuestro VCSA 6.5
 
 
+[script](https://miquelmariano.github.io/vCSA-Backup)
 
 ```
 root@vcenter65 [ /tmp ]# ./vCSA-Backup.sh
