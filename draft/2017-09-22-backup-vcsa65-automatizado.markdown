@@ -10,8 +10,6 @@ permalink: /vcsaautobackup/
 layout: post
 ---
 
-https://vm.knutsson.it/2017/01/vmware-vcsa-6-5-scheduled-backup/
-
 Buenos dias a tod@as!!
 
 Hace varias semanas, publicamos un [#NcoraTutorial](https://miquelmariano.github.io/2017/03/backup-restore-vCenter-65/) sobre como hacer un backup de la configuración de un vCenter Appliance 6.5
@@ -89,3 +87,7 @@ crontab -e
 Un saludo!
 
 Miquel.
+
+
+
+*[referencia](https://vm.knutsson.it/2017/01/vmware-vcsa-6-5-scheduled-backup/)
