@@ -10,19 +10,40 @@ permalink: /vcsaautobackup/
 layout: post
 ---
 
-
 https://vm.knutsson.it/2017/01/vmware-vcsa-6-5-scheduled-backup/
 
 Buenos dias a tod@as!!
 
 Hace varias semanas, publicamos un [#NcoraTutorial](https://miquelmariano.github.io/2017/03/backup-restore-vCenter-65/) sobre como hacer un backup de la configuración de un vCenter Appliance 6.5
 
-En aquella ocasion, el procedimiento era algo manual ya que se hacia a través de la propia GUI de la administración del appliance.
+En aquella ocasión, el procedimiento era algo manual ya que se hacia a través de la propia GUI de la administración del appliance.
 
 En esta ocasión, veremos como podemos automatizar ese procedimiento y hacer backup de forma periódica de nuestro VCSA 6.5
 
 
-[script](https://miquelmariano.github.io/vCSA-Backup)
+1) Nos conectamos por SSH a nuestro VCSA 6.5 y crearemos/configuraremos el fichero que contendrá el código. Se podrá ubicar en la ruta que creamos conveniente, en mi caso /usr/local/bin.
+
+```
+# Commands:
+vi /usr/local/bin/vCSA-Backup.sh
+
+# Make the file executable
+chmod u+x /usr/local/bin/vCSA-Backup.sh
+
+# Make it only accessible by root
+chmod g-rxw /usr/local/bin/vCSA-Backup.sh
+chmod o-rxw /usr/local/bin/vCSA-Backup.sh
+```
+
+2) Copiaremos el código del [script](https://miquelmariano.github.io/vCSA-Backup) en nuestro fichero
+
+3) Realizamos el primer backup
+
+```
+/usr/local/bin/vCSA-Backup.sh
+```
+
+...la salida del script será similar a la siguiente:
 
 ```
 root@vcenter65 [ /tmp ]# ./vCSA-Backup.sh
@@ -49,8 +70,22 @@ root@vcenter65 [ /tmp ]#
 
 ```
 
+4) Configuramos el cron para automatizar periódicamente el backup. Por ejemplo, cada dia a las 2am 
+
+```
+#Command:
+crontab -e
+
+# Press 'i' to goto insert mode
+# Insert you task into crontab
+0 2 * * * /usr/local/bin/vCSA-Backup.sh
+
+# Press ':wq'
+# Press ENTER
+```
 
 
-Un saludo
+
+Un saludo!
 
 Miquel.
