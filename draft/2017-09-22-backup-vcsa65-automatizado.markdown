@@ -82,6 +82,35 @@ crontab -e
 # Press ENTER
 ```
 
+Es muy probable, que en el fichero `/var/log/messages` nos encontremos con una salida similar a esta:
+
+```ssh
+2017-07-18T03:15:01.417255+00:00 vcenter65 crond[44381]: PAM _pam_load_conf_file: unable to open config for password-auth
+2017-07-18T03:15:01.417364+00:00 vcenter65 crond[44381]: PAM _pam_load_conf_file: unable to open config for password-auth
+2017-07-18T03:15:01.417418+00:00 vcenter65 crond[44381]: PAM _pam_load_conf_file: unable to open config for password-auth
+2017-07-18T03:15:01.417482+00:00 vcenter65 crond[44381]: (root) PAM ERROR (Permission denied)
+2017-07-18T03:15:01.417554+00:00 vcenter65 crond[44381]: (root) FAILED to authorize user with PAM (Permission denied)
+```
+
+Esto es debido a que en el fichero `/etc/pam.d/crond` hay 3 referencias a “password-auth”, sin embargo no hay ningún archivo en /etc/pam.d llamado "password-auth"
+
+Para solucionarlo, hay que cambiar “password-auth” por “system-auth”, quedando el fichero de la siguiente forma:
+
+```ssh
+#
+# The PAM configuration file for the cron daemon
+#
+#
+# No PAM authentication called, auth modules not needed
+account    required   pam_access.so
+account    include    system-auth
+session    required   pam_loginuid.so
+session    include    system-auth
+auth       include    system-auth
+~
+
+```
+
 Espero que os sea de utilidad :)
 
 
