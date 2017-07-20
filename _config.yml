@@ -1,55 +1,50 @@
-title: Stack Problems
-description: My Personal Stack Problems
-author: Miquel Mariano
-github: https://github.com/agusmakmun
-about: I am freelance developer. Currently doing more in backend, focused in Python and Django.
-disqus_shortname: stackproblems
-google_analytics: UA-XXXXXXXX-Y
-avatar_url: /static/img/avatar.jpg
+## Site settings
+title: Miquel Mariano
+description: Consultor TI en Ncora | VCP5/6-DCV | vExpert 2016/17
+description2: Apasionado de la montaña | Bike | Trail | Run
+description3: Padre de Aina
+url: 'https://miquelMariano.github.com' 
+baseurl: '/'
+about: '/about'
+ansible-galaxy: 'https://galaxy.ansible.com/miquelMariano/'
+images: '/images/'
+imagesposts2016: '/images/posts/2016'
+imagesposts2017: '/images/posts/2017'
+google_analytics: 'UA-89683320-1'
+disqus_shortname: 'miquelmariano'
 
-enableTags: true
-tagarray: []
+author:
+  name: 'Miquel Mariano'
+  email: miquel.mariano@outlook.com.com
+  twitter_username: miquelMariano
+  # facebook_username: joshgerdes
+  github_username:  miquelMariano
+  linkedin_username:  miquelMariano
 
-collections:
-  project:
-    output: true
-    permalink: /project/:path/
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
 
-social:
-    - icon: fa-facebook
-      link: "#"
-    - icon: fa-twitter
-      link: "https://twitter.com/agusmakmun6"
-    - icon: fa-linkedin
-      link: "https://www.linkedin.com/in/summonagus"
-    - icon: fa-stack-exchange
-      link: "#"
-    - icon: fa-github
-      link: "https://github.com/agusmakmun"
-
-share:
-  twitter_username: agusmakmun6
-  fb_appid: 1749788565247320
-
-urls:
-    - text: About Me
-      url: /about/
-    - text: My Projects
-      url: /projects/
-    - text: XML Feed
-      url: /feed.xml
-
-url: "https://agusmakmun.github.io"
-baseurl: ""
-paginate: 20
-per_page: 20
-paginate_path: "/page/:num/"
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:month/:title/
 markdown: kramdown
-gems:
-  - jekyll-paginate
-  - jekyll-gist
+highlighter: rouge
 
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
+kramdown:
+  syntax_highlighter: rouge
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems:
+  - jekyll-sitemap
+  - jemoji
+#gems: ['jekyll-paginate']
+#exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'src']

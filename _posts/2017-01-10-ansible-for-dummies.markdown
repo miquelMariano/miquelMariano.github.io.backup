@@ -122,7 +122,7 @@ servidor3 | SUCCESS => {
 El procedimiento para copiar las claves SSH en un servidor ESXi cambia un poco. Básicamente, desde el servidor de control donde tenemos instalado Ansible, copiaremos la clave SSH a nuestros ESXi con el siguiente comando:
 
 ```
-$ cat /root/.ssh/id_rsa.pub | ssh root@esxi05.ncora.local \ 'cat >> /etc/ssh/keys-root/authorized_keys'
+cat /root/.ssh/id_rsa.pub | ssh root@esxi05.ncora.local \ 'cat >> /etc/ssh/keys-root/authorized_keys'
 ```
 
 Y hasta aquí por hoy. En próximos posts veremos el funcionamiento de los roles y playbooks con más profundidad.
