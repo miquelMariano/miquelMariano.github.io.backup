@@ -3,7 +3,7 @@ description: My Personal Stack Problems
 author: Miquel Mariano
 github: https://github.com/miquelMariano
 about: Consultor TI en Ncora | VCP5/6-DCV | vExpert 2016/17 | Apasionado de la montaña | Bike | Trail | Run | Padre de Aina
-disqus_shortname: stackproblems
+disqus_shortname: miquelmariano
 google_analytics: UA-89683320-1
 avatar_url: /static/img/profile.jpg
 
@@ -16,20 +16,20 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-facebook
-      link: "#"
+#    - icon: fa-facebook
+#      link: "#"
     - icon: fa-twitter
-      link: "https://twitter.com/agusmakmun6"
+      link: "https://twitter.com/miquelMariano"
     - icon: fa-linkedin
-      link: "https://www.linkedin.com/in/summonagus"
-    - icon: fa-stack-exchange
-      link: "#"
+      link: "https://www.linkedin.com/in/miquelMariano"
+#    - icon: fa-stack-exchange
+#      link: "#"
     - icon: fa-github
-      link: "https://github.com/agusmakmun"
+      link: "https://github.com/miquelMariano"
 
 share:
-  twitter_username: agusmakmun6
-  fb_appid: 1749788565247320
+  twitter_username: miquelMariano
+#  fb_appid: 1749788565247320
 
 urls:
     - text: About Me
