@@ -1,23 +1,10 @@
 ---
-title: Reclamar bloques eliminados en datastores VMFS
-date: '2017-07-28 00:00:00'
-author: miquelMariano
-tags: [VMWare,vSphere,vExpert,storage,VMFS]
-categories: [prueba1]
-published: true
-comments: true
-permalink: /reclaim/
-layout: post
+title: reclaimZeroPages.py
+permalink: /reclaimZeroPages/
+layout: page
 ---
 
-Buenos dias, en el post de hoy vamos a ver como reclamar bloques eliminados en nuestros datastores VMFS.
-
-El proceso, consiste en reclamar el espacio que ya no se está utilizando en un datastore VMFS y devolverlo a la cabina para su posterior reutilización.
-
-Es un proceso sencillo y se ejecuta en backgroud sin afectar al funcionamiento normal de la cabina. Para que se pueda recuperar este espacio no utilizado, es necesario que el ESXi marque estos bloques a 0, indicando de esta forma a la cabina, que no los está utilizando. En la nueva versión ESXi 6.5 el [proceso de unmap aparece como una de las mejoras](https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/whitepaper/vsphere/vmw-white-paper-vsphr-whats-new-6-5.pdf), pero si disponemos una versión anterior, debejemos ejecutar el siguiente procedimiento.
-
-
-
+Ir al [post](https://miquelMariano.github.io/reclaim)
 
 ```python
 #!/bin/python
@@ -109,29 +96,3 @@ for d in failed:
 print "\n* Fin."
 sys.exit
 ```
-
-Ejemplo de salida del script:
-python /tmp/reclaimZeroPages.py
-
-```
-* Analizando datatores...
-Thin Provisioning Status: Key naa.60060e801332e000502032e000003106 not found
-VAAI Plugin: Key naa.60060e801332e000502032e000003106 not found
-Zero Status: Key naa.60060e801332e000502032e000003106 not found
-Delete Status: Key naa.60060e801332e000502032e000003106 not found
- 
-* Comandos a lanzar:
- Executing: esxcli storage vmfs unmap -n 200 -l HUS110_Datastore000
- Executing: esxcli storage vmfs unmap -n 200 -l VSPG800_Datastore000
- Executing: esxcli storage vmfs unmap -n 200 -l VSPG800_Datastore002
- Executing: esxcli storage vmfs unmap -n 200 -l VSPG800_Datastore003
- Executing: esxcli storage vmfs unmap -n 200 -l HUSVM_Datastore000
- 
-* Datastore erroneos:
- 
-* Fin.
-```
- 
-Un saludo
-
-Miquel.

@@ -2,7 +2,7 @@
 title: Módulo de Telegram para Ansible
 date: '2017-08-11 00:00:00'
 author: miquelMariano
-tags: [ansible,automation,devops]
+tags: [ansible,automation,devops,telegram]
 categories: [prueba1]
 published: true
 comments: true
@@ -12,7 +12,7 @@ layout: post
 
 Buenos dias, el otro dia me enteré que desde la versión 2.2 de Ansible, es posible [integrar notificaciones con Telegram](https://docs.ansible.com/ansible/telegram_module.html)
 
-Para ello, solo necesitamos disponer de un bot, que [en su dia ya vimos como crear](https://miquelmariano.github.io/2017/02/notificaciones-automaticas-con-telegram/)
+Para ello, solo necesitamos disponer de un chatbot, que [en su dia ya vimos como crear](https://miquelmariano.github.io/2017/02/notificaciones-automaticas-con-telegram/)
 
 La integración en un playbook seria con el siguiente código:
 
