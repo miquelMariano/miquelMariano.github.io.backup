@@ -1,39 +1,55 @@
-# Site settings
-title: Jekyll-Uno
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
-url: 'http://joshgerdes.com/jekyll-uno'
-baseurl: '/jekyll-uno/'
-# google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
+title: Stack Problems
+description: My Personal Stack Problems
+author: Agus Makmun
+github: https://github.com/agusmakmun
+about: I am freelance developer. Currently doing more in backend, focused in Python and Django.
+disqus_shortname: stackproblems
+google_analytics: UA-XXXXXXXX-Y
+avatar_url: /static/img/avatar.jpg
 
-author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+enableTags: true
+tagarray: []
 
-defaults:
-  -
-    scope:
-      path: ''
-      type: 'posts'
-    values:
-        layout: 'post'
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
 
-# Build settings
-destination: _site
-paginate: 10
-permalink: /:year/:title/
+social:
+    - icon: fa-facebook
+      link: "#"
+    - icon: fa-twitter
+      link: "https://twitter.com/agusmakmun6"
+    - icon: fa-linkedin
+      link: "https://www.linkedin.com/in/summonagus"
+    - icon: fa-stack-exchange
+      link: "#"
+    - icon: fa-github
+      link: "https://github.com/agusmakmun"
+
+share:
+  twitter_username: agusmakmun6
+  fb_appid: 1749788565247320
+
+urls:
+    - text: About Me
+      url: /about/
+    - text: My Projects
+      url: /projects/
+    - text: XML Feed
+      url: /feed.xml
+
+url: "https://agusmakmun.github.io"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
 markdown: kramdown
-highlighter: rouge
+gems:
+  - jekyll-paginate
+  - jekyll-gist
 
-kramdown:
-  # use Github Flavored Markdown
-  input: GFM
-  # do not replace newlines by <br>s
-  hard_wrap: false
-
-gems: ['jekyll-paginate']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
