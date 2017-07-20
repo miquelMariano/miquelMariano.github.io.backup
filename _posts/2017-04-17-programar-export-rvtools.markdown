@@ -2,7 +2,7 @@
 title: Programar export automático de RVTools
 date: '2017-04-17 00:00:00'
 author: miquelMariano
-tags: [VMWare,vSphere,vExpert,automation]
+tags: [VMWare,vSphere,vExpert,automation,PowerCLI]
 categories: [prueba1]
 published: true
 comments: true
@@ -30,7 +30,7 @@ Pues para eso está este script, para poder configurar una tarea programada en n
 
 Las únicas variables que tenemos que cambiar del script son el vCenter al que se conectará, el path donde guardará los .xls y la retención (en días) que queramos mantener
 
-```
+```powershell
 param
 (
    $Servers = @("Server"),
@@ -43,7 +43,7 @@ param
 Y ahi va el script...
 
 
-```
+```powershell
 <# 
 .SYNOPSIS 
    Performs full export from RVTools

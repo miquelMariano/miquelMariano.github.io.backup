@@ -2,7 +2,7 @@
 title: Migrar configuración de un vCenter a otro
 date: '2017-03-10 00:00:00'
 author: miquelMariano
-tags: [VMWare,vSphere,dvswitch,drs,vExpert]
+tags: [VMWare,vSphere,dvswitch,drs,vExpert,powerCLI]
 categories: [prueba1]
 published: true
 comments: true
@@ -52,7 +52,7 @@ Con los siguienes "modificadores" podremos indicar que queremos importar
 
 ### Get-SourceSettings.ps1
 
-```
+```powershell
 #Get Data from Source vCenter
 #Get the DRSRule Module from https://github.com/PowerCLIGoodies/DRSRule
 #Requires -modules DRSRule
@@ -213,7 +213,7 @@ $allClusters | export-clixml $directory\$($datacenter)-Cluster-Description.xml
 
 ### Set-SourceSettings.ps1
 
-```
+```powershell
 #Recreates the settings saved by Get-SourceSettings.ps1 in the new vCenter
 #Get the DRSRule Module from https://github.com/PowerCLIGoodies/DRSRule
 #Requires -modules DRSRule
