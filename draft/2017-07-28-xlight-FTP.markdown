@@ -2,7 +2,7 @@
 title: Xlight, un servidor FTP portable
 date: '2017-07-28 00:00:00'
 author: miquelMariano
-tags: [windows,devops]
+tags: [windows,devops,ftp]
 categories: [prueba1]
 published: true
 comments: true
