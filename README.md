@@ -1,60 +1,45 @@
-# mug
+# jekyll-uno
 
-Jekyll theme
+Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://github.com/daleanthony/Uno) theme for Ghost.
 
 > :warning:
   This theme requires ruby and rubygems installed
 
-* [x] Clean layout
-* [x] Resposive layout
-* [x] Preprocessor SASS
-* [x] CSS minified
-* [x] Search posts
-* [x] Pagination
-* [x] Syntax highlight
-* [x] Author config
-* [x] Share posts
-* [x] Comments with Disqus
+### Features
+
+* Clean layout
+* Resposive layout
+* Pagination
+* Syntax highlighting
+* Social links
+* Tags listing page
+* Categories listing page
+* Google Analytics integration
+* Disqus integration
 
 ---
 
-### Start in 4 steps
+### Install and Test
 
-1. Download or clone repo `git clone git@github.com:nandomoreirame/mug.git`
-2. Enter the folder: `cd mug/`
+1. Download or clone repo `git clone git@github.com:joshgerdes/jekyll-uno.git`
+2. Enter the folder: `cd jekyll-uno/`
+3. If you don't have bundler installed: `gem install bundler`
 3. Install Ruby gems: `bundle install`
-4. Start Jekyll server: `jekyll serve`
+4. Start Jekyll server: `bundle exec jekyll serve --watch`
 
-Access, [localhost:4000/mug](http://localhost:4000/mug)
-
-### Deploy in Github pages in 2 steps
-
-1. Change the variables `GITHUB_REPONAME` and `GITHUB_REPO_BRANCH` in `Rakefile`
-2. Run `rake` or `rake publish` for build and publish on Github
-
----
-
-### Using Rake tasks
-
-* Create a new page: `rake page name="contact.md"`
-* Create a new post: `rake post title="TITLE OF THE POST"`
+Access via: [http://localhost:4000/jekyll-uno/](http://localhost:4000/jekyll-uno/)
 
 ---
 
 ### Demo and Download
 
-[Demo](https://nandomoreira.me/mug/)
-[Download](https://github.com/nandomoreirame/mug/archive/master.zip)
+[Demo](http://joshgerdes.com/jekyll-uno/)
+[Download](https://github.com/joshgerdes/jekyll-uno/archive/master.zip)
 
-![mug - free Jekyll theme](/screenshot.png)
+![jekyll-uno - free Jekyll theme](/screenshot.png)
 
 ---
 
 ### Copyright and license
 
 It is under [the MIT license](/LICENSE).
-
-> :warning:
-  Please remove metas `<meta name="robots" content="noindex">` and `<meta name="googlebot" content="noindex">` in `_layouts/default.html`
-
-Enjoy :yum:
