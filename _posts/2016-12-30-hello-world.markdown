@@ -3,8 +3,10 @@ title: Hello World
 date: '2016-12-30 20:10:00'
 author: miquelMariano
 tags: [miscelanea]
+categories: [miscelanea]
 published: true
 comments: true
+layout: post
 ---
 
 [![hello-world]({{ site.imagesposts2016 }}/12/hello_world.jpg)](https://miquelmariano.github.io/2016/12/hello-world/)
