@@ -3,7 +3,7 @@ title: ¿Como se usan los roles y playbooks en Ansible?
 date: '2017-04-06 14:00:00'
 author: miquelMariano
 tags: [ansible,devops,automation]
-categories: [prueba1]
+categories: [ansible,devops,automation]
 published: true
 comments: true
 layout: post

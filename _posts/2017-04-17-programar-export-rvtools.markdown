@@ -3,7 +3,7 @@ title: Programar export automático de RVTools
 date: '2017-04-17 00:00:00'
 author: miquelMariano
 tags: [VMWare,vSphere,vExpert,automation,PowerCLI]
-categories: [prueba1]
+categories: [VMWare,vSphere,vExpert,automation,PowerCLI]
 published: true
 comments: true
 layout: post

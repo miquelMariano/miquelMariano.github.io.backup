@@ -3,7 +3,7 @@ title: Ncora Tutorial ¿Cómo instalar vCenter Server Appliance 6.5?
 date: '2017-07-14 00:00:00'
 author: miquelMariano
 tags: [VMWare,vSphere,vExpert,VCSA,NcoraTV]
-categories: [prueba1]
+categories: [VMWare,vSphere,vExpert,VCSA,NcoraTV]
 published: true
 comments: true
 layout: post

@@ -3,7 +3,7 @@ title: ansible-vault o como ocultar datos sensibles en nuestros ficheros Ansible
 date: '2017-06-23 00:00:00'
 author: miquelMariano
 tags: [ansible,devops,automation]
-categories: [prueba1]
+categories: [ansible,devops,automation]
 published: true
 comments: true
 layout: post

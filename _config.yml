@@ -19,6 +19,7 @@ collections:
     permalink: /project/:path/
 
 social:
+##http://fontawesome.io/icons/
 #    - icon: fa-facebook
 #      link: "#"
     - icon: fa-twitter
@@ -29,6 +30,8 @@ social:
 #      link: "#"
     - icon: fa-github
       link: "https://github.com/miquelMariano"
+    - icon: fa-envelope
+      link: mailto:miquel.mariano@outlook.com
 
 share:
   twitter_username: miquelMariano

@@ -3,7 +3,7 @@ title: Migrar configuración de un vCenter a otro
 date: '2017-03-10 00:00:00'
 author: miquelMariano
 tags: [VMWare,vSphere,dvswitch,drs,vExpert,powerCLI]
-categories: [prueba1]
+categories: [VMWare,vSphere,dvswitch,drs,vExpert,powerCLI]
 published: true
 comments: true
 layout: post
