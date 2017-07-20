@@ -24,7 +24,7 @@ Pues bien, con [Xlight](https://www.xlightftpd.com/) podremos tener ese ansiado 
 
 Desde su propia web, podremos descargar el binario, ya sea en formato [32 bits](http://www.xftpserver.com/download/xlight.zip) o en [64 bits](http://www.xftpserver.com/download/xlight-x64.zip)
 
-Y la configuración es de lo mas sencilla:
+Y la configuración es de lo mas sencillo:
 
 1) Ejecutamos el binario y creamos un nuevo virtual server
 
