@@ -1,25 +1,18 @@
-## Site settings
-title: Miquel Mariano
-description: Consultor TI en Ncora | VCP5/6-DCV | vExpert 2016/17
-description2: Apasionado de la montaña | Bike | Trail | Run
-description3: Padre de Aina
-url: 'https://miquelMariano.github.com' 
-baseurl: '/'
-about: '/about'
-ansible-galaxy: 'https://galaxy.ansible.com/miquelMariano/'
-images: '/images/'
-imagesposts2016: '/images/posts/2016'
-imagesposts2017: '/images/posts/2017'
-google_analytics: 'UA-89683320-1'
-disqus_shortname: 'miquelmariano'
+# Site settings
+title: Jekyll-Uno
+description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
+url: 'http://joshgerdes.com/jekyll-uno'
+baseurl: '/jekyll-uno/'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
 
 author:
-  name: 'Miquel Mariano'
-  email: miquel.mariano@outlook.com
-  twitter_username: miquelMariano
-  # facebook_username: miquelMariano
-  github_username:  miquelMariano
-  linkedin_username:  miquelMariano
+  name: 'Josh Gerdes'
+  email: josh@joshgerdes.com
+  twitter_username: joshgerdes
+  facebook_username: joshgerdes
+  github_username:  joshgerdes
+  linkedin_username:  joshgerdes
 
 defaults:
   -
@@ -32,19 +25,15 @@ defaults:
 # Build settings
 destination: _site
 paginate: 10
-permalink: /:year/:month/:title/
+permalink: /:year/:title/
 markdown: kramdown
 highlighter: rouge
 
 kramdown:
-  syntax_highlighter: rouge
   # use Github Flavored Markdown
   input: GFM
   # do not replace newlines by <br>s
   hard_wrap: false
 
-gems:
-  - jekyll-sitemap
-  - jemoji
-#gems: ['jekyll-paginate']
-#exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'src']
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
