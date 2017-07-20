@@ -6,8 +6,8 @@ about: Consultor TI en Ncora | VCP5/6-DCV | vExpert 2016/17 | Apasionado de la m
 disqus_shortname: miquelmariano
 google_analytics: UA-89683320-1
 avatar_url: /static/img/profile.jpg
-imagesposts2016: /static/img/_posts/2016
-imagesposts2017: /static/img/_posts/2017
+imagesposts2016: /static/img/posts/2016
+imagesposts2017: /static/img/posts/2017
 
 enableTags: true
 tagarray: []
@@ -34,12 +34,14 @@ share:
 #  fb_appid: 1749788565247320
 
 urls:
-    - text: About Me
+    - text: Sobre mí
       url: /about/
     - text: My Projects
       url: /projects/
     - text: XML Feed
       url: /feed.xml
+    - text: Ansible Galaxy
+      url: https://galaxy.ansible.com/miquelMariano/
 
 url: "https://miquelMariano.github.io"
 baseurl: ""
