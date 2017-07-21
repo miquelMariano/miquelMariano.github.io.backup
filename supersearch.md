@@ -6,7 +6,7 @@ permalink: /supersearch/
 
 <link rel="stylesheet" href="https://miquelmariano.github.io/supersearch/super-search.css">
 
-            <a href="javascript:void(0)" title="or press '/' to search" onclick="toggleSearch()" class="search-btn">
+            <a href="javascript:void(0)" title="or press 'ESC' to search" onclick="toggleSearch()" class="search-btn">
               <img src="https://miquelmariano.github.io/assets/images/search-icon.png">
             </a>
 
