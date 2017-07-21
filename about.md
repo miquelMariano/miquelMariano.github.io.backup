@@ -1,46 +1,27 @@
 ---
-title: About
 layout: page
+title: Sobre mí
+permalink: /about/
 ---
-![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+Hola, me llamo Miquel Mariano Ramis y soy Consultor TI en [Ncora](https://www.ncora.com/)
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+Tengo mas de 10 años de experiencia en el ámbito de sistemas y en los últimos años he centrado mi trayectoria profesional especializándome en todo lo relacionado con la virtualización y automaticación del datacenter:
 
-<h2>Skills</h2>
+ - Diseño e implementación de VMware vSphere
+ - Instalación y configuración de VMware ESXi 4.x, 5.x, 6.x
+ - Instalación y configuración de almacenamiento Hitachi HUS, EMC VNXe, IBM Storwize, QNAP
+ - Protocolos de almacenamiento: iSCSI, FC, NFS, SMB/CIFS
+ - Instalación y configuración Dell PowerEdge, HP Proliant servers, Hitachi Compute Blade
+ - Instalación y configuración Brocade FC SAN Switches
+ - Disaster Recovery, Veeam Backup & Replication
+ - Análisis de carga de trabajo y dimensionamiento de máquinas virtuales
+ - Automatización, Ansible, PowerCLI...
+ - Análisis de performance y resolución de problemas en VMWare vSphere
 
-<ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>NodeJS</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
-</ul>
+He tenido la suerte de poder certificarme en VCP5/6-DCV y en estos últimos 2 años, VMWare me ha nombrado vExpert
 
-<h2>Projects</h2>
+![logo-vExpert17]({{ site.images }}logo_vexpert2017.png) 
 
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
+![logo-vcp6]({{ site.images }}logo_vcp6.png) 
+
