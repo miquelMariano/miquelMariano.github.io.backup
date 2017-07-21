@@ -1,11 +1,15 @@
 ---
 title: Hello World
-date: '2016-12-30 20:10:00'
-author: miquelMariano
-tags: [miscelanea]
-published: true
-comments: true
+layout: post
+date: 2016-02-24 22:48
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- miscelanea
 category: blog
+author: miquelMariano
+description: Markdown summary with different options
+# jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
 ---
 
 [![hello-world]({{ site.imagesposts2016 }}/12/hello_world.jpg)](https://miquelmariano.github.io/2016/12/hello-world/)
