@@ -25,7 +25,7 @@
         {% if site.about == true %}
             {% if page.title != "About" %}
                 <li class="item">
-                    <a class="link" href="{{ site.url }}/about">About</a>
+                    <a class="link" href="{{ site.url }}/about">Sobre mí</a>
                 </li>
             {% endif %}
         {% endif %}
@@ -33,6 +33,18 @@
         {% if site.resume == true %}
             <li class="item">
                 <a class="link" href="{% if site.resume-external %}{{ site.resume-url }}{% else %}{{ site.url }}/{{ site.resume-url }}{% endif %}">Résumé</a>
+            </li>
+        {% endif %}
+
+        {% if site.galaxy == true %}
+            <li class="item">
+                <a class="link" href="https://galaxy.ansible.com/miquelMariano/">Ansible Galaxy</a>
+            </li>
+        {% endif %}
+
+        {% if site.search == true %}
+            <li class="item">
+                <a class="link" href="google.com/">Search</a>
             </li>
         {% endif %}
     </ul>
