@@ -4,7 +4,7 @@ title: Sobre mí
 permalink: /about/
 ---
 
-![profile]({{ site.picture }}) 
+![profile]({{ site.url }}/{{ site.picture }}) 
 
 Hola, me llamo Miquel Mariano Ramis y soy Consultor TI en [Ncora](https://www.ncora.com/)
 
@@ -23,7 +23,7 @@ Tengo mas de 10 años de experiencia en el ámbito de sistemas y en los últimos
 
 He tenido la suerte de poder certificarme en VCP5/6-DCV y en estos últimos 2 años, VMWare me ha nombrado vExpert
 
-![logo-vExpert17]({{ site.images }}logo_vexpert2017.png) 
+![logo-vExpert17]({{ site.url }}/{{ site.images }}logo_vexpert2017.png) 
 
-![logo-vcp6]({{ site.images }}logo_vcp6.png) 
+![logo-vcp6]({{ site.url }}/{{ site.images }}logo_vcp6.png) 
 
