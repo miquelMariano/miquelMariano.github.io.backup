@@ -4,7 +4,9 @@ title: Sobre mí
 permalink: /about/
 ---
 
+<center>
 ![profile]({{ site.url }}/{{ site.picture }}) 
+</center>
 
 Hola, me llamo Miquel Mariano Ramis y soy Consultor TI en [Ncora](https://www.ncora.com/)
 
