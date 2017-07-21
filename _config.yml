@@ -1,50 +1,64 @@
-## Site settings
-title: Miquel Mariano
-description: Consultor TI en Ncora | VCP5/6-DCV | vExpert 2016/17
-description2: Apasionado de la montaña | Bike | Trail | Run
-description3: Padre de Aina
-url: 'https://miquelMariano.github.com' 
-baseurl: '/'
-about: '/about'
-ansible-galaxy: 'https://galaxy.ansible.com/miquelMariano/'
-images: '/images/'
-imagesposts2016: '/images/posts/2016'
-imagesposts2017: '/images/posts/2017'
-google_analytics: 'UA-89683320-1'
-disqus_shortname: 'miquelmariano'
+title: Miquel Mariano blog
+description: My Personal Stack Problems
+author: Miquel Mariano
+github: https://github.com/miquelMariano
+about: Consultor TI en Ncora | VCP5/6-DCV | vExpert 2016/17 | Apasionado de la montaña | Bike | Trail | Run | Padre de Aina
+disqus_shortname: miquelmariano
+google_analytics: UA-89683320-1
+avatar_url: /static/img/profile.jpg
+images: /static/img
+imagesposts2016: /static/img/posts/2016
+imagesposts2017: /static/img/posts/2017
 
-author:
-  name: 'Miquel Mariano'
-  email: miquel.mariano@outlook.com
+enableTags: true
+tagarray: []
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+##http://fontawesome.io/icons/
+#    - icon: fa-facebook
+#      link: "#"
+    - icon: fa-twitter
+      link: "https://twitter.com/miquelMariano"
+    - icon: fa-linkedin
+      link: "https://www.linkedin.com/in/miquelMariano"
+#    - icon: fa-stack-exchange
+#      link: "#"
+    - icon: fa-github
+      link: "https://github.com/miquelMariano"
+    - icon: fa-envelope
+      link: mailto:miquel.mariano@outlook.com
+
+share:
   twitter_username: miquelMariano
-  # facebook_username: miquelMariano
-  github_username:  miquelMariano
-  linkedin_username:  miquelMariano
+#  fb_appid: 1749788565247320
 
-defaults:
-  -
-    scope:
-      path: ''
-      type: 'posts'
-    values:
-        layout: 'post'
+urls:
+    - text: Sobre mí
+      url: /about/
+    - text: Ansible Galaxy
+      url: https://galaxy.ansible.com/miquelMariano/
+ #   - text: My Projects
+ #     url: /projects/
+ #   - text: XML Feed
+ #     url: /feed.xml
 
-# Build settings
-destination: _site
-paginate: 10
-permalink: /:year/:month/:title/
+
+url: "https://miquelMariano.github.io"
+baseurl: ""
+paginate: 15
+per_page: 15
+paginate_path: "/page/:num/"
 markdown: kramdown
-highlighter: rouge
-
-kramdown:
-  syntax_highlighter: rouge
-  # use Github Flavored Markdown
-  input: GFM
-  # do not replace newlines by <br>s
-  hard_wrap: false
-
 gems:
-  - jekyll-sitemap
-  - jemoji
-#gems: ['jekyll-paginate']
-#exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'src']
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
