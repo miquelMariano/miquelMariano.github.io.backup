@@ -2,7 +2,7 @@
 title: Hello World
 layout: post
 date: 2016-12-30 22:48
-image: /assets/images/markdown.jpg
+image: /assets/images/posts/12/hello_world.jpg
 headerImage: true
 tag:
 - miscelanea
@@ -11,8 +11,6 @@ author: miquelMariano
 description: Hola mundo! Mi primer post en el blog
 # jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
 ---
-
-[![hello-world]({{ site.imagesposts2016 }}/12/hello_world.jpg)](https://miquelmariano.github.io/2016/12/hello-world/)
 
 Bienvenidos a mi blog!
 
