@@ -1,15 +1,19 @@
 ---
 title: Configuración de Windows para ser manejado con Ansible
-date: '2017-05-17 18:00:00'
-author: miquelMariano
-tags: [ansible,automation,devops,windows]
-categories: [prueba1]
-published: true
-comments: true
 layout: post
+date: 2017-05-17 18:00:00
+image: /assets/images/posts/2017/05/ansible-win.png
+headerImage: true
+tag:
+- ansible
+- automatización
+- DevOps
+- windows
+category: blog
+author: miquelMariano
+description: Configuración de Windows para ser manejado con Ansible
+hidden: false
 ---
-
-![ansible-win-logo]({{ site.imagesposts2017 }}/05/ansible-win.png)
 
 Buenos dias queridos lectores!
 

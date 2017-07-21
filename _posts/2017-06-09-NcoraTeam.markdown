@@ -1,12 +1,20 @@
 ---
 title: NcoraTeam | Miquel Mariano
-date: '2017-06-09 18:00:00'
-author: miquelMariano
-tags: [VMWare,vSphere,vExpert,devops,NcoraTeam,NcoraTV]
-categories: [prueba1]
-published: true
-comments: true
 layout: post
+date: 2017-06-09 18:00:00
+image: /assets/images/posts/2017/05/ansible-win.png
+headerImage: false
+tag:
+- VMWare
+- vSphere
+- vExpert
+- DevOps
+- NcoraTeam
+- NcoraTV
+category: blog
+author: miquelMariano
+description: NcoraTeam | Miquel Mariano
+hidden: false
 ---
 
 Hoy os dejo con una entrevista que me hizo [@josepros](https://twitter.com/josepros) para el programa de [NcoraTV](https://www.youtube.com/channel/UCgOZpO7E3HEh0nHH2JSJOPA)

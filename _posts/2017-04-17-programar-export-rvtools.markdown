@@ -1,12 +1,20 @@
 ---
 title: Programar export automático de RVTools
-date: '2017-04-17 00:00:00'
-author: miquelMariano
-tags: [VMWare,vSphere,vExpert,automation,PowerCLI]
-categories: [prueba1]
-published: true
-comments: true
 layout: post
+date: 2017-04-17 00:00:00
+image: /assets/images/posts/2017/04/RVTools_logo.png
+headerImage: true
+tag:
+- VMWare
+- vSphere
+- vExpert
+- DevOps
+- automatización
+- powerCLI
+category: blog
+author: miquelMariano
+description: Programar export automático de RVTools
+hidden: false
 ---
 
 Por si todavía quedan vSphere admins que no sepan lo que son las RVTools, deciros que:
@@ -17,8 +25,6 @@ Por si todavía quedan vSphere admins que no sepan lo que son las RVTools, decir
 + Con RVTools puede desconectar las unidades de CD-ROM o de disquete de las máquinas virtuales y actualizar las VMware Tools instaladas dentro de cada máquina virtual a la última 
 + Soporta vCenter 6.5 y ESX 6.5.
 + Puede exportar la información a .xls o .csv
-
-![rvtools-logo]({{ site.imagesposts2017 }}/04/RVTools_logo.png)
 
 Dicho esto, al bueno de [Sneddo](https://github.com/Sneddo) no se le ha ocurrido otra cosa que programar un [script](https://github.com/Sneddo/Powershell/blob/master/VMware/Export-RVTools.ps1) para poder programar un export automático de toda la información de nuestra infraestructura.
 
