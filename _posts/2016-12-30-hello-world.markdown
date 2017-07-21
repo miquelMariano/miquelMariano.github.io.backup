@@ -1,7 +1,7 @@
 ---
 title: Hello World
 layout: post
-date: 2016-30-12 22:48
+date: 2016-12-30 22:48
 image: /assets/images/markdown.jpg
 headerImage: true
 tag:
