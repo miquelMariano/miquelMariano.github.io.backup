@@ -1,6 +1,8 @@
 # main text of home
 name: Miquel Mariano
-bio: A Man who travels the world eating noodles
+bio1: Consultor TI en Ncora | VCP5/6-DCV | vExpert 2016/17
+bio2: Apasionado de la montaña | Bike | Trail | Run
+bio3: Padre de Aina
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -57,7 +59,7 @@ email: miquel.mariano@outlook.com
 authors:
     miquelMariano:
         name: Miquel Mariano
-        bio: A Man who travels the world eating noodles
+        bio: Consultor TI en Ncora | VCP5/6-DCV | vExpert 2016/17
         external-image: false
         picture: assets/images/profile.jpg
         twitter: miquelMariano
