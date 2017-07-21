@@ -47,5 +47,11 @@
                 <a class="link" href="https://www.strava.com/athletes/4848838">Strava</a>
             </li>
         {% endif %}
+
+        {% if site.search == true %}
+            <li class="item">
+                <a class="link" href="{{ site.url }}/supersearch">Search</a>
+            </li>
+        {% endif %}
     </ul>
 </nav>
