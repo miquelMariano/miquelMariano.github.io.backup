@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Strava activity
-permalink: /strava/
+title: SuperSearch
+permalink: /supersearch/
 ---
 
 <link rel="stylesheet" href="super-search.css">
