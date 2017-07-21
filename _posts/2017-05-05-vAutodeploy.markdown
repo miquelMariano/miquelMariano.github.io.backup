@@ -15,6 +15,7 @@ category: blog
 author: miquelMariano
 description: vAutodeploy, despliegue masivo de VMs con PowerCLI
 hidden: false
+permanentlink: vAutodeploy
 ---
 
 Hola a todos!
