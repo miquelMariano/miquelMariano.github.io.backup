@@ -1,12 +1,18 @@
 ---
 title: Backup y restore de vCenter 6.5
-date: '2017-03-23 18:00:00'
-author: miquelMariano
-tags: [VMWare,vSphere,vExpert,devops]
-categories: [prueba1]
-published: true
-comments: true
 layout: post
+date: 2017-03-23 18:00:00
+image: /assets/images/posts/2017/02/logo_telegram.png
+headerImage: false
+tag:
+- VMWare
+- vSphere
+- vExpert
+- DevOps
+category: blog
+author: miquelMariano
+description: Backup y restore de vCenter 6.5
+hidden: false
 ---
 
 En el post de hoy, voy a compartir este [#NcoraTutorial](https://www.ncora.com/tv/program/ncora-tutorials/), publicado hace unos dias, en el que vemos paso a paso cómo en vSphere 6.5 podemos realizar un backup y una restauración del vCenter, pieza clave en nuestro entorno corporativo y que probablemente queremos proteger por todos los medios posibles.

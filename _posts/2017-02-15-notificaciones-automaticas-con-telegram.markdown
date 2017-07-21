@@ -1,12 +1,17 @@
 ---
 title: Notificaciones automáticas con Telegram
-date: '2017-02-15 00:00:00'
-author: miquelMariano
-tags: [telegram,automatización,devops]
-categories: [prueba1]
-published: true
-comments: true
 layout: post
+date: 2017-02-15 00:00
+image: /assets/images/posts/2017/02/logo_telegram.png
+headerImage: true
+tag:
+- telegram
+- automatización
+- DevOps
+category: blog
+author: miquelMariano
+description: Notificaciones automáticas con Telegram
+hidden: false
 ---
 
 Buenos días a todos!
