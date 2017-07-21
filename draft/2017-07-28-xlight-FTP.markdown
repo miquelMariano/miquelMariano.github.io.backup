@@ -1,13 +1,19 @@
 ---
 title: Xlight, un servidor FTP portable
 date: '2017-07-28 00:00:00'
-author: miquelMariano
-tags: [windows,devops]
-categories: [prueba1]
-published: true
-comments: true
-permalink: /ftp/
 layout: post
+date: 2017-07-14 00:00:00
+image: /assets/images/posts/2017//08/ftplogo.png
+headerImage: true
+tag:
+- Windows
+- DevOps
+- FTP
+category: blog
+author: miquelMariano
+description: Xlight, un servidor FTP portable
+hidden: false
+permalink: /ftp/
 ---
 
 Buenos días queridos lectores!!
@@ -19,8 +25,6 @@ En el post de hoy voy a enseñaros una pequeña utilidad que me ha venido como a
 Actualizar algún firmware en nuestros servidores, extraer algún tipo de report de alguna aplicación o realizar un backup de la configuración son escenarios habituales en los que necesitamos un servidor FTP
 
 Pues bien, con [Xlight](https://www.xlightftpd.com/) podremos tener ese ansiado FTP server sin tener que instalar nada en ningún servidor y de manera "portable"
-
-![ftplogo]({{ site.imagesposts2017 }}/08/ftplogo.png)
 
 Desde su propia web, podremos descargar el binario, ya sea en formato [32 bits](http://www.xftpserver.com/download/xlight.zip) o en [64 bits](http://www.xftpserver.com/download/xlight-x64.zip)
 
