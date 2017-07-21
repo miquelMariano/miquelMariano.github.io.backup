@@ -4,19 +4,12 @@ title: SuperSearch
 permalink: /supersearch/
 ---
 
-<center>
-
-<iframe height='454' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/4848838/latest-rides/c4b86fee8a0c26e45dd56ce2a9917ac7cb8c22d9'></iframe>
-
-</center>
-
-<!-- SuperSearch -->
             
-            <link rel="stylesheet" href="/supersearch/super-search.css">
+ <link rel="stylesheet" href="/supersearch/super-search.css">
 
-            <a href="javascript:void(0)" title="or press '/' to search" onclick="toggleSearch()" class="search-btn">
-              <img src="/images/search-icon.png">
-            </a>
+  <a href="javascript:void(0)" title="or press '/' to search" onclick="toggleSearch()" class="search-btn">
+    <img src="/images/search-icon.png">
+         </a>
 
             <div class="super-search" id="js-super-search">
                <a href="javascript:void(0)" onclick="superSearch.toggle()" class="super-search__close-btn">X</a>
@@ -31,4 +24,3 @@ permalink: /supersearch/
                                   });
              </script>
             
-            <!-- SuperSearch -->
