@@ -1,9 +1,9 @@
 ---
 title: Hello World
 layout: post
-date: 2016-02-24 22:48
+date: 2016-30-12 22:48
 image: /assets/images/markdown.jpg
-headerImage: false
+headerImage: true
 tag:
 - miscelanea
 category: blog
