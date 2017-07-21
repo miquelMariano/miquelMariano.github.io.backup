@@ -87,7 +87,7 @@ Una vez creado el role, tendremos la siguiente estructura. Para entender bien lo
 
 + **Defaults:** Este directorio debe contener un fichero llamado main.yml que contendrá información de las variables globales utilizadas por este role; como el directorio de instalación de apache o el puerto de escucha por defecto, entre otros.
 
-```
+```yaml
 --- 
 
 webservers_dir: /var/www/html 
@@ -99,7 +99,7 @@ webservers_port: 80
 
 + **Templates:** Los templates son parecidos a los files, pero éstos admiten modificaciones. Podemos pasar variables de configuración al template para que éste lo aplique a los hosts. Ansible admite variables en los playbooks y templates utilizando el sistema [Jinja2](http://jinja.pocoo.org/docs/dev/).
 
-```
+```yaml
 ---
 
 template: 
@@ -110,7 +110,7 @@ template:
 
 + **Tasks:** Cada play contiene múltiples tasks y cada task realiza una serie de acciones. Las tareas son básicamente la ejecución de módulos con argumentos específicos. Estos argumentos pueden ser variables definidas previamente. Las tareas se ejecutan en orden contra todos los hosts que cumplan el patrón definido. Las tasks pueden estar definidas en el fichero main.yml o en cualquier otro fichero .yml siempre y cuando se haga referencia a ellos desde el main.yml.
 
-```
+```yaml
 ---
 # These tasks install http and the php modules. 
 
@@ -129,7 +129,7 @@ template:
 
 + **Meta:** Estos archivos describen el entorno (SO, versión, etc), autor, licencia, y también establece las dependencias del role.
 
-```
+```yaml
 --- 
 
 dependencies: 
@@ -145,7 +145,7 @@ Por ejemplo, varias tareas pueden requerir que Apache se reinicie debido al camb
 
 Llamada a un handler desde un playbook:
 
-```
+```yaml
 --- 
 # file: roles/common/handlers/main.yml 
 - name: restart httpd 
