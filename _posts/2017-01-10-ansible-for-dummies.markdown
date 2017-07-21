@@ -1,10 +1,15 @@
 ---
 title: Ansible for dummies
-date: '2017-01-10 00:00:00'
+layout: post
+date: 2017-01-10 00:00:00
+image: /assets/images/markdown.jpg
+headerImage: true
+tag:
+- ansible
+category: blog
 author: miquelMariano
-tags: [ansible]
-published: true
-comments: true
+description: Ansible for dummies
+# jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmidd
 ---
 
 Uno de los problemas más comunes para un administrador a la hora de configurar, administrar o mantener su granja de servidores es mantener sus configuraciones idénticas o lo más parecidas posible. En entornos pequeños, en los que tenemos 1, 2 o 5 servidores, es totalmente factible llevar una administración individual de cada uno de ellos. Aunque en los tiempos que corren y con la mayoría de aplicaciones ya funcionando de manera distribuida, no es nada extraño encontrarse granjas con 10, 20 o 50 servidores iguales e imposibles de manejar de forma individual. ¡Imaginemos tener que cambiar un parámetro en un determinado fichero de configuración a 37 servidores!
