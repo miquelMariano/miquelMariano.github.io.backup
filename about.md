@@ -4,6 +4,8 @@ title: Sobre mí
 permalink: /about/
 ---
 
+![profile]({{ site.picture }}) 
+
 Hola, me llamo Miquel Mariano Ramis y soy Consultor TI en [Ncora](https://www.ncora.com/)
 
 Tengo mas de 10 años de experiencia en el ámbito de sistemas y en los últimos años he centrado mi trayectoria profesional especializándome en todo lo relacionado con la virtualización y automaticación del datacenter:
