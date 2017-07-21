@@ -1,7 +1,7 @@
 ---
 title: ¿Como se usan los roles y playbooks en Ansible?
 layout: post
-date: 017-04-06 14:00:00
+date: 2017-04-06 14:00:00
 image: /assets/images/posts/2017/01/ansible_logo.png
 headerImage: true
 tag:
