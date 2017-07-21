@@ -5,6 +5,7 @@ author: miquelMariano
 tags: [miscelanea]
 published: true
 comments: true
+category: blog
 ---
 
 [![hello-world]({{ site.imagesposts2016 }}/12/hello_world.jpg)](https://miquelmariano.github.io/2016/12/hello-world/)
