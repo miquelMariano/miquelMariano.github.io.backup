@@ -22,7 +22,7 @@ imagesposts2017: https://miquelMariano.github.io/images/posts/2017
 url: https://miquelMariano.github.io
 # your url: http://USERNAME.github.io
 
-permalink: /:title/
+permalink: /:year/:month/:title/
 
 # To enable google analytics, supply your token below
 # analytics-google: 'UA-MYANALYTICS'
@@ -55,7 +55,7 @@ github: miquelMariano
 email: miquel.mariano@outlook.com
 
 authors:
-    johndoe:
+    miquelMariano:
         name: Miquel Mariano
         bio: A Man who travels the world eating noodles
         external-image: false
