@@ -1,17 +1,21 @@
 ---
 title: vExpert 2017
-date: '2017-02-09 00:14:00'
-author: miquelMariano
-tags: [vExpert,VMWare]
-categories: [prueba1]
-published: true
-comments: true
 layout: post
+date: 2017-02-09 00:14:00
+image: /assets/images/posts/2017/02/logo_vexpert2017.png
+headerImage: false
+tag:
+- vExpert
+- VMware
+- DevOps
+star: true
+category: blog
+author: miquelMariano
+description: vExpert
+hidden: true
 ---
 
 Ayer tuvo lugar el [anuncio de los nuevos VMWare vExpert 2017](https://blogs.vmware.com/vmtn/2017/02/vexpert-2017-award-announcement.html)
-
-![vexpert-logo]({{ site.imagesposts2017 }}/02/logo_vexpert2017.png)
 
 Como sabéis, el título de vExpert no es ninguna certificación técnica ni nada por el estilo. Mas bien es un reconocimiento que VMWare otorga a todas aquellas personas que ya sea a través de RRSS, blogs, foros, grupos VMUG, etc, etc, etc, se encarga de evangelizar la marca, compartiendo conocimientos, experiencia....
 
