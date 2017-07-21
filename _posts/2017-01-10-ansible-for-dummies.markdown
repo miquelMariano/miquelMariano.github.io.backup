@@ -2,7 +2,7 @@
 title: Ansible for dummies
 layout: post
 date: 2017-01-10 00:00
-image: /assets/images/posts/01/ansible_logo.png
+image: /assets/images/posts/2017/01/ansible_logo.png
 headerImage: true
 tag:
 - ansible

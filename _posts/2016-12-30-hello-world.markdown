@@ -2,7 +2,7 @@
 title: Hello World
 layout: post
 date: 2016-12-30 22:48
-image: /assets/images/posts/12/hello_world.jpg
+image: /assets/images/posts/2016/12/hello_world.jpg
 headerImage: true
 tag:
 - miscelanea
