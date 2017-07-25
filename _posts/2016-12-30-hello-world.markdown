@@ -14,7 +14,7 @@ hidden: false
 
 Bienvenidos a mi blog!
 
-Este proyecto personal lleva en mi cabeza rondandome desde hace ya bastantes meses y no se si por pereza, falta de tiempo, miedo o una mezcla de todo hacia que no terminara de decidirme.
+Este proyecto personal lleva en mi cabeza rondandome desde hace ya bastantes meses y no se si por pereza, falta de tiempo, miedo o una mezcla de todo hacía que no terminara de decidirme.
 
 Pues bien, aquí está.
 
