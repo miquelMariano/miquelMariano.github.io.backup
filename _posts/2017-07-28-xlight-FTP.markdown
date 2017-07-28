@@ -13,7 +13,6 @@ category: blog
 author: miquelMariano
 description: Xlight, un servidor FTP portable
 hidden: false
-permalink: /ftp/
 ---
 
 Buenos días queridos lectores!!
