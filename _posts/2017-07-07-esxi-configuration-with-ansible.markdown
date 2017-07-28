@@ -2,7 +2,6 @@
 title: Automatizar configuración de ESXi con Ansible
 date: '2017-07-07 00:00:00'
 layout: post
-date: 2017-06-23 00:00:00
 image: /assets/images/posts/2017/01/ansible_logo.png
 headerImage: true
 tag:

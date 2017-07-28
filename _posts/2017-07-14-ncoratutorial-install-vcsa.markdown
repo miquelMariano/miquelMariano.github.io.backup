@@ -1,6 +1,5 @@
 ---
 title: Ncora Tutorial ¿Cómo instalar vCenter Server Appliance 6.5?
-date: '2017-07-07 00:00:00'
 layout: post
 date: 2017-07-14 00:00:00
 image: /assets/images/posts/2017/01/ansible_logo.png

@@ -2,7 +2,6 @@
 title: Xlight, un servidor FTP portable
 date: '2017-07-28 00:00:00'
 layout: post
-date: 2017-07-14 00:00:00
 image: /assets/images/posts/2017//08/ftplogo.png
 headerImage: true
 tag:
