@@ -2,7 +2,7 @@
 title: Módulo de Telegram para Ansible
 date: '2017-08-11 00:00:00'
 layout: post
-image: /assets/images/posts/2017/08/ansible-telegram.png
+image: /assets/images/posts/2017/08/telegram-ansible.png
 headerImage: true
 tag:
 - ansible
