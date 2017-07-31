@@ -1,13 +1,19 @@
 ---
 title: Módulo de Telegram para Ansible
 date: '2017-08-11 00:00:00'
-author: miquelMariano
-tags: [ansible,automation,devops,telegram]
-categories: [prueba1]
-published: true
-comments: true
-permalink: /ansible-telegram/
 layout: post
+image: /assets/images/posts/2017/08/ansible-telegram.png
+headerImage: true
+tag:
+- ansible
+- DevOps
+- automatización
+- telegram
+category: blog
+author: miquelMariano
+description: Módulo de Telegram para Ansible
+hidden: false
+permalink: /ansible-telegram/
 ---
 
 Buenos dias, el otro dia me enteré que desde la versión 2.2 de Ansible, es posible [integrar notificaciones con Telegram](https://docs.ansible.com/ansible/telegram_module.html)
