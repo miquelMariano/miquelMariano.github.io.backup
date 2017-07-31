@@ -34,6 +34,7 @@ La integración en un playbook seria con el siguiente código:
         token: "bot304017237:AAHpKXZBaw_wOF3H-ryhWl3F3wqIVP_Zqf8"
         chat_id: 6343788
         msg: "Message sent from Ansible playbook :)"
+        
 ```
 
 Acuerdate de modificar tu `token` y tu `chat_id` si no quieres que las notificaciones me lleguen a mi :-)
