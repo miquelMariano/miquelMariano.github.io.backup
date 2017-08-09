@@ -16,7 +16,9 @@ hidden: false
 permalink: /ansible-telegram/
 ---
 
-Buenos dias, el otro dia me enteré que desde la versión 2.2 de Ansible, es posible [integrar notificaciones con Telegram](https://docs.ansible.com/ansible/telegram_module.html)
+Buenos dias a tod@s!
+
+El otro dia me enteré que desde la versión 2.2 de Ansible, es posible [integrar notificaciones con Telegram](https://docs.ansible.com/ansible/telegram_module.html)
 
 Para ello, solo necesitamos disponer de un chatbot, que [en su dia ya vimos como crear](https://miquelmariano.github.io/2017/02/notificaciones-automaticas-con-telegram/)
 
