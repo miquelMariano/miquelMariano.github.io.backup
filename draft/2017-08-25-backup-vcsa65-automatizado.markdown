@@ -1,6 +1,6 @@
 ---
 title: Programar backup automático en VCSA 6.5
-date: '2017-07-15 00:00:00'
+date: '2017-08-25 00:00:00'
 layout: post
 image: /assets/images/posts/2017/08/vcenter-backup.png
 headerImage: true
