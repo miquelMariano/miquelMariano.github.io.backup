@@ -1,13 +1,19 @@
 ---
 title: Programar backup automático en VCSA 6.5
 date: '2017-07-15 00:00:00'
-author: miquelMariano
-tags: [vmware,vexpert,devops,automation]
-categories: [prueba1]
-published: true
-comments: true
-permalink: /vcsaautobackup/
 layout: post
+image: /assets/images/posts/2017/08/vcenter-backup.png
+headerImage: true
+tag:
+- vmware
+- vexpert
+- DevOps
+- automatización
+category: blog
+author: miquelMariano
+description: Programar backup automático en VCSA 6.5
+hidden: false
+permalink: /vcsaautobackup/
 ---
 
 Buenos dias a tod@as!!
