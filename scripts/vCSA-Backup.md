@@ -4,7 +4,7 @@ permalink: /vCSA-Backup/
 layout: page
 ---
 
-Ir al [post](https://miquelMariano.github.io/vcsaautobackup)
+Ir al [post](https://miquelmariano.github.io/2017/08/backup-vcsa65-automatizado/)
 
 ```sh
 #!/bin/bash
