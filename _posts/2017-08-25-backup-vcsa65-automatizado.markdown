@@ -7,6 +7,8 @@ headerImage: true
 tag:
 - vmware
 - vexpert
+- vCenter
+- VCSA
 - DevOps
 - automatización
 category: blog
