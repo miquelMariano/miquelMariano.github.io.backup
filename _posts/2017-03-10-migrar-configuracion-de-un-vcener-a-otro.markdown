@@ -37,6 +37,8 @@ Antes de empezar, deberemos descargarnos [estos modulos DRS](https://github.com/
 
 `Import-Module .\DRSRule-master\DRSRule.psm1`
 
+![powercli]({{ site.imagesposts2017 }}/03/powercli-set-executionpolicy.png)
+
 El proceso es sencillo, para exportar:
 
 ```
