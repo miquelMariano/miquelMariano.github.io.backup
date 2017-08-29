@@ -35,19 +35,21 @@ Gracias a la comunidad, encontré este [post](https://virtuallyjason.blogspot.co
 
 Antes de empezar, deberemos descargarnos [estos modulos DRS](https://github.com/PowerCLIGoodies/DRSRule) e importarlos a PowerCLI, en mi caso, con el comando:
 
-`Import-Module .\DRSRule-master\DRSRule.psm1`
+```powershell
+Import-Module .\DRSRule-master\DRSRule.psm1`
+```
 
 ![powercli]({{ site.imagesposts2017 }}/03/powercli-set-executionpolicy.png)
 
 El proceso es sencillo, para exportar:
 
-```
+```powershell
 .\Get-SourceSettings.ps1 -directory c:/tmp -datacenter VDC
 ```
 
 Y para el import:
 
-```
+```powershell
 .\Set-SourceSettings.ps1 -directory c:/tmp -datacenter VDC -vms
 ```
 
