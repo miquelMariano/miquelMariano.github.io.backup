@@ -57,10 +57,10 @@ Con los siguienes "modificadores" podremos indicar que queremos importar
 + -DRS 
 + -Roles
 
+Ahi van los scripts:
 
-### [Get-SourceSettings.ps1](https://miquelmariano.github.io/Set-SourceSettings)
-
-### [Set-SourceSettings.ps1](https://miquelmariano.github.io/Set-SourceSettings)
++ [-Get-SourceSettings.ps1](https://miquelmariano.github.io/Set-SourceSettings)
++ [-Set-SourceSettings.ps1](https://miquelmariano.github.io/Set-SourceSettings)
 
 Espero que os sea de utilidad tanto como a mi y os pueda sacar de algún que otro apuro ;-)
  
