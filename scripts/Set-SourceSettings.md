@@ -320,3 +320,5 @@ if (!($VMs -or $folders -or $permissions -or $roles -or $drs))
         echo "Please use one or more of the -VMs, -Folders, -Permissions, -DRS or -Roles switches to do something"
 }
 ```
+
+Ir al [post](https://miquelmariano.github.io/2017/03/migrar-configuracion-de-un-vcener-a-otro/)

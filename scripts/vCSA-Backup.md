@@ -82,3 +82,5 @@ EOF
  rm -f cookies.txt
  echo ''  >>backup.log
 ```
+
+Ir al [post](https://miquelmariano.github.io/2017/08/backup-vcsa65-automatizado/)

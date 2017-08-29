@@ -163,3 +163,5 @@ $clusters | foreach {
 }
 $allClusters | export-clixml $directory\$($datacenter)-Cluster-Description.xml
 ```
+
+Ir al [post](https://miquelmariano.github.io/2017/03/migrar-configuracion-de-un-vcener-a-otro/)
