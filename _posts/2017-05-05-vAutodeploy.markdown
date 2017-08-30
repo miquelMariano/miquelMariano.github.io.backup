@@ -2,8 +2,8 @@
 title: vAutodeploy, despliegue masivo de VMs con PowerCLI
 layout: post
 date: 2017-05-05 13:00:00
-image: /assets/images/posts/2017/04/RVTools_logo.png
-headerImage: false
+image: /assets/images/posts/2017/05/vAutodeploy-header.png
+headerImage: true
 tag:
 - VMWare
 - vSphere
@@ -24,7 +24,7 @@ En el post de hoy os voy a compartir un script que llevo utilizando y mejorando 
 
 Se trata de un script de PowerCLI que me ayuda a desplegar máquinas virtuales de forma masiva. Solo con completar todos los parámetros, es capaz de desplegar n VM en serie.
 
-![vAutodeploy]({{ site.imagesposts2017 }}/04/vAutodeploy.png)
+![vAutodeploy]({{ site.imagesposts2017 }}/05/vAutodeploy.png)
 
 A continuación una breve descripción de cada campo:
 
