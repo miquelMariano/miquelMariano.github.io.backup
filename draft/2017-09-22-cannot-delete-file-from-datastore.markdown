@@ -1,19 +1,18 @@
 ---
-title: eliminar fichero datastore
-date: '2017-08-25 00:00:00'
+title: Error al eliminar fichero de datastore VMFS
+date: '2017-09-22 00:00:00'
 layout: post
 image: /assets/images/posts/2017/08/vcenter-backup.png
-headerImage: true
+headerImage: false
 tag:
 - vmware
 - vexpert
 - vCenter
 - VCSA
-- DevOps
-- automatización
+- VMFS
 category: blog
 author: miquelMariano
-description: Programar backup automático en VCSA 6.5
+description: Error al eliminar fichero de datastore VMFS
 hidden: false
 permalink: /cannotdeletefile/
 ---
