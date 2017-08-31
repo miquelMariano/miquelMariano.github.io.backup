@@ -22,6 +22,8 @@ Buenos dias a tod@as!!
 
 http://tomaskalabis.com/wordpress/vmware-esxi-cannot-delete-file/
 
+![img1]({{ site.imagesposts2017 }}/09/cannot-delete1.png)
+
 
 Un saludo!
 
