@@ -1,19 +1,22 @@
 ---
-title: Instalación Ansible Tower
-date: '2017-07-15 00:00:00'
-author: miquelMariano
-tags: [ansible,automatización,devops]
-categories: [prueba1]
-published: true
-comments: true
-permalink: /tower/
+title: Instalación Ansible Tower steb-by-step
+date: '2017-09-208 00:00:00'
 layout: post
+image: /assets/images/posts/2017/09/tower_logo.png
+headerImage: true
+tag:
+- Ansible
+- automation
+- devops
+category: blog
+author: miquelMariano
+description: Instalación Ansible Tower steb-by-step
+hidden: false
+permalink: /tower/
 ---
 
 https://blog.confirm.ch/ansible-tower-offline-installation-on-a-red-hat-system/
 
-
-![ansible-win-logo]({{ site.imagesposts2017 }}/08/tower_logo.png)
 
 Buenos dias a tod@s!!!
 
