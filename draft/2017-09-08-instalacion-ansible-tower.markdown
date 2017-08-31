@@ -1,6 +1,6 @@
 ---
 title: Instalación Ansible Tower steb-by-step
-date: '2017-09-208 00:00:00'
+date: '2017-09-08 00:00:00'
 layout: post
 image: /assets/images/posts/2017/09/tower_logo.png
 headerImage: true
