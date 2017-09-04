@@ -49,10 +49,34 @@ S.ficheros          Tamaño Usados  Disp Uso% Montado en
 
 # *Instalación*
 
-+ Configure Ansible Tower installation
-./configure
-+ Start installation
-./setup.sh
++ Descomprimir paquete
+
+```
+[NCORA] [root@miquel-ansible01 /tmp]# tar -xzvf ansible-tower-setup-bundle-latest.el7.tar.gz
+```
+
++ Configurar fichero de inventario modificando los siguientes valores
+
+```
+[NCORA] [root@miquel-ansible01 /tmp/ansible-tower-setup-bundle-3.1.4-1.el7]# vim inventory
+```
+```
+admin_password='password'
+pg_password='password'
+rabbitmq_password='password'
+```
+
++ Arrancar instalación
+
+```
+[NCORA] [root@miquel-ansible01 /tmp/ansible-tower-setup-bundle-3.1.4-1.el7]# ./setup.sh
+```
+
+Seguro que el proceso de instalación os resulta familiar... :)
+![tower-install-process]({{ site.imagesposts2017 }}/09/tower-install-process.png)
+
+Durante la instalación, dará algunos warnings y errores, pero ni caso, el propio playbook está diseñado para contemplar todos los escenarios posibles y al final, terminará correctamente.
+
 + Enjoy and automate!
 http://<hostname>
 
