@@ -22,14 +22,16 @@ Buenos dias a tod@s!!!
 
 Una de las principales quejas de los usuarios Ansible es que no tenía una GUI adecuada. Una buena interfaz de usuario es importante para que los usuarios ocasionales y nuevos se familiaricen con una aplicación antes de sumergirse en las complejidades de la CLI
 
-Ansible en sí era (y sigue siendo) bastante nuevo, por lo que la mayoría de sus usuarios son por definición nuevos usuarios. [Ansible Tower](https://www.ansible.com/tower), es la solución a este problema. Es una completa interfaz de usuario basada en web, que contiene las características más importantes de Ansible
+Ansible en sí era (y sigue siendo) bastante nuevo, por lo que la mayoría de sus usuarios son por definición nuevos usuarios. [Ansible Tower](https://www.ansible.com/tower), es la solución a este problema. Es una completa interfaz de usuario basada en web, que contiene las características más importantes de Ansible.
 
-# *Documantación Ansible Tower*
-
-# *Pre-instalación*
+# *Pre-requisitos*
 
 + Verificar que tenemos 10Gb de espacio disponible en `/var`
 + Asegurarnos que tenemos instalado el repositorio EPEL
+```ssh
+yum install -y epel-release
+```
++ [Tener ansible core instalado](https://miquelmariano.github.io/2017/01/ansible-for-dummies/)
 + Descargar la fuente del paquete desde [Ansible](https://releases.ansible.com/ansible-tower/setup-bundle/)
 
 # *Instalación*
