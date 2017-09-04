@@ -28,39 +28,39 @@ Ansible en sí era (y sigue siendo) bastante nuevo, por lo que la mayoría de su
 
 + Verificar que tenemos 10Gb de espacio disponible en `/var`
 
-```
-[NCORA] [root@miquel-ansible01 /tmp]# df -h /var/
+```ssh
+[root@miquel-ansible01 /tmp]# df -h /var/
 S.ficheros          Tamaño Usados  Disp Uso% Montado en
 /dev/mapper/cl-root    17G   3,7G   14G  22% /
 ```
 
 + Asegurarnos que tenemos instalado el repositorio EPEL
 
-```
-[NCORA] [root@miquel-ansible01 /tmp]# yum install -y epel-release
+```ssh
+[root@miquel-ansible01 /tmp]# yum install -y epel-release
 ```
 
 + [Tener ansible core instalado](https://miquelmariano.github.io/2017/01/ansible-for-dummies/)
 + Descargar la fuente del paquete desde [Ansible](https://releases.ansible.com/ansible-tower/setup-bundle/)
 
-```
-[NCORA] [root@miquel-ansible01 /tmp]# wget https://releases.ansible.com/ansible-tower/setup-bundle/ansible-tower-setup-bundle-latest.el7.tar.gz
+```ssh
+[root@miquel-ansible01 /tmp]# wget https://releases.ansible.com/ansible-tower/setup-bundle/ansible-tower-setup-bundle-latest.el7.tar.gz
 ```
 
 # *Instalación*
 
 + Descomprimir paquete
 
-```
-[NCORA] [root@miquel-ansible01 /tmp]# tar -xzvf ansible-tower-setup-bundle-latest.el7.tar.gz
+```ssh
+[root@miquel-ansible01 /tmp]# tar -xzvf ansible-tower-setup-bundle-latest.el7.tar.gz
 ```
 
 + Configurar fichero de inventario modificando los siguientes valores:
 
+```ssh
+[root@miquel-ansible01 /tmp/ansible-tower-setup-bundle-3.1.4-1.el7]# vim inventory
 ```
-[NCORA] [root@miquel-ansible01 /tmp/ansible-tower-setup-bundle-3.1.4-1.el7]# vim inventory
-```
-```
+```vim
 admin_password='password'
 pg_password='password'
 rabbitmq_password='password'
@@ -68,8 +68,8 @@ rabbitmq_password='password'
 
 + Arrancar instalación
 
-```
-[NCORA] [root@miquel-ansible01 /tmp/ansible-tower-setup-bundle-3.1.4-1.el7]# ./setup.sh
+```ssh
+[root@miquel-ansible01 /tmp/ansible-tower-setup-bundle-3.1.4-1.el7]# ./setup.sh
 ```
 
 Seguro que el proceso de instalación os resulta familiar... :)
