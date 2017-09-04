@@ -55,7 +55,7 @@ S.ficheros          Tamaño Usados  Disp Uso% Montado en
 [NCORA] [root@miquel-ansible01 /tmp]# tar -xzvf ansible-tower-setup-bundle-latest.el7.tar.gz
 ```
 
-+ Configurar fichero de inventario modificando los siguientes valores
++ Configurar fichero de inventario modificando los siguientes valores:
 
 ```
 [NCORA] [root@miquel-ansible01 /tmp/ansible-tower-setup-bundle-3.1.4-1.el7]# vim inventory
@@ -73,16 +73,31 @@ rabbitmq_password='password'
 ```
 
 Seguro que el proceso de instalación os resulta familiar... :)
+
 ![tower-install-process]({{ site.imagesposts2017 }}/09/tower-install-process.png)
 
 Durante la instalación, dará algunos warnings y errores, pero ni caso, el propio playbook está diseñado para contemplar todos los escenarios posibles y al final, terminará correctamente.
 
+![tower-finish-install]({{ site.imagesposts2017 }}/09/tower-finish-install.png)
+
 + Enjoy and automate!
-http://<hostname>
 
-# *Conclusión*
+Ya podremos abrir nuestro navegador web favorito y acceder al portal de login de nuestro Ansible  Tower. El usuario es `admin` y la contraseña, la que hemos editado anteriormente en admin_password='password'`
+
+![tower-login]({{ site.imagesposts2017 }}/09/tower-login.png)
 
 
+
+![tower-license]({{ site.imagesposts2017 }}/09/tower-license.png)
+
+Y ya tenemos nuestro nuevo portal Tower listo para usar
+
+![tower-portal]({{ site.imagesposts2017 }}/09/tower-portal.png)
+
+En los próximos posts veremos cuales son los "Primeros pasos con Ansible Tower"
+
+Espero que os sea de utilidad.
+Gracias por compartir
 
 Un saludo
 
