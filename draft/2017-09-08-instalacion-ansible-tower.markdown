@@ -86,7 +86,7 @@ Ya podremos abrir nuestro navegador web favorito y acceder al portal de login de
 
 ![tower-login]({{ site.imagesposts2017 }}/09/tower-login.png)
 
-
+Lo primero que tendremos que hacer es instalar una licencia válida. El propio asistente nos guia para solicitar una demo, que será gratuita y para manejar hasta 10 hosts
 
 ![tower-license]({{ site.imagesposts2017 }}/09/tower-license.png)
 
