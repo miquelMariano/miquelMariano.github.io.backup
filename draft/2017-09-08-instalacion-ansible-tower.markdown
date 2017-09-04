@@ -27,12 +27,22 @@ Ansible en sí era (y sigue siendo) bastante nuevo, por lo que la mayoría de su
 # *Pre-requisitos*
 
 + Verificar que tenemos 10Gb de espacio disponible en `/var`
-+ Asegurarnos que tenemos instalado el repositorio EPEL
+
 ```ssh
-$ yum install -y epel-release
+[NCORA] [root@miquel-ansible01 /tmp]# df -h /var/
+S.ficheros          Tamaño Usados  Disp Uso% Montado en
+/dev/mapper/cl-root    17G   3,7G   14G  22% /
 ```
+
++ Asegurarnos que tenemos instalado el repositorio EPEL
+
+```ssh
+[NCORA] [root@miquel-ansible01 /tmp]# yum install -y epel-release
+```
+
 + [Tener ansible core instalado](https://miquelmariano.github.io/2017/01/ansible-for-dummies/)
 + Descargar la fuente del paquete desde [Ansible](https://releases.ansible.com/ansible-tower/setup-bundle/)
+
 ```ssh
 [NCORA] [root@miquel-ansible01 /tmp]# wget https://releases.ansible.com/ansible-tower/setup-bundle/ansible-tower-setup-bundle-latest.el7.tar.gz
 ```
