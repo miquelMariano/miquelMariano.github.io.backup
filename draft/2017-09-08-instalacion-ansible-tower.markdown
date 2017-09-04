@@ -21,7 +21,7 @@ Una de las principales quejas de los usuarios Ansible es que no tenía una GUI a
 
 Ansible en sí era (y sigue siendo) bastante nuevo, por lo que la mayoría de sus usuarios son por definición nuevos usuarios. [Ansible Tower](https://www.ansible.com/tower), es la solución a este problema. Es una completa interfaz de usuario basada en web, que contiene las características más importantes de Ansible.
 
-A continuación os voy a describir el paso a paso para su instalación, pero, no dejéis de consultar su [guía oficial](http://docs.ansible.com/ansible-tower/latest/html/installandreference/tower_install_wizard.html#setting-up-the-inventory-file) si queréis profundizar un poco mas en el tema.
+A continuación os voy a describir el paso a paso para su instalación, pero, no dejéis de consultar su [guía oficial](http://docs.ansible.com/ansible-tower/latest/html/installandreference/index.html) si queréis profundizar un poco mas en el tema.
 
 # *Pre-requisitos*
 
