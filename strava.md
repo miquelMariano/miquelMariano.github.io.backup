@@ -6,7 +6,7 @@ permalink: /strava/
 
 <center>
 
-<iframe height='454' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/4848838/latest-rides/c4b86fee8a0c26e45dd56ce2a9917ac7cb8c22d9'></iframe>
+<iframe allowtransparency frameborder='0' height='454' scrolling='no' src='https://www.strava.com/clubs/309441/latest-rides/daa302f814e63d9f36bcb0a56c645dd6324126a0?show_rides=true' width='300'></iframe>
 
 </center>
 
