@@ -17,7 +17,7 @@ description: Programar backup automático en VCSA 6.5
 hidden: false
 ---
 
-Buenos dias a tod@as!!
+Buenos dias a tod@s!!
 
 Hace varias semanas, publicamos un [#NcoraTutorial](https://miquelmariano.github.io/2017/03/backup-restore-vCenter-65/) sobre como hacer un backup de la configuración de un vCenter Appliance 6.5
 

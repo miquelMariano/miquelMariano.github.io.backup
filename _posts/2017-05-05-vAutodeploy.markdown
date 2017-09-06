@@ -18,7 +18,7 @@ hidden: false
 permalink: /vAutodeploy/
 ---
 
-Hola a todos!
+Hola a tod@s!
 
 En el post de hoy os voy a compartir un script que llevo utilizando y mejorando ya mucho tiempo.
 

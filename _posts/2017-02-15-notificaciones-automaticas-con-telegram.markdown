@@ -14,7 +14,7 @@ description: Notificaciones automáticas con Telegram
 hidden: false
 ---
 
-Buenos días a todos!
+Buenos días a tod@s!
 
 Hoy os vengo a contar una de las funcionalidades  que mas me ha llamado la atención de Telegram.
 Como sabeis, Telegram es un sistema de mensajería instantánea, muy similar a WatsApp, pero con algunas funcionalidades extra, por ejemplo los bots.
