@@ -1,5 +1,5 @@
 ---
-title: Introducción a PRTG "Overview"
+title: Introducción a PRTG [Overview]
 date: '2017-08-25 00:00:00'
 layout: post
 image: /assets/images/posts/2017/10/prtg-logo.png
