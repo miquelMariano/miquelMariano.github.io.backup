@@ -79,7 +79,7 @@ Durante la instalación, dará algunos warnings y errores, pero ni caso, el prop
 
 ![tower-finish-install]({{ site.imagesposts2017 }}/09/tower-finish-install.png)
 
-+ Enjoy and automate!
+# *Enjoy and automate*
 
 Ya podremos abrir nuestro navegador web favorito y acceder al portal de login de nuestro Ansible  Tower. El usuario es `admin` y la contraseña, la que hemos editado anteriormente en `admin_password='password'`
 
