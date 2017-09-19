@@ -1,13 +1,20 @@
 ---
 title: Reclamar bloques eliminados en datastores VMFS
-date: '2017-07-28 00:00:00'
-author: miquelMariano
-tags: [VMWare,vSphere,vExpert,storage,VMFS]
-categories: [prueba1]
-published: true
-comments: true
-permalink: /reclaim/
+date: '2017-09-22 00:00:00'
 layout: post
+image: /assets/images/posts/2017/08/vcenter-backup.png
+headerImage: false
+tag:
+- vmware
+- vexpert
+- vsphere
+- storage
+- VMFS
+category: blog
+author: miquelMariano
+description: Reclamar bloques eliminados en datastores VMFS
+hidden: false
+permalink: /reclaim/
 ---
 
 Buenos dias, en el post de hoy vamos a ver como reclamar bloques eliminados en nuestros datastores VMFS.
