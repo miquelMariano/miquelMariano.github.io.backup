@@ -17,7 +17,7 @@ hidden: false
 permalink: /reclaim/
 ---
 
-Buenos dias, en el post de hoy vamos a ver como reclamar bloques eliminados en nuestros datastores VMFS.
+Buenos dias, en el post de hoy vamos a ver como reclamar bloques eliminados en nuestros datastores VMFS3 o VMFS5.
 
 El proceso, consiste en reclamar el espacio que ya no se está utilizando en un datastore VMFS y devolverlo a la cabina para su posterior reutilización.
 
