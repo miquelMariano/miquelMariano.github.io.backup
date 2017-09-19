@@ -2,7 +2,7 @@
 title: Backup de la configuración de la SAN: switch Brocade
 date: '2017-09-22 00:00:00'
 layout: post
-image: /assets/images/posts/2017/09/tower_logo.png
+image: /assets/images/posts/2017/09/brocade-logo.png
 headerImage: true
 tag:
 - Ansible
