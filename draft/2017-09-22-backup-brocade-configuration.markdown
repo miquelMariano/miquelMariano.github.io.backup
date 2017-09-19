@@ -5,9 +5,10 @@ layout: post
 image: /assets/images/posts/2017/09/brocade-logo.png
 headerImage: true
 tag:
-- Ansible
-- automation
-- devops
+- SAN
+- brocade
+- FC
+- backup
 category: blog
 author: miquelMariano
 description: Backup de la configuración de la SAN: switch Brocade
