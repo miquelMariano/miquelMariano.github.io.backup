@@ -13,7 +13,7 @@ category: blog
 author: miquelMariano
 description: Backup de la configuración de la SAN: switch Brocade
 hidden: false
-permalink: /backupbrocade/
+permalink: /brocade/
 ---
 
 http://systemadmin.es/2009/04/backup-de-la-configuracion-de-la-san-switch-brocade
