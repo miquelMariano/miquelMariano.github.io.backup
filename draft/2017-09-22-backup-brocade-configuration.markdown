@@ -1,5 +1,5 @@
 ---
-title: [Brocade] Backup de la configuración de la SAN
+title: Backup de la configuración de la SAN
 date: '2017-09-22 00:00:00'
 layout: post
 image: /assets/images/posts/2017/09/brocade-logo.png
