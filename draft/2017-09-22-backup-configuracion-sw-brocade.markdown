@@ -21,7 +21,7 @@ http://systemadmin.es/2009/04/backup-de-la-configuracion-de-la-san-switch-brocad
 
 Buenos días a tod@s!!!
 
-En el post de hoy, veremos como de una forma sencilla podemos realizar un backup de la configuración de los switchs de nuestra SAN.
+En el breve post de hoy, veremos como de una forma sencilla podemos realizar un backup de la configuración de los switchs de nuestra SAN.
 
 Para ello los switch Brocade ofrecen la posibilidad de hacer backup mediante scp o ftp. Vamos a ver como implementar los backups mediante el comando `configupload`.
 
@@ -38,13 +38,12 @@ File Name [config_SW01.txt]:
 
 brocade@192.168.6.38's password:
 
-
 configUpload complete: All config parameters are uploaded
 SW01:admin> exit
 ```
 
+Como veis, no tiene ningún tipo de complicación y podremos hacer backups de forma manual de nuestros switches.
 
-...
 
 Espero que os sea de utilidad.
 Gracias por compartir
@@ -52,5 +51,8 @@ Gracias por compartir
 Un saludo
 
 Miquel.
+
+
+P.D. Los que me conoceis, sabeis que no me suelo conformar con "hacer" las cosas "manualmente", así que en próximos posts, os enseñaré como automatizar esta tarea y que periodicamente se ejecute un backup de nuestra configuración ;-)
 
 
