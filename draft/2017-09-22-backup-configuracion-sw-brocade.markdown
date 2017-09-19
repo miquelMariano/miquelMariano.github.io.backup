@@ -1,42 +1,34 @@
 ---
-title: Error al eliminar fichero de datastore VMFS
+title: Backup de la configuración en Brocade FC Switches
 date: '2017-09-22 00:00:00'
 layout: post
-image: /assets/images/posts/2017/08/vcenter-backup.png
-headerImage: false
+image: /assets/images/posts/2017/10/brocade-logo.png
+headerImage: true
 tag:
-- vmware
-- vexpert
-- vCenter
-- VCSA
-- VMFS
+- backup
+- brocade
+- fabric
+- san
+- fc
 category: blog
 author: miquelMariano
-description: Error al eliminar fichero de datastore VMFS
+description: Backup de la configuración en Brocade FC Switches
 hidden: false
 permalink: /backupbrocade/
 ---
 
-Buenos dias a tod@as!!
+http://systemadmin.es/2009/04/backup-de-la-configuracion-de-la-san-switch-brocade
 
-Os habrá pasado alguna vez intentar eliminar una VM de un datastore y encontraros con el siguiente error:
-
-![img1]({{ site.imagesposts2017 }}/09/cannot-delete1.png)
-
-Incluso intentar eliminarlo por ssh directamente desde el ESXi:
-
-```ssh
-/vmfs/volumes/57b321fa-349912dc-bc05-90b11c3dbf06/AD_replica # rm todelete-flat.vmdk
-rm: can't remove 'todelete-flat.vmdk': Device or resource busy
-```
+Buenos días a tod@s!!!
 
 
+...
 
+Espero que os sea de utilidad.
+Gracias por compartir
 
-Un saludo!
+Un saludo
 
 Miquel.
-
-http://tomaskalabis.com/wordpress/vmware-esxi-cannot-delete-file/
 
 
