@@ -55,7 +55,7 @@ esxcli storage vmfs unmap -l DATASTORE01
 ![esxtop1]({{ site.imagesposts2017 }}/07/esxtop1.png)
 
 
-Para obtener esta vista en esxtop es necesario entrar en el menú de selección de columnas pusando f y seleccionar  solo las columnas a o p
+Para obtener esta vista en esxtop es necesario entrar en el menú de selección de columnas pusando `f` y seleccionar  solo las columnas `a` `o` `p`
 Los valores mostrados en la columna Delete es el nº de bloques que se van a eliminar. El valor de cada bloque en VMFS5 es de 1MB
 
 
