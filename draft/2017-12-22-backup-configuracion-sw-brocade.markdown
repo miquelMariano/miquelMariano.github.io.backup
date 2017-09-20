@@ -52,7 +52,6 @@ Un saludo
 
 Miquel.
 
-
 P.D. Los que me conoceis, sabeis que no me suelo conformar con "hacer" las cosas "manualmente", así que en próximos posts, os enseñaré como automatizar esta tarea y que periodicamente se ejecute un backup de nuestra configuración ;-)
 
 
