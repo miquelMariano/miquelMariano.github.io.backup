@@ -4,7 +4,7 @@ permalink: /reclaimZeroPages/
 layout: page
 ---
 
-Ir al [post](https://miquelMariano.github.io/reclaim)
+Ir al [post](https://miquelmariano.github.io/2017/09/reclaim-VMFS-deleted-blocks/)
 
 ```python
 #!/bin/python
@@ -97,4 +97,4 @@ print "\n* Fin."
 sys.exit
 ```
 
-Ir al [post](https://miquelMariano.github.io/reclaim)
+Ir al [post](https://miquelmariano.github.io/2017/09/reclaim-VMFS-deleted-blocks/)
