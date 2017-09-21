@@ -2,8 +2,8 @@
 title: Migrar configuración de un vCenter a otro
 layout: post
 date: 2017-03-10 00:00:00
-image: /assets/images/posts/2017/02/logo_telegram.png
-headerImage: false
+image: /assets/images/posts/2017/03/vcenter-migrate-logo.png
+headerImage: true
 tag:
 - VMWare
 - vSphere
