@@ -14,13 +14,12 @@ category: blog
 author: miquelMariano
 description: Error al eliminar fichero de datastore VMFS
 hidden: false
-permalink: /awx/
+permalink: /storage/
 ---
 
 Buenos dias a tod@as!!
 
-Ohttps://galaxy.ansible.com/geerlingguy/awx/
-
+https://virtualguido.blogspot.com.es/2016/10/understanding-io-what-about-iops.html
 
 
 
