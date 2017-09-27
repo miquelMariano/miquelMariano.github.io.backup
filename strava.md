@@ -6,9 +6,7 @@ permalink: /strava/
 
 ![banner-strava]({{ site.url }}/{{ site.images }}strava-banner.jpeg) 
 
-![logo-vExpert17]({{ site.url }}/{{ site.images }}logo_vexpert2017.png) 
-
-Los que me conocéis bien, sabéis de mi pasión por el deporte. Me encantan los deportes al aire libre, sobretodo los relacionados con la montaña y la naturaleza. Llevo ya unos cuantos años practicando las carreras por montaña y utilizo el BTT como complemento a mis entrenos.
+Los que me conocéis bien, sabéis de mi pasión por el deporte. Me encantan los deportes al aire libre, sobretodo los relacionados con la montaña y la naturaleza. Tengo la suerte de poder vivir en Mallorca, y aunque no tenemos montañas muy altas, si que podemos disfrutar nuestra querida [Serra de Tramuntana.](http://www.serradetramuntana.net/es/index.php) Llevo ya unos cuantos años practicando las carreras por montaña y utilizo el BTT como complemento a mis entrenos.
 
 A continuación, podréis echar un vistazo a mis últimos entrenos :-)
 
