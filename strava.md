@@ -4,7 +4,9 @@ title: Strava activity
 permalink: /strava/
 ---
 
-![banner-strava]({{ site.url }}/{{ site.images }}strava-banner-jpeg) 
+![banner-strava]({{ site.url }}/{{ site.images }}strava-banner.jpeg) 
+
+![logo-vExpert17]({{ site.url }}/{{ site.images }}logo_vexpert2017.png) 
 
 Los que me conocéis bien, sabéis de mi pasión por el deporte. Me encantan los deportes al aire libre, sobretodo los relacionados con la montaña y la naturaleza. Llevo ya unos cuantos años practicando las carreras por montaña y utilizo el BTT como complemento a mis entrenos.
 
