@@ -1,6 +1,6 @@
 ---
 title: Backup de la configuración en Brocade FC Switches
-date: '2017-10-03 00:00:00'
+date: '2017-10-04 00:00:00'
 layout: post
 image: /assets/images/posts/2017/10/brocade-logo.png
 headerImage: true
