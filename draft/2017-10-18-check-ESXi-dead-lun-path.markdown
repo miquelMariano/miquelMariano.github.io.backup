@@ -51,5 +51,10 @@ La ejecución del script nos creará un log, en el que facilmente podremos ident
 
 No hace falta decir que este log, puede ser monitorizado con nuestra herramienta de monitorización preferida, como puede ser [PRTG](https://www.es.paessler.com/prtg) y que nos genere una alerta cada vez que detecte algún "Dead" en el log.
 
+Y hasta aquí por hoy, si os ha resultado de vuestro interés, por favor no dudeis en compartir en vuestras RRSS :-)
+
+Un saludo!
+
+
 
 Miquel.
