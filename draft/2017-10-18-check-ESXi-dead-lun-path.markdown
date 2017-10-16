@@ -3,7 +3,7 @@ title: Checkear dead path en ESXi
 date: '2017-10-18 00:00:00'
 layout: post
 image: /assets/images/posts/2017/10/dead-path.png
-headerImage: false
+headerImage: true
 tag:
 - vExpert
 - devops
