@@ -12,7 +12,7 @@ Tengo mas de 10 años de experiencia en el ámbito de sistemas y en los últimos
 
  - Diseño e implementación de VMware vSphere
  - Instalación y configuración de VMware ESXi 4.x, 5.x, 6.x
- - Instalación y configuración de almacenamiento Hitachi HUS, EMC VNXe, IBM Storwize, QNAP
+ - Instalación y configuración de almacenamiento Hitachi HUS, VSP Gx00, EMC VNXe, IBM Storwize, QNAP
  - Protocolos de almacenamiento: iSCSI, FC, NFS, SMB/CIFS
  - Instalación y configuración Dell PowerEdge, HP Proliant servers, Hitachi Compute Blade
  - Instalación y configuración Brocade FC SAN Switches
@@ -26,4 +26,6 @@ He tenido la suerte de poder certificarme en VCP5/6-DCV y en estos últimos 2 a�
 ![logo-vExpert17]({{ site.url }}/{{ site.images }}logo_vexpert2017.png) 
 
 ![logo-vcp6]({{ site.url }}/{{ site.images }}logo_vcp6.png) 
+
+![logo-hds]({{ site.url }}/{{ site.images }}logo_hds.png) 
 
