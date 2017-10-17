@@ -19,7 +19,8 @@ permalink: /awx/
 
 Buenos dias a tod@as!!
 
-Ohttps://galaxy.ansible.com/geerlingguy/awx/
+
+https://galaxy.ansible.com/geerlingguy/awx/
 
 
 
