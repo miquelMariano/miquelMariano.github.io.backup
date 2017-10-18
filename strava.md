@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Strava activity
+title: Strava
 permalink: /strava/
 ---
 
