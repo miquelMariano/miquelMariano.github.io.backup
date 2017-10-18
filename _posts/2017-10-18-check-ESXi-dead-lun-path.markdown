@@ -15,7 +15,6 @@ category: blog
 author: miquelMariano
 description: Checkear dead path en ESXi
 hidden: false
-permalink: /deadpath/
 ---
 
 Buenos dias a tod@s!!
