@@ -11,7 +11,7 @@ permalink: /supersearch/
             </a>
 
  <div class="super-search" id="js-super-search">
-  <input type="text" placeholder="Type here to search." class="super-search__input" id="js-super-search__input">
+  <input type="text" placeholder="Type here to search" class="super-search__input" id="js-super-search__input">
   <ul class="super-search__results" id="js-super-search__results"></ul>
  </div>
 
