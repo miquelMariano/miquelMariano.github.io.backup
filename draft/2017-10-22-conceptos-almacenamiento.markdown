@@ -5,14 +5,12 @@ layout: post
 image: /assets/images/posts/2017/08/vcenter-backup.png
 headerImage: false
 tag:
-- vmware
-- vexpert
-- vCenter
-- VCSA
-- VMFS
+- storage
+- san
+- devops
 category: blog
 author: miquelMariano
-description: Error al eliminar fichero de datastore VMFS
+description: Conceptos básicos de almacenamiento. IOPS, Throughput, Latency and I/O Size
 hidden: false
 permalink: /storage/
 ---
