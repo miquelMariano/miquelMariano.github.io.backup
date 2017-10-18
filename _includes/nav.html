@@ -22,16 +22,14 @@
             {% endif %}
         {% endif %}
 
-        {% if site.about == true %}
-            {% if page.title != "About" %}
-                <li class="item">
-                    <a class="link" href="{{ site.url }}/about">About</a>
-                </li>
-            {% endif %}
+        {% if site.galaxy == true %}
+            <li class="item">
+                <a class="link" href="https://galaxy.ansible.com/miquelMariano/">Galaxy</a>
+            </li>
         {% endif %}
 
         {% if site.about == true %}
-            {% if page.title != "About" %}
+            {% if page.title != "Strava" %}
                 <li class="item">
                     <a class="link" href="{{ site.url }}/strava">Strava</a>
                 </li>
@@ -44,10 +42,12 @@
             </li>
         {% endif %}
 
-        {% if site.galaxy == true %}
-            <li class="item">
-                <a class="link" href="https://galaxy.ansible.com/miquelMariano/">Galaxy</a>
-            </li>
+        {% if site.about == true %}
+            {% if page.title != "About" %}
+                <li class="item">
+                    <a class="link" href="{{ site.url }}/about">About</a>
+                </li>
+            {% endif %}
         {% endif %}
 
 <!--SUPERSEARCH-->
