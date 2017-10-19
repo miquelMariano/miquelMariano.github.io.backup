@@ -2,7 +2,7 @@
 title: Notificaciones automáticas con Telegram
 layout: post
 date: 2017-02-15 00:00
-image: /assets/images/posts/2017/02/logo_telegram.png
+image: /assets/images/posts/2017/02/logo_telegram.jpg
 headerImage: true
 tag:
 - telegram
