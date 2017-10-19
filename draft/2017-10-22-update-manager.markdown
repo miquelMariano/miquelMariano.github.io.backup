@@ -17,7 +17,7 @@ hidden: false
 permalink: /updatemanager/
 ---
 
-Buenos dias a tod@as!!
+Buenos dias a tod@as!!!
 
 Introducción
 El presente documento pretende servir de guía para la configuración y posterior uso de vSphere Update Manager como herramienta para la actualización de HW Virtual y VMWare Tools en nuestras máquinas virtuales de un entorno vSphere
