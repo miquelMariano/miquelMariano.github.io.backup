@@ -8,7 +8,9 @@ permalink: /about/
 
 Hola, me llamo Miquel Mariano Ramis y soy Consultor TI en [Ncora](https://www.ncora.com/)
 
-Tengo mas de 10 años de experiencia en el ámbito de sistemas y en los últimos años he centrado mi trayectoria profesional especializándome en todo lo relacionado con la virtualización y automaticación del datacenter:
+A parte de la tecnología, me encanta el deporte al aire libre. Aunque viva en una isla como Mallorca, soy mas de montaña que de playa, así que es fácil encontrarme por el monte haciendo MTB, corriendo o simplemente practicando algo de senderismo.
+
+En lo profesional, cuento con mas de 10 años de experiencia en el ámbito de sistemas y en los últimos años he centrado mi trayectoria profesional especializándome en todo lo relacionado con la virtualización y automaticación del datacenter:
 
  - Diseño e implementación de VMware vSphere
  - Instalación y configuración de VMware ESXi 4.x, 5.x, 6.x
