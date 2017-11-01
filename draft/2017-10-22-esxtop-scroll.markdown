@@ -22,7 +22,7 @@ http://www.vmwarearena.com/esxtop-limiting-your-view-no-need-to-scrollpagedown-y
 
 Muy buenos dias a tod@as, en el post de hoy os voy a mostrar una pequeña funcionalidad que tiene el comando esxtop y que me ha sido de mucha ayuda en mas de una ocasión.
 
-
+Para mi, esxtop es una de mis herramientas favoritas a la hora de hacer troubleshooting ya que permite, en tiempo real, visualizar infinidad de contadores y metricas de performance.
 
 ```ssh
 esxtop -export-entity /tmp/limited-view
@@ -89,26 +89,7 @@ esxtop -import-entity /tmp/limited-view
 
 Vista de "disk device" pulsando "u"
 
-```ssh
-  P:  VAAILATSTATS/cmd = VAAI Latency Stats (ms)
-
-Toggle fields with a-p, any other key to return:
-12:49:54am up 36 days  9:37, 1110 worlds, 6 VMs, 58 vCPUs; CPU load average: 0.27, 0.27, 0.27
-
-DEVICE                               CLONE_RD CLONE_WR  CLONE_F MBC_RD/s MBC_WR/s      ATS ATSF     ZERO   ZERO_F MBZERO/s   DELETE DELETE_F  MBDEL
-mpx.vmhba32:C0:T0:L0                        0        0        0     0.00     0.00        0    0        0        0     0.00        0        0     0.
-naa.60060e8012ad9c005040ad9c00000000        0        0        0     0.00     0.00  1007140 6213      532        0     0.00        0        0     0.
-naa.60060e8012ad9c005040ad9c00000001        0        0        0     0.00     0.00    70729   14        2        0     0.00        0        0     0.
-naa.60060e8012ad9c005040ad9c00000002        0        0        0     0.00     0.00    70528   17        0        0     0.00        0        0     0.
-naa.60060e8012ad9c005040ad9c00000003        0        0        0     0.00     0.00    70533   25        1        0     0.00        0        0     0.
-naa.60060e8012ad9c005040ad9c00000004        0        0        0     0.00     0.00    71009   22        2        0     0.00        0        0     0.
-naa.60060e8012ad9c005040ad9c00000005        0        0        0     0.00     0.00    71504   26        5        0     0.00        0        0     0.
-naa.60060e8012ad9c005040ad9c00000006        0        0        0     0.00     0.00    70943   17        2        0     0.00        0        0     0.
-naa.60060e8012ad9c005040ad9c00000007        0        0        0     0.00     0.00    71178   47        3        0     0.00        0        0     0.
-naa.60060e8012ad9c005040ad9c00000008        0        0        0     0.00     0.00    71042   24        1        0     0.00        0        0     0.
-naa.60060e8012ad9c005040ad9c00000009        0        0        0     0.00     0.00    71145   25        3        0     0.00        0        0     0.
-naa.60060e8012ad9c005040ad9c00000010        0        0        0     0.00     0.00  3566321 4771        0        0     0.00        0        0     0.
-```
+![esxtop]({{ site.imagesposts2017 }}/11/esxtop2.png)
 
 Un saludo!
 
