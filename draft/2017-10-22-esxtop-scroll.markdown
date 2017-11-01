@@ -17,17 +17,14 @@ hidden: false
 permalink: /scroll/
 ---
 
-http://www.vmwarearena.com/esxtop-limiting-your-view-no-need-to-scrollpagedown-your-esxtop-output/
+Muy buenos días a tod@as, en el post de hoy os voy a mostrar una pequeña funcionalidad que tiene el comando esxtop y que me ha sido de mucha ayuda en mas de una ocasión.
 
-
-Muy buenos dias a tod@as, en el post de hoy os voy a mostrar una pequeña funcionalidad que tiene el comando esxtop y que me ha sido de mucha ayuda en mas de una ocasión.
-
-Para mi, esxtop es una de mis herramientas favoritas a la hora de hacer troubleshooting ya que permite, en tiempo real, visualizar infinidad de contadores y metricas de performance.
+Para mi, esxtop es una de mis herramientas favoritas a la hora de hacer troubleshooting ya que permite, en tiempo real, visualizar infinidad de contadores y métricas de performance.
 
 Pero, por poner alguna pega, debido a la gran cantidad de información que da, alguna vez he echado en falta un scroll o un "page down" para poder ver todos los registros. Esto puede ser un problema cuando buscamos objetos específicos que están ocultos en la pantalla ESXTOP debido a que la pantalla es limitada y tampoco se puede desplazar hacia el objeto específico como una VM o una LUN.
 
 ![esxtop]({{ site.imagesposts2017 }}/11/esxtop3.png)
-*En la imagen superior se vé una lista limitada de volúmenes, pero en realidad todavia hay decenas y decenas que no aparecen
+*En la imagen superior se ve una lista limitada de volúmenes, pero en realidad todavía hay decenas y decenas que no aparecen
 
 Desafortunadamente, actualmente no existe (o no conozco) una opción de línea de comando para que esxtop especifique las VM / LUN específicas que se deben mostrar, pero si que podemos exportar la lista de "worlds" e importarla nuevamente para limitar la cantidad de VM o LUN mostrados.
 
@@ -45,7 +42,7 @@ Hay una opción disponible con ESXTOP llamada "export-entity" y "import-entity".
 [root@ncoraesxi01:~] vi /tmp/limited-view
 ```
 
-En este caso concreto, tenia una lista demasiado extensa de datastores, por lo que ncesitba filtrar y mostrar solo los discos que a mi me interesaban en ese momento, así que simplemente comentando (#) las lineas puedo "ocultar" información irrelevante.
+En este caso concreto, tenia una lista demasiado extensa de datastores, por lo que necesitaba filtrar y mostrar solo los discos que a mi me interesaban en ese momento, así que simplemente comentando (#) las lineas puedo "ocultar" información irrelevante.
 
 ```ssh
 ...
@@ -105,7 +102,7 @@ Vista de "disk device" pulsando "u"
 ![esxtop]({{ site.imagesposts2017 }}/11/esxtop2.png)
 *En la imagen superior se ve que ahora si solo se muestran los volúmenes que nos interesan
 
-Espero que os pueda ser de utilidad y si es así, que lo compartais en vuestras RRSS
+Espero que os pueda ser de utilidad y si es así, que lo compartáis en vuestras RRSS
 
 Muchas gracias
 
