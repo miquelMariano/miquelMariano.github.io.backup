@@ -2,7 +2,7 @@
 title: Limitando nuestra vista sin necesidad de scroll para nuestra salida ESXTOP
 date: '2017-09-22 00:00:00'
 layout: post
-image: /assets/images/posts/2017/08/vcenter-backup.png
+image: /assets/images/posts/2017/11/esxtop.png
 headerImage: true
 tag:
 - vmware
