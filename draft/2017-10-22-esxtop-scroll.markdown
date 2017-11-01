@@ -17,17 +17,22 @@ hidden: false
 permalink: /scroll/
 ---
 
-Buenos dias a tod@as!!
-
 http://www.vmwarearena.com/esxtop-limiting-your-view-no-need-to-scrollpagedown-your-esxtop-output/
 
+
+Muy buenos dias a tod@as, en el post de hoy os voy a mostrar una pequeña funcionalidad que tiene el comando esxtop y que me ha sido de mucha ayuda en mas de una ocasión.
+
+
+
 ```ssh
-esxtop -export-entity /tmp/Luns-limitedview
+esxtop -export-entity /tmp/limited-view
 ```
 
 ```ssh
-vi /tmp/Luns-limitedview
+vi /tmp/limited-view
 ```
+
+En este caso concreto, tenia una lista demasiado extensa de datastores, por lo que ncesitba filtrar y mostrar solo los discos que a mi me interesaban en ese momento, así que simplemente comentando (#) las lineas puedo "ocultar" información irrelevante.
 
 ```ssh
 ...
@@ -78,11 +83,11 @@ NetPort
 
 
 ```ssh
-esxtop -import-entity /tmp/Luns-limitedview
+esxtop -import-entity /tmp/limited-view
 ```
 
 
-Salida volúmenes pulsando "d"
+Vista de "disk device" pulsando "u"
 
 ```ssh
   P:  VAAILATSTATS/cmd = VAAI Latency Stats (ms)
