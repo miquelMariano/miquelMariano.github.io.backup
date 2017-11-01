@@ -1,6 +1,6 @@
 ---
 title: Limitando nuestra vista sin necesidad de scroll para nuestra salida ESXTOP
-date: '2017-09-22 00:00:00'
+date: '2017-11-01 00:03:00'
 layout: post
 image: /assets/images/posts/2017/11/esxtop.png
 headerImage: true
@@ -14,7 +14,6 @@ category: blog
 author: miquelMariano
 description: Limitando nuestra vista sin necesidad de scroll para nuestra salida ESXTOP
 hidden: false
-permalink: /scroll/
 ---
 
 Muy buenos días a tod@as, en el post de hoy os voy a mostrar una pequeña funcionalidad que tiene el comando esxtop y que me ha sido de mucha ayuda en mas de una ocasión.
