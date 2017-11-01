@@ -36,13 +36,13 @@ Hay una opción disponible con ESXTOP llamada "export-entity" y "import-entity".
 + Exportamos la salida del comando a un fichero temporal
 
 ```ssh
-esxtop -export-entity /tmp/limited-view
+[root@ncoraesxi01:~] esxtop -export-entity /tmp/limited-view
 ```
 
 + Editamos este fichero para limitar los "objetos" que queremos mostrar
 
 ```ssh
-vi /tmp/limited-view
+[root@ncoraesxi01:~] vi /tmp/limited-view
 ```
 
 En este caso concreto, tenia una lista demasiado extensa de datastores, por lo que ncesitba filtrar y mostrar solo los discos que a mi me interesaban en ese momento, así que simplemente comentando (#) las lineas puedo "ocultar" información irrelevante.
@@ -97,7 +97,7 @@ NetPort
 + Lanzamos esxtop importando el fichero editado
 
 ```ssh
-esxtop -import-entity /tmp/limited-view
+[root@ncoraesxi01:~] esxtop -import-entity /tmp/limited-view
 ```
 
 Vista de "disk device" pulsando "u"
