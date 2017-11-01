@@ -24,6 +24,11 @@ Muy buenos dias a tod@as, en el post de hoy os voy a mostrar una pequeña funcio
 
 Para mi, esxtop es una de mis herramientas favoritas a la hora de hacer troubleshooting ya que permite, en tiempo real, visualizar infinidad de contadores y metricas de performance.
 
+Pero, por poner alguna pega, debido a la gran cantidad de información que da, alguna vez he echado en falta un scroll o un "page down" para poder ver todos los registros
+
+![esxtop]({{ site.imagesposts2017 }}/11/esxtop3.png)
+*En la imagen superior se vé una lista limitada de volumenes, pero en realidad todavia hay decenas y decenas que no aparecen
+
 ```ssh
 esxtop -export-entity /tmp/limited-view
 ```
