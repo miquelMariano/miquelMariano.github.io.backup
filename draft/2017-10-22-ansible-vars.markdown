@@ -19,7 +19,7 @@ Buenos dias a tod@as!!
 
 https://liquidat.wordpress.com/2016/01/26/howto-introduction-to-ansible-variables/
 
-
+..
 
 
 Un saludo!
