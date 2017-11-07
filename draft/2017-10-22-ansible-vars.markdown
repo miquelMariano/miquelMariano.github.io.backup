@@ -1,9 +1,9 @@
 ---
-title: Error al eliminar fichero de datastore VMFS
+title: Uso de variables con Ansible
 date: '2017-09-22 00:00:00'
 layout: post
-image: /assets/images/posts/2017/08/vcenter-backup.png
-headerImage: false
+image: /assets/images/posts/2017/11/ansible.png
+headerImage: true
 tag:
 - vmware
 - vexpert
@@ -12,9 +12,9 @@ tag:
 - VMFS
 category: blog
 author: miquelMariano
-description: Error al eliminar fichero de datastore VMFS
+description: Uso de variables con Ansible
 hidden: false
-permalink: /awx/
+permalink: /avars/
 ---
 
 Buenos dias a tod@as!!
