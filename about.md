@@ -12,16 +12,15 @@ A parte de la tecnología, me encanta el deporte al aire libre. Aunque viva en u
 
 En lo profesional, cuento con mas de 10 años de experiencia en el ámbito de sistemas y en los últimos años he centrado mi trayectoria profesional especializándome en todo lo relacionado con la virtualización y automaticación del datacenter:
 
- - Diseño e implementación de VMware vSphere
- - Instalación y configuración de VMware ESXi 4.x, 5.x, 6.x
- - Instalación y configuración de almacenamiento Hitachi HUS, VSP Gx00, EMC VNXe, IBM Storwize, QNAP
- - Protocolos de almacenamiento: iSCSI, FC, NFS, SMB/CIFS
- - Instalación y configuración Dell PowerEdge, HP Proliant servers, Hitachi Compute Blade
- - Instalación y configuración Brocade FC SAN Switches
- - Disaster Recovery, Veeam Backup & Replication
- - Análisis de carga de trabajo y dimensionamiento de máquinas virtuales
- - Automatización, Ansible, PowerCLI...
- - Análisis de performance y resolución de problemas en VMWare vSphere
+ - Diseño e implementación de grantes entornos VMware vSphere
+ - Instalación, configuración y administración de almacenamiento Hitachi HUS, VSP Gx00, EMC VNXe, IBM Storwize, QNAP
+ - Instalación, configuración y administración de SAN con Brocade FC Switches
+ - Amplios conocimientos en protocolos de almacenamiento: iSCSI, FC, NFS, SMB/CIFS
+ - Instalación, configuración y administración de servidores Dell PowerEdge, HP Proliant, Hitachi Compute Blade
+ - Disaster Recovery, Veeam Backup & Replication y continuidad de negocio
+ - Análisis de carga de trabajo, performance y dimensionamiento de máquinas virtuales
+ - Automatización con Ansible, scripting con PowerCLI, bash, ...
+ - Monitorización con PRTG Network Monitor
 
 He tenido la suerte de poder certificarme en VCP5/6-DCV y en estos últimos 2 años, VMWare me ha nombrado vExpert
 
