@@ -12,7 +12,7 @@ A parte de la tecnología, me encanta el deporte al aire libre. Aunque viva en u
 
 En lo profesional, cuento con mas de 10 años de experiencia en el ámbito de sistemas y en los últimos años he centrado mi trayectoria profesional especializándome en todo lo relacionado con la virtualización y automaticación del datacenter:
 
- - Diseño e implementación de grantes entornos VMware vSphere
+ - Diseño, implementación y administración de grantes entornos VMware vSphere
  - Instalación, configuración y administración de almacenamiento Hitachi HUS, VSP Gx00, EMC VNXe, IBM Storwize, QNAP
  - Instalación, configuración y administración de SAN con Brocade FC Switches
  - Amplios conocimientos en protocolos de almacenamiento: iSCSI, FC, NFS, SMB/CIFS
