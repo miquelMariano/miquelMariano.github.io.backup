@@ -1,5 +1,5 @@
 ---
-title: [Back-to-basics] 1 - Ficheros de una VM
+title: Back-to-basics | 1 - Ficheros de una VM
 date: '2017-11-16 00:00:00'
 layout: post
 image: /assets/images/posts/2017/11/ansible.png
