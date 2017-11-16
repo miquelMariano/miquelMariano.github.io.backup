@@ -2,7 +2,7 @@
 title: Back-to-basics 1 - Ficheros de una VM
 date: '2017-11-16 00:00:00'
 layout: post
-image: /assets/images/posts/2017/11/vmfiles1.pngº
+image: /assets/images/posts/2017/11/vmfiles1.png
 headerImage: true
 tag:
 - Ansible
