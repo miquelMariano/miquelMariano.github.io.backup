@@ -17,7 +17,7 @@ permalink: /3aniversario/
 
 Buenos dias a tod@as!!
 
-![ncorateam]({{ site.imagesposts2017 }}/11/ncorateam.jpg)
+![ncorateam]({{ site.imagesposts2017 }}/11/NcoraTeam.jpg)
 
 ..
 
