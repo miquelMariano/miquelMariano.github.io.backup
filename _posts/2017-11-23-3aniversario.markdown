@@ -5,9 +5,7 @@ layout: post
 image: /assets/images/posts/2017/11/ansible.png
 headerImage: false
 tag:
-- Ansible
-- devops
-- automation
+- miscelanea
 category: blog
 author: miquelMariano
 description: 3er aniversario en el NcoraTeam
