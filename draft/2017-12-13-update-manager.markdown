@@ -20,7 +20,6 @@ permalink: /updatemanager/
 Buenos dias a tod@as!!!
 
 El presente post pretende servir de guía para la configuración y posterior uso de vSphere Update Manager como herramienta para la actualización de HW Virtual y VMWare Tools en nuestras máquinas virtuales de un entorno vSphere
-El procedimiento aplica a entornos con vSphere 6.5 y vSphere Web Client
 
 # *Actualización HW virtual*
 
