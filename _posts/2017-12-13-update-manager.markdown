@@ -14,7 +14,6 @@ category: blog
 author: miquelMariano
 description: Actualización HW virtual y VMWare Tools con vSphere Update Manager
 hidden: false
-permalink: /updatemanager/
 ---
 
 Buenos dias a tod@as!!!
