@@ -1,6 +1,6 @@
 ---
 title: Actualización HW virtual y VMWare Tools con vSphere Update Manager
-date: '2017-12-23 00:00:00'
+date: '2017-12-13 00:00:00'
 layout: post
 image: /assets/images/posts/2017/10/updatemanager.png
 headerImage: true
