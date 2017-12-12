@@ -24,12 +24,15 @@ El procedimiento aplica a entornos con vSphere 6.5 y vSphere Web Client
 
 # *Actualización HW virtual*
 
-###### Iniciar sesión en vCenter a través del vSphere Cient
+##### Iniciar sesión en vCenter a través del vSphere Cient
+
+[vum1]({{ site.imagesposts2017 }}/12/vum1.png)
 
 > *NOTA:* Utilizaremos la etiqueta locale=en_US en caso de querer la interfaz en inglés
 > https://172.24.0.47/vsphere-client/?locale=en_US
 
-[vum1]({{ site.imagesposts2017 }}/12/vum1.png)
+##### Seleccionamos cualquier objeto de nuestro árbol de inventario y la pestaña Update Manager
+
 
 
 # *VMWare Tools*
