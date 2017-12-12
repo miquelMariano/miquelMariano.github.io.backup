@@ -29,6 +29,7 @@ El procedimiento aplica a entornos con vSphere 6.5 y vSphere Web Client
 > *NOTA:* Utilizaremos la etiqueta locale=en_US en caso de querer la interfaz en inglés
 > https://172.24.0.47/vsphere-client/?locale=en_US
 
+[vum1]({{ site.imagesposts2017 }}/12/vum1.png)
 
 
 # *VMWare Tools*
