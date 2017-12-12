@@ -22,6 +22,8 @@ Buenos dias a tod@as!!
 
 https://galaxy.ansible.com/geerlingguy/awx/
 
+http://khmel.org/?p=1245
+
 
 
 
