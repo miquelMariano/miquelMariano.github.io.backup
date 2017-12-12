@@ -10,6 +10,7 @@ tag:
 - vCenter
 - VCSA
 - updatemanager 
+- vum
 category: blog
 author: miquelMariano
 description: Actualización HW virtual y VMWare Tools con vSphere Update Manager
