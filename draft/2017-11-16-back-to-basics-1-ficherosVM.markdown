@@ -19,7 +19,7 @@ Buenos dias a tod@as!!
 
 En esta serie que voy a empezar, me gustaría dar un repaso a los principales conceptos y aspectos que hay que tener en cuenta en un entorno vSphere.
 
-En este primer post, vamos a recordar los diferentes ficheros conforman una Máquina Virtual y para que sirven.
+En este primer post, vamos a recordar los diferentes ficheros que conforman una Máquina Virtual y para que sirven.
 
 # Archivos que conforman una VM
 
