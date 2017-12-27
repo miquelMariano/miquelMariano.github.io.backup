@@ -30,6 +30,15 @@ Dicho esto, la pregunta es ¿cómo usar variables? ¿Y cómo conseguirlos en pri
 # Variables y loops
 
 
+```yaml
+tasks:
+  - name: copy files
+    copy: src={{ item }} dest=/tmp/{{ item }}
+    with_items:
+      - alha
+      - beta
+```
+
 https://liquidat.wordpress.com/2016/01/26/howto-introduction-to-ansible-variables/
 
 ..
