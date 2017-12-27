@@ -31,14 +31,16 @@ Dicho esto, la pregunta es ¿cómo usar variables? ¿Y cómo conseguirlos en pri
 
 # Variables y loops
 
-En general, los bucles son uno de los casos de uso mas comunes de variables. Si bien no estamos utilizando varialbes proporcionadas externamente, voy a intentar dar una primera idea de como usarlos.
+En general, los bucles son uno de los casos de uso mas comunes de variables. Si bien no estamos utilizando variables proporcionadas externamente, voy a intentar dar una primera idea de como usarlos.
 
 Por ejemplo, voy a copiar un conjunto de archivos, es posible escribir una tarea para cada archivo o simplemente recorrerlos:
 
 ```yaml
 tasks:
   - name: Copia ficheros
-    copy: src={{ item }} dest=/tmp/{{ item }}
+    copy: 
+      src=/etc/tmp/{{ item }} 
+      dest=/tmp/{{ item }}
     with_items:
       - prueba1.txt
       - prueba2.txt
