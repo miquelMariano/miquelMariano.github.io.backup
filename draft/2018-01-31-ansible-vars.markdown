@@ -39,6 +39,30 @@ tasks:
       - beta
 ```
 
+Variables and templates
+
+Using variables in conditions
+
+Getting variables from the system
+
+Getting variables from the command line
+
+Setting variables in playbooks
+
+Setting variables in the inventory
+
+Setting variables on a system: local facts
+
+Using the results of tasks: registered variables
+
+Accessing variables of other hosts
+
+Conclusion
+
+Las variables son una característica muy poderosa que nos ayuda a enriquecer la funcionalidad de Ansible. Junto con los templates y el lenguaje Jinja2, las posibilidades son casi infinitas.
+
+Tarde o temprano, cada administrador tendrá que dejar atrás los simples roles y playbooks y comenzar a sumergirse en variables, templates y loops para hacer la automatización del sistema aún más fácil y dinámica.
+
 https://liquidat.wordpress.com/2016/01/26/howto-introduction-to-ansible-variables/
 
 ..
