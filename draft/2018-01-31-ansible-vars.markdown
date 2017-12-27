@@ -39,8 +39,8 @@ Por ejemplo, voy a copiar un conjunto de archivos, es posible escribir una tarea
 tasks:
   - name: Copia ficheros
     copy: 
-      src=/etc/tmp/&#123;&#123; item &#125;&#125; 
-      dest=/tmp/&#123; item &#125;&#125;
+      src=/etc/tmp/{{ item }} 
+      dest=/tmp/{{ item }}
     with_items:
       - prueba1.txt
       - prueba2.txt
