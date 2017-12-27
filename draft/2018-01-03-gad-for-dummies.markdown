@@ -40,7 +40,7 @@ Como comentaba al principio, la llegada de las VSP G1000/1500 y posteriormente 
 
 Con la virtualización de cabinas, aparece el concepto de VSM (Virtual Storage Machine) el cual consiste en añadir una capa por encima de las cabinas físicas con el objetivo de "hacer creer" a los hosts que solo disponemos de un sistema de almacenamiento.
 
-> en la representación inferior se ve como tenemos dos cabinas físicas, pero que por encima tenemos 
+> En la representación inferior se ve como tenemos dos cabinas físicas, pero que por encima tenemos 
 > un objeto (VSM) con S/N 123456 que lo que hace es presentar el almacenamiento a los hosts como una 
 > única entidad.
 
