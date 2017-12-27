@@ -39,15 +39,15 @@ Por ejemplo, voy a copiar un conjunto de archivos, es posible escribir una tarea
 tasks:
   - name: Copia ficheros
     copy: 
-      src=/etc/tmp/{{ item }} 
-      dest=/tmp/{{ item }}
+      src=/etc/tmp/\{\{ item \}\} 
+      dest=/tmp/\{\{ item \}\}
     with_items:
       - prueba1.txt
       - prueba2.txt
 ```
 
 > Primer concepto básico: Las variables se pueden usar en los argumentos del módulo y se referencian 
-> entre llaves &#123;&#123;&#125;&#125;
+> entre llaves \{\{\}\}
 
 # Variables and templates
 
