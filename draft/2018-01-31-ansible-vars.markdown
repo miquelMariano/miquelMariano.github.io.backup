@@ -41,8 +41,8 @@ Por ejemplo, voy a copiar un conjunto de archivos, es posible escribir una tarea
 tasks:
   - name: Copia ficheros
     copy: 
-      src=/etc/tmp/{{ page.o }}{{ page.o }} item {{ page.c }}{{ page.c }}
-      dest=/tmp/{ { item } }
+      src=/etc/tmp/{{ page.o }} item {{ page.c }}
+      dest=/tmp/{ page.o }} item {{ page.c }}
     with_items:
       - prueba1.txt
       - prueba2.txt
