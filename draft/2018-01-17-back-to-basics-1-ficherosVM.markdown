@@ -45,17 +45,17 @@ Cada vez que creamos una VM, el fichero .vmx aparece automaticamente y contiene 
 
 ---
 
-<vm name>.vmdk	Called the descriptor, this text file contains configuration information about a VM’s virtual hard drive.
-<vm name>-flat.vmdk	The virtual equivalent of a physical hard drive, this is where raw data is written to. You won’t find this file listed in Directory Browser. It is instead amalgamated with the descriptor file and presented as a single file.
++ **vm name.vmdk:**	Called the descriptor, this text file contains configuration information about a VM’s virtual hard drive.
++ **<vm name-flat.vmdk:**	The virtual equivalent of a physical hard drive, this is where raw data is written to. You won’t find this file listed in Directory Browser. It is instead amalgamated with the descriptor file and presented as a single file.
 
 # Ficheros de Snapshot
 
 ---
 
-<vm name>.vmsd	A database containing information about the snapshots taken for a specific virtual machine.
-<vm name>-Snapshotn.vmsn	This file captures the VM’s memory state at the time the snapshot is taken regardless of whether the “Snapshot the virtual machine’s memory” option is selected. Starting with 1, n is incremented at every snapshot taken.
-<vm name>-00000n-delta.vmdk	A delta vmdk is created whenever a snapshot is taken. The pre-snapshot vmdk in use is locked for writing. Any changes from there on are written to the VM’s delta disk. This allows a VM to be restored to any state prior to a specific snapshot being taken.
-<vm name>-00000n.vmdk	The descriptor file for the delta vmdk file.
++ **vm name.vmsd:**	A database containing information about the snapshots taken for a specific virtual machine.
++ **vm name-Snapshotn.vmsn:*	This file captures the VM’s memory state at the time the snapshot is taken regardless of whether the “Snapshot the virtual machine’s memory” option is selected. Starting with 1, n is incremented at every snapshot taken.
++ **vm name-00000n-delta.vmdk:**	A delta vmdk is created whenever a snapshot is taken. The pre-snapshot vmdk in use is locked for writing. Any changes from there on are written to the VM’s delta disk. This allows a VM to be restored to any state prior to a specific snapshot being taken.
++ **vm name-00000n.vmdk:**	The descriptor file for the delta vmdk file.
 
 # Ficheros de Log
 
@@ -68,8 +68,8 @@ Cada vez que creamos una VM, el fichero .vmx aparece automaticamente y contiene 
 
 ---
 
-<vm name>-ctk.vmdk	This file is created whenever changed block tracking (CBT) is enabled for the VM. CBT is a VMware feature used by incremental backups and leveraged by backup software providers such as Altaro VMBackup.
-*.vswp	The VM’s swap file is used to reduce the overhead memory reservation for a VM by swapping out memory to an  ESXi host with over-committed memory.
++ **vm name-ctk.vmdk:**	This file is created whenever changed block tracking (CBT) is enabled for the VM. CBT is a VMware feature used by incremental backups and leveraged by backup software providers such as Altaro VMBackup.
++ ***.vswp:**	The VM’s swap file is used to reduce the overhead memory reservation for a VM by swapping out memory to an  ESXi host with over-committed memory.
 
 
 
