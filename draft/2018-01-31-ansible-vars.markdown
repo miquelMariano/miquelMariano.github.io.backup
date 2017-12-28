@@ -46,8 +46,7 @@ tasks:
       - prueba1.txt
       - prueba2.txt
 
- \\{\\{ 
- `{{`   
+&#123;&#123;title&#125;&#125; 
 ```
 
 
