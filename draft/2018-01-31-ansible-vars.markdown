@@ -46,7 +46,7 @@ tasks:
       - prueba2.txt
 
 
-      servidor1 | SUCCESS => {
+      servidor1 | SUCCESS => {{
     "changed": false,
     "ping": "pong"
 }
