@@ -33,8 +33,11 @@ Los archivos que conforman una Máquina Virtual, generalmente, residen dentro de
 
 ---
 
-Markdown | Less | Pretty
---- | --- | ---
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
 + VMX file – Configuración
 + VMTX file – Configuración de template
