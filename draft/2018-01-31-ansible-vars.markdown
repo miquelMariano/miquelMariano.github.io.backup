@@ -41,13 +41,11 @@ Por ejemplo, voy a copiar un conjunto de archivos, es posible escribir una tarea
 tasks:
   - name: Copia ficheros
     copy: 
-      src=/etc/tmp/{ { item } }
+      src=/etc/tmp/{{ page.o }}{{ page.o }} item {{ page.c }}{{ page.c }}
       dest=/tmp/{ { item } }
     with_items:
       - prueba1.txt
       - prueba2.txt
-{{ page.o }}
-{{ page.c }}
 ```
 
 > Primer concepto básico: Las variables se pueden usar en los argumentos del módulo y se referencian 
