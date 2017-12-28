@@ -61,8 +61,8 @@ Cada vez que creamos una VM, el fichero .vmx aparece automaticamente y contiene 
 
 ---
 
-vmware.log	The current log file for the VM. Useful for troubleshooting operations.
-vmware-n.log	Older VM log files where larger values of n correspond to recently written files.
++ **vmware.log:**	The current log file for the VM. Useful for troubleshooting operations.
++ **vmware-n.log:**	Older VM log files where larger values of n correspond to recently written files.
 
 # Otros ficheros
 
