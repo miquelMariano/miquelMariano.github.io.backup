@@ -33,11 +33,9 @@ Los archivos que conforman una Máquina Virtual, generalmente, residen dentro de
 
 ---
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| hola  | Called the descriptor, this text file contains configuration information about a VM’s virtual hard drive.                                                                                                                       |
+|-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|       | The virtual equivalent of a physical hard drive, this is where raw data is written to. You won’t find this file listed in Directory Browser. It is instead amalgamated with the descriptor file and presented as a single file. |
 
 + VMX file – Configuración
 + VMTX file – Configuración de template
