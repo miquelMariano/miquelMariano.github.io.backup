@@ -55,7 +55,7 @@ tasks:
 
 
 > Primer concepto básico: Las variables se pueden usar en los argumentos del módulo y se referencian 
-> entre llaves \{\{\}\}
+> entre llaves \{\{ variable \}\}
 
 # Variables and templates
 
