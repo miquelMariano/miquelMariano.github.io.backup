@@ -45,8 +45,8 @@ Cada vez que creamos una VM, el fichero .vmx aparece automaticamente y contiene 
 
 ---
 
-+ **vm name.vmdk:**	Called the descriptor, this text file contains configuration information about a VM’s virtual hard drive.
-+ **<vm name-flat.vmdk:**	The virtual equivalent of a physical hard drive, this is where raw data is written to. You won’t find this file listed in Directory Browser. It is instead amalgamated with the descriptor file and presented as a single file.
++ **vm name.vmdk:**	LLamado "descriptor" o "puntero", es un fichero de texto plano que contiene la información sobre los discos de una VM
++ **<vm name-flat.vmdk:**	En una VM, es el equivalente a un disco duro físico. Es donde se escriben los datos. No busqueis este fichero en el explorador del vSphere Client. Es el fichero donde apunta el "descriptor" y en el vSphere Client se presenta como un único fichero
 
 # Ficheros de Snapshot
 
