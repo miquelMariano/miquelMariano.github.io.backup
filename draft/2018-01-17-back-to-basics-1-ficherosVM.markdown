@@ -29,7 +29,12 @@ En este primer post, vamos a recordar los diferentes ficheros que conforman una 
 
 Los archivos que conforman una Máquina Virtual, generalmente, residen dentro de la carpeta (nombre de su VM) colocada en un datastore. Los archivos presentes en esta carpeta dependerán del estado en el que se encuentre la VM (Encendido / Apagado / Suspendido) y la acción que se está realizando en un momento determinado.
 
+Configuration Files
+---
+a | b | c
+
 + VMX file – Configuración
++ VMTX file – Configuración de template
 + VMDK files – Ficheros relacionados con los discos de datos, incluye .vmdk, -delta.vmdk, -rdm.vmds
 + VSWP file – Memory overflow. Fichero SWAP
 + VMSD file – Detalles de snapshot
@@ -44,8 +49,23 @@ El fichero de configuración de una máquina virtual contiene todos los detalles
 
 Cada vez que creamos una VM, el fichero .vmx aparece automaticamente y contiene la información de todas las configuraciones que hemos ido perfilando durante el wizard de creación
 
+# VMTX file
+
+El fichero .vmx se convierte en .vmtx cuanto una VM se convierte a plantilla. Contiene los detalles de configuración de esta VM convertida a plantilla
+
 # VMDK Files
 
+# VSWP file
+
+# VMSD file
+
+# VMSS file
+
+Corresponde al fichero del estado suspendido de una VM. Almacena información cuando una VM está en estado "suspended". Si la VM está en otro estado, este fichero no existe
+
+# VMSN file
+
+# NVRAM file
 
 
 
