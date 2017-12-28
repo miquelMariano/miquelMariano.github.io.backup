@@ -38,6 +38,7 @@ Cada vez que creamos una VM, el fichero .vmx aparece automaticamente y contiene 
 + **vm_name.vmtx:** El fichero .vmx se convierte en .vmtx cuanto una VM se convierte a plantilla. Contiene los detalles de configuración de esta VM convertida a plantilla
 + **vm_name.vmxf**	Es un XML que contiene configuración y opciones adicionales de una VM
 + **vm_name.nvram**	Corresponde al fichero de configuración de la BIOS o EFI que utiliza la VM
++ **vm_name.vmss:** Corresponde al fichero del estado suspendido de una VM. Almacena información cuando una VM está en estado “suspended”. Si la VM está en otro estado, este fichero no existe
 
 
 # Ficheros de disco
