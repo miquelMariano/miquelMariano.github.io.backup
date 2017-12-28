@@ -42,7 +42,7 @@ tasks:
   - name: Copia ficheros
     copy: 
       src=/etc/tmp/{{ page.o }} item {{ page.c }}
-      dest=/tmp/{ page.o }} item {{ page.c }}
+      dest=/tmp/{{ page.o }} item {{ page.c }}
     with_items:
       - prueba1.txt
       - prueba2.txt
