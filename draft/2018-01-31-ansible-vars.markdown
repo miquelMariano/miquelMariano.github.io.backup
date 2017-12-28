@@ -12,6 +12,8 @@ category: blog
 author: miquelMariano
 description: Uso de variables con Ansible
 hidden: false
+o: "{{"
+c: "}}"
 permalink: /avars/
 ---
 
@@ -35,6 +37,7 @@ En general, los bucles son uno de los casos de uso mas comunes de variables. Si 
 
 Por ejemplo, voy a copiar un conjunto de archivos, es posible escribir una tarea para cada archivo o simplemente recorrerlos:
 
+```yaml
 tasks:
   - name: Copia ficheros
     copy: 
@@ -43,7 +46,9 @@ tasks:
     with_items:
       - prueba1.txt
       - prueba2.txt
-
+{{ page.o }}
+{{ page.c }}
+```
 
 > Primer concepto básico: Las variables se pueden usar en los argumentos del módulo y se referencian 
 > entre llaves \{\{ variable \}\}
