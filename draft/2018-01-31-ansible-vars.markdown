@@ -49,7 +49,7 @@ tasks:
 ```
 
 > Primer concepto básico: Las variables se pueden usar en los argumentos del módulo y se referencian 
-> entre llaves \{\{ variable \}\}
+> entre llaves {{ page.o }} variable {{ page.c }}
 
 # Variables and templates
 
