@@ -84,10 +84,12 @@ Miquel.
 
 ---
 
-+ *vm_name.vmx:*	This file holds the VM’s configuration which, in the large part, is hardware related. If required, you can edit this file manually using a text editor. Alternatively, power off the VM and use the vSphere client to affect any changes from the VM’s “Configuration Parameters” found under Settings -> Options -> General.
-+ *vm_name.vmtx:* El fichero .vmx se convierte en .vmtx cuanto una VM se convierte a plantilla. Contiene los detalles de configuración de esta VM convertida a plantilla
-*vm_name.vmxf*	An XML file containing additional VM configuration options.
-*vm_name.nvram*	This BIOS or EFI configuration file used by the VM.
++ **vm_name.vmx:**	El fichero de configuración de una máquina virtual contiene todos los detalles para que la VM pueda arrancar. Información del Virtual Hardware, SO, Networking, Almacenamiento, ...
+
+Cada vez que creamos una VM, el fichero .vmx aparece automaticamente y contiene la información de todas las configuraciones que hemos ido perfilando durante el wizard de creación
++ **vm_name.vmtx:** El fichero .vmx se convierte en .vmtx cuanto una VM se convierte a plantilla. Contiene los detalles de configuración de esta VM convertida a plantilla
++ **vm_name.vmxf**	Es un XML que contiene configuración y opciones adicionales de una VM
++ **vm_name.nvram**	Corresponde al fichero de configuración de la BIOS o EFI que utiliza la VM
 
 
 
