@@ -35,7 +35,8 @@ En general, los bucles son uno de los casos de uso mas comunes de variables. Si 
 
 Por ejemplo, voy a copiar un conjunto de archivos, es posible escribir una tarea para cada archivo o simplemente recorrerlos:
 
-```
+```yaml
+---
 tasks:
   - name: Copia ficheros
     copy: 
