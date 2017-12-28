@@ -80,7 +80,13 @@ Miquel.
 
 
 
+Configuration Files
 
+---
+
+*vm_name.vmx*	This file holds the VM’s configuration which, in the large part, is hardware related. If required, you can edit this file manually using a text editor. Alternatively, power off the VM and use the vSphere client to affect any changes from the VM’s “Configuration Parameters” found under Settings -> Options -> General.
+*vm_name.vmxf*	An XML file containing additional VM configuration options.
+*vm_name.nvram*	This BIOS or EFI configuration file used by the VM.
 
 
 
