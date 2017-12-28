@@ -80,6 +80,8 @@ http://blog.kanishksethi.in/2016/04/back-to-basics-virtual-machine-files.html
 
 http://www.on-cloud9.com/2012/01/16/virtual_machine_files_explained/
 
+https://www.altaro.com/vmware/the-anatomy-of-a-vmware-virtual-machine/
+
 ..
 
 
