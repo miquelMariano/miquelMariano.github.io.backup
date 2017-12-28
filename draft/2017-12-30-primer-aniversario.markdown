@@ -23,11 +23,11 @@ Los posts publicados este año, básicamente han sido notas y experiencias reale
 
 Ordenados de mayor a menor número de visitas, estos han sido los posts TOP:
 
-1
-2
-3
-4
-5
+1. [Notificaciones automáticas con Telegram](https://miquelmariano.github.io/2017/02/notificaciones-automaticas-con-telegram/)
+2. [Configuración de Windows para ser manejado con Ansible](https://miquelmariano.github.io/2017/05/ansible-windows-managed-nodes/)
+3. [¿Como se usan los roles y playbooks en Ansible?](https://miquelmariano.github.io/2017/04/roles-y-playbooks-Ansible/)
+4. [Programar export automático de RVTools](https://miquelmariano.github.io/2017/04/programar-export-rvtools/)
+5. [Programar backup automático en VCSA 6.5](https://miquelmariano.github.io/2017/08/backup-vcsa65-automatizado/)
 
 Como simpre, muy agradecido a todos mis lectores y a toda la divulgación que le dais en vuestras RRSS.
 
