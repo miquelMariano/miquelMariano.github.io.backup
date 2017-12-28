@@ -45,12 +45,6 @@ tasks:
     with_items:
       - prueba1.txt
       - prueba2.txt
-
-
-      servidor1 | SUCCESS => {
-    "changed": false,
-    "ping": "pong"
-}
 ```
 
 
