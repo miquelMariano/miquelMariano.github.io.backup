@@ -1,5 +1,5 @@
 ---
-title: 1er aniversario!!
+title: 1er aniversario como bloger!!
 layout: post
 date: 2017-12-30 00:00
 image: /assets/images/posts/2017/12/1aniversario.jpg
@@ -8,7 +8,7 @@ tag:
 - miscelanea
 category: blog
 author: miquelMariano
-description: 1er aniversario!!
+description: 1er aniversario como bloger!!
 hidden: false
 ---
 
