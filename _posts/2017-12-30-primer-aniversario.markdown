@@ -1,7 +1,7 @@
 ---
 title: 1er aniversario!!
 layout: post
-date: 2016-12-30 22:48
+date: 2017-12-30 00:00
 image: /assets/images/posts/2017/12/1aniversario.jpg
 headerImage: true
 tag:
