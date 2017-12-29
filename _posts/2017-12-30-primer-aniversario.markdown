@@ -10,7 +10,6 @@ category: blog
 author: miquelMariano
 description: 1er aniversario!!
 hidden: false
-permalink: /primer/
 ---
 
 Cómo pasa el tiempo, ¿verdad?
