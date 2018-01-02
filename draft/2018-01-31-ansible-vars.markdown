@@ -72,7 +72,7 @@ tasks:
 Cuando esta tarea se ejecute, copiará el fichero template.j2 con el nombre tmp.conf y substituirá la variable {{ page.o }} ansible_hostname {{ page.c }} por el nombre de host de cada servidor donde se ejecute.
 
 > Los templates tinen que tener la extensión .j2 y utilizan el lenguage jinja2. Podeis leer mas en la [web 
-> oficial](http://jinja.pocoo.org/docs/2.10/) del projecto
+> oficial](http://jinja.pocoo.org/docs/2.10/) del proyecto
 
 # Usando variables dentro de condicionales
 
