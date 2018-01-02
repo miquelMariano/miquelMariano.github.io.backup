@@ -168,6 +168,7 @@ tasks:
 ...
 ```
 
+En este caso, el playbook lee las variables específicas para cada host correspondiente, definidas en un fichero de variables
 
 # Setting variables in the inventory
 
