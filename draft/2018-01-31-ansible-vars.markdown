@@ -91,7 +91,7 @@ tasks:
     when: ansible_os_family == "RedHat"
 ```
 
-> En este caso, la primera tarea solo se aplica en servidores Solaris, mientras que la segunda solo se ejecuta > en máquinas Red Hat.
+> En este caso, la primera tarea solo se aplica en servidores Solaris, mientras que la segunda solo se ejecuta en máquinas Red Hat.
 
 # Usar variables del sistema
 
@@ -110,7 +110,7 @@ $ ansible-playbook --extra-vars "cli_var=production"
 
 ```ssh
 $ cat template.j2
-environment: {{ cli_var }}.
+environment: {{ page.o }} cli_var {{ page.c }}.
 ```
 
 # Setting variables in playbooks
