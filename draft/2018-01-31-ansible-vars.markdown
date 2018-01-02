@@ -74,9 +74,22 @@ Cuando esta tarea se ejecute, copiará el fichero template.j2 con el nombre tmp.
 > Los templates tinen que tener la extensión .j2 y utilizan el lenguage jinja2. Podeis leer mas en la [web 
 > oficial](http://jinja.pocoo.org/docs/2.10/) del projecto
 
+# Usando variables dentro de condicionales
 
+Las variables se pueden usar dentro de condiciones, lo que garantiza que ciertas tareas solo se ejecuten cuando, la variable solicitada se establece en un valor determinado:
 
-# Using variables in conditions
+```yaml
+tasks:
+  - name: Install Apache on Solaris
+    pkg5: name=web/server/apache-24
+    when: ansible_os_family == "Solaris"
+ 
+  - name: Install Apache on RHEL
+    yum:  name=httpd
+    when: ansible_os_family == "RedHat"
+```
+
+En este caso, la primera tarea solo se aplica en servidores Solaris, mientras que la segunda solo se ejecuta en máquinas Red Hat.
 
 # Getting variables from the system
 
