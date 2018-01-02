@@ -97,9 +97,24 @@ tasks:
 
 
 
-# Getting variables from the command line
+# Variables desde la línea de comandos
+
+Another way to define variables is to call Ansible playbooks with the option --extra-vars:
+Otra manera de definir variables en Ansible es llamar a los playbooks con la opción `--extra-vars` o `-e`en su formato abreviado:
+
+```ssh
+$ ansible-playbook --extra-vars "cli_var=production"
+```
+
+> La referencia a esta variable, es otra vez, entre llaves {{ page.o }} variable {{ page.c }}
+
+```ssh
+$ cat template.j2
+environment: {{ cli_var }}.
+```
 
 # Setting variables in playbooks
+
 
 # Setting variables in the inventory
 
