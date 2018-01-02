@@ -195,9 +195,58 @@ invent_var=group-foo
 
 Un ejemplo claro de variables en el inventario seria cuando diferentes equipos usan el mismo conjunto de roles y playbooks, pero tienen diferentes configuraciones de máquina que necesitan un tratamiento específico en cada caso. 
 
-# Setting variables on a system: local facts
+# Configurar variables en el sistema: local facts
 
-# Using the results of tasks: registered variables
+Cuando Ansible accede a un host remoto, busca el directorio /etc/ansible/facts.d y se leen todos los archivos que terminan en .fact:
+
+```ssh
+$ cat /etc/ansible/facts.d/variables.fact 
+[system]
+foo: bar
+dim: dum
+```
+
+Las variables que muestra el [módulo setup](http://docs.ansible.com/ansible/latest/setup_module.html) serian las siguientes:
+
+```ssh
+$ ansible neon -m setup
+...
+      "type": "loopback"
+  }, 
+  "ansible_local": {
+      "variables": {
+          "system": {
+              "dim": "dum", 
+              "foo": "bar"
+          }
+     }
+  }, 
+  "ansible_machine": "x86_64", 
+...
+```
+
+# Usar el resultado de una tarea como variable
+
+Los resultados de una tarea durante la ejecución de un playbook también se pueden [registrar](http://docs.ansible.com/ansible/latest/playbooks_variables.html#registered-variables) dentro de una variable. Junto con los condicionales, esto permite que un playbook reaccione de una forma u otra en funcion de los resultados de las otras tareas.
+
+Por ejemplo, necesitamos que el servicio httpd esté ejecutandose. Si el servicio no se ejecuta, todo el servidor debe apagarse inmediatamente para garantizar que no se produzcan corrupción en los datos. El playbook correspondiente verifica el servicio httpd, ignora los errores pero en su lugar analiza el resultado y apaga la máquina si el servicio no se puede iniciar:
+
+```yaml
+---
+- name: register example
+  hosts: all 
+  sudo: yes
+ 
+  tasks:
+    - name: start service
+      service: name=httpd state=started
+      ignore_errors: True
+      register: service_result
+ 
+    - name: shutdown
+      command: "shutdown -h +1m"
+      when: service_result | failed
+```
 
 # Accessing variables of other hosts
 
