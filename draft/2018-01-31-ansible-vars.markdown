@@ -51,7 +51,30 @@ tasks:
 > Primer concepto básico: Las variables se pueden usar en los argumentos del módulo y se referencian 
 > entre llaves {{ page.o }} variable {{ page.c }}
 
-# Variables and templates
+# Variables y templates
+
+Las variables se pueden usar también para substituir parámetros en ficheros de configuración con valores específicos del sistema, extraidos directamente en tiempo de ejecución. Imaginemos por un momento, un archivo que debe contener el hostname real. Todas las máquinas son casi idénticas excepto por el nombre de host, por lo que esta variable no podrá estar predefinida, sinó que deberemos capturarla en tiempo de ejecución
+
+En este caso, es mejor tener una copia del archivo de configuración, con una variable como place-maker en lugar de los nombres de host: aquí es donde las plantillas entran en juego:
+
+```ssh
+$ cat template.j2
+My host name is {{ page.o }} ansible_hostname {{ page.o }}.
+```
+
+El módulo de Ansible para usar plantillas y usar la sustitución de variables es el módulo template:
+
+```yaml
+tasks:
+  - name: copy template
+    template: src=template.j2 dest="/tmp/tmp.conf
+```
+Cuando esta tarea se ejecute, copiará el fichero template.j2 con el nombre tmp.conf y substituirá la variable {{ ansible_hostname}} por el nombre de host de cada servidor donde se ejecute.
+
+> Los templates tinen que tener la extensión .j2 y utilizan el lenguage jinja2. Podeis leer mas en la [web 
+> oficial](http://jinja.pocoo.org/docs/2.10/) del projecto
+
+
 
 # Using variables in conditions
 
