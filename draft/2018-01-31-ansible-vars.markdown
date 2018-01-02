@@ -132,7 +132,41 @@ $ cat template.j2
 environment: {{ page.o }} cli_var {{ page.c }}.
 ```
 
-# Setting variables in playbooks
+# Variables en playbooks
+
+Una forma de definir variables mas directamente, es en los playbooks, con la clave `vars`:
+
+```yaml
+...
+hosts: all 
+vars:
+  play_var: bar 
+ 
+tasks:
+...
+```
+
+Estas variables, también pueden ampliarse incluyendo un archivo .yml
+
+```yaml
+...
+hosts: all
+include_vars: setupvariables.yml
+ 
+tasks:
+...
+```
+
+Incluir mas archivos con más variables resulta extremadamente útil cuando las variables para cada sistema se guardan en un archivo específico, como $ HOSTNAME.yml, porque el archivo incluido puede volver a ser una variable:
+
+```yaml
+...
+hosts: all
+include_vars: "{{ page.o }} ansible_hostname {{ page.o }}.yml"
+ 
+tasks:
+...
+```
 
 
 # Setting variables in the inventory
