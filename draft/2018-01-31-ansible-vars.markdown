@@ -168,9 +168,32 @@ tasks:
 ...
 ```
 
-En este caso, el playbook lee las variables específicas para cada host correspondiente, definidas en un fichero de variables
+En este caso, el playbook lee las variables específicas para cada host correspondiente, definidas en un fichero externo de variables.
 
-# Setting variables in the inventory
+# Variables en el inventario
+
+En ocasiones, puede cobrar sentido definir variables directamente en un fichero de inventario previamente definido:
+
+```yaml
+[clients]
+helium intevent_var=helium_123
+neon invent_var=bar
+```
+
+> El inventario trata más o menos cualquier argumento que no sea específico de Ansible como variable de host.
+
+También es posible establecer variables para hostgroups completos:
+
+```yaml
+[clients]
+helium
+neon
+ 
+[clients:vars]
+invent_var=group-foo
+```
+
+Un ejemplo claro de variables en el inventario seria cuando diferentes equipos usan el mismo conjunto de roles y playbooks, pero tienen diferentes configuraciones de máquina que necesitan un tratamiento específico en cada caso.
 
 # Setting variables on a system: local facts
 
