@@ -95,7 +95,26 @@ tasks:
 
 # Usar variables del sistema
 
+Para usar variables en Ansible, evidentemente, tienen que haber sido definidas previamente. Hasta ahora hemos visto algunos casos de uso de variables, pero no cómo obtenerlas.
 
+Por defecto, Ansible ya define un amplio conjunto de variables individuales para cada host. Cada vez que se ejecuta en un sistema, toda la información sobre el sistema se recopila y establece como una variable. Estas variables se pueden consultar a través del [módulo setup](http://docs.ansible.com/ansible/latest/setup_module.html):
+
+```ssh
+$ ansible neon -m setup
+neon | success >> {
+    "ansible_facts": {
+        "ansible_all_ipv4_addresses": [
+            "192.168.122.203"
+        ], 
+        "ansible_all_ipv6_addresses": [
+            "fe80::5054:ff:feba:9db3"
+        ], 
+        "ansible_architecture": "x86_64", 
+        "ansible_bios_date": "04/01/2014", 
+...
+```
+
+Todas estas variables se pueden usar en templates, playbooks, roles o como comentábamos antes, en tareas condicionales. 
 
 # Variables desde la línea de comandos
 
