@@ -62,7 +62,7 @@ $ cat template.j2
 My host name is {{ page.o }} ansible_hostname {{ page.c }}.
 ```
 
-El módulo de Ansible para usar plantillas y usar la sustitución de variables es el módulo template:
+El módulo de Ansible para usar plantillas y sustitución de variables es el módulo template:
 
 ```yaml
 tasks:
