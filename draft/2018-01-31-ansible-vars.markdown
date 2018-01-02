@@ -59,7 +59,7 @@ En este caso, es mejor tener una copia del archivo de configuración, con una va
 
 ```ssh
 $ cat template.j2
-My host name is {{ page.o }} ansible_hostname {{ page.o }}.
+My host name is {{ page.o }} ansible_hostname {{ page.c }}.
 ```
 
 El módulo de Ansible para usar plantillas y usar la sustitución de variables es el módulo template:
@@ -69,7 +69,7 @@ tasks:
   - name: copy template
     template: src=template.j2 dest="/tmp/tmp.conf
 ```
-Cuando esta tarea se ejecute, copiará el fichero template.j2 con el nombre tmp.conf y substituirá la variable {{ ansible_hostname}} por el nombre de host de cada servidor donde se ejecute.
+Cuando esta tarea se ejecute, copiará el fichero template.j2 con el nombre tmp.conf y substituirá la variable {{ page.o }} ansible_hostname {{ page.c }} por el nombre de host de cada servidor donde se ejecute.
 
 > Los templates tinen que tener la extensión .j2 y utilizan el lenguage jinja2. Podeis leer mas en la [web 
 > oficial](http://jinja.pocoo.org/docs/2.10/) del projecto
