@@ -91,9 +91,11 @@ tasks:
     when: ansible_os_family == "RedHat"
 ```
 
-En este caso, la primera tarea solo se aplica en servidores Solaris, mientras que la segunda solo se ejecuta en máquinas Red Hat.
+> En este caso, la primera tarea solo se aplica en servidores Solaris, mientras que la segunda solo se ejecuta > en máquinas Red Hat.
 
-# Getting variables from the system
+# Usar variables del sistema
+
+
 
 # Getting variables from the command line
 
