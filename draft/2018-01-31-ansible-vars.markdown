@@ -157,12 +157,12 @@ tasks:
 ...
 ```
 
-Incluir mas archivos con más variables resulta extremadamente útil cuando las variables para cada sistema se guardan en un archivo específico, como $ HOSTNAME.yml, porque el archivo incluido puede volver a ser una variable:
+Incluir mas archivos con más variables resulta extremadamente útil cuando las variables para cada sistema se guardan en un archivo específico, como $HOSTNAME.yml, porque el archivo incluido puede volver a ser una variable:
 
 ```yaml
 ...
 hosts: all
-include_vars: "{{ page.o }} ansible_hostname {{ page.o }}.yml"
+include_vars: "{{ page.o }} ansible_hostname {{ page.c }}.yml"
  
 tasks:
 ...
