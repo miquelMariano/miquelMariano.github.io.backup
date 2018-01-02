@@ -227,7 +227,7 @@ $ ansible neon -m setup
 
 # Usar el resultado de una tarea como variable
 
-Los resultados de una tarea durante la ejecución de un playbook también se pueden [registrar](http://docs.ansible.com/ansible/latest/playbooks_variables.html#registered-variables) dentro de una variable. Junto con los condicionales, esto permite que un playbook reaccione de una forma u otra en funcion de los resultados de las otras tareas.
+Los [resultados de una tarea](http://docs.ansible.com/ansible/latest/common_return_values.html) durante la ejecución de un playbook también se pueden [registrar](http://docs.ansible.com/ansible/latest/playbooks_variables.html#registered-variables) dentro de una variable. Junto con los condicionales, esto permite que un playbook reaccione de una forma u otra en funcion de los resultados de las otras tareas.
 
 Por ejemplo, necesitamos que el servicio httpd esté ejecutandose. Si el servicio no se ejecuta, todo el servidor debe apagarse inmediatamente para garantizar que no se produzcan corrupción en los datos. El playbook correspondiente verifica el servicio httpd, ignora los errores pero en su lugar analiza el resultado y apaga la máquina si el servicio no se puede iniciar:
 
