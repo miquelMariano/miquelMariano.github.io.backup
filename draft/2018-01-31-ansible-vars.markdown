@@ -193,7 +193,7 @@ neon
 invent_var=group-foo
 ```
 
-Un ejemplo claro de variables en el inventario seria cuando diferentes equipos usan el mismo conjunto de roles y playbooks, pero tienen diferentes configuraciones de máquina que necesitan un tratamiento específico en cada caso.
+Un ejemplo claro de variables en el inventario seria cuando diferentes equipos usan el mismo conjunto de roles y playbooks, pero tienen diferentes configuraciones de máquina que necesitan un tratamiento específico en cada caso. 
 
 # Setting variables on a system: local facts
 
