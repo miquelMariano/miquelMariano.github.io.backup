@@ -248,7 +248,7 @@ Por ejemplo, necesitamos que el servicio httpd esté ejecutandose. Si el servici
       when: service_result | failed
 ```
 
-# Accessing variables of other hosts
+Otro ejemplo sería para eliminar el host del balanceador en caso de que el servidor web no esté disponible. O para verificar si la base de datos está disponible y de lo contrario cerrar inmediatamente el firewall frontal.
 
 # Conclusión
 
