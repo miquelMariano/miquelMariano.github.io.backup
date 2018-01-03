@@ -26,11 +26,11 @@ Las variables se pueden proporcionar a través del inventario, de un archivo de 
 > Y que las variables siempre deben comenzar con una letra.
 
 
-Dicho esto, la pregunta es ¿cómo usar variables? ¿Y cómo conseguirlos en primer lugar?
+Dicho esto, la pregunta es ¿cómo usar variables? ¿Y cómo conseguirlas en primer lugar?
 
 # Variables y loops
 
-En general, los bucles son uno de los casos de uso mas comunes de variables. Si bien no estamos utilizando variables proporcionadas externamente, voy a intentar dar una primera idea de como usarlos.
+En general, los bucles son uno de los casos de uso mas comunes de variables. Si bien no estamos utilizando variables proporcionadas externamente, voy a intentar dar una primera idea de como usarlas.
 
 Por ejemplo, voy a copiar un conjunto de archivos, es posible escribir una tarea para cada archivo o simplemente recorrerlos:
 
@@ -38,8 +38,8 @@ Por ejemplo, voy a copiar un conjunto de archivos, es posible escribir una tarea
 tasks:
   - name: Copia ficheros
     copy: 
-      src=/etc/tmp/{{ page.o }} item {{ page.c }}
-      dest=/tmp/{{ page.o }} item {{ page.c }}
+      src: /etc/tmp/{{ page.o }} item {{ page.c }}
+      dest: /tmp/{{ page.o }} item {{ page.c }}
     with_items:
       - prueba1.txt
       - prueba2.txt
@@ -50,7 +50,7 @@ tasks:
 
 # Variables y templates
 
-Las variables se pueden usar también para substituir parámetros en ficheros de configuración con valores específicos del sistema, extraidos directamente en tiempo de ejecución. Imaginemos por un momento, un archivo que debe contener el hostname real. Todas las máquinas son casi idénticas excepto por el nombre de host, por lo que esta variable no podrá estar predefinida, sinó que deberemos capturarla en tiempo de ejecución
+Las variables se pueden usar también para substituir parámetros en ficheros de configuración con valores específicos del sistema, extraidos directamente en tiempo de ejecución. Imaginemos por un momento, un archivo que debe contener el hostname del servidor. Todas las máquinas son casi idénticas excepto por el nombre de host, por lo que esta variable no podrá estar predefinida, sinó que deberemos capturarla en tiempo de ejecución
 
 En este caso, es mejor tener una copia del archivo de configuración, con una variable como place-maker en lugar de los nombres de host: aquí es donde las plantillas entran en juego:
 
@@ -66,7 +66,7 @@ tasks:
   - name: copy template
     template: 
         src: template.j2 
-        dest: "/tmp/tmp.conf
+        dest: /tmp/tmp.conf
 ```
 Cuando esta tarea se ejecute, copiará el fichero template.j2 con el nombre tmp.conf y substituirá la variable {{ page.o }} ansible_hostname {{ page.c }} por el nombre de host de cada servidor donde se ejecute.
 
@@ -80,11 +80,13 @@ Las variables se pueden usar dentro de condiciones, lo que garantiza que ciertas
 ```yaml
 tasks:
   - name: Install Apache on Solaris
-    pkg5: name=web/server/apache-24
+    pkg5: name:
+      web/server/apache-24
     when: ansible_os_family == "Solaris"
  
   - name: Install Apache on RHEL
-    yum:  name=httpd
+    yum:  
+      name: httpd
     when: ansible_os_family == "RedHat"
 ```
 
@@ -115,8 +117,7 @@ Todas estas variables se pueden usar en templates, playbooks, roles o como comen
 
 # Variables desde la línea de comandos
 
-Another way to define variables is to call Ansible playbooks with the option --extra-vars:
-Otra manera de definir variables en Ansible es llamar a los playbooks con la opción `--extra-vars` o `-e`en su formato abreviado:
+Otra manera de definir variables en Ansible es llamar a los playbooks con la opción `--extra-vars` o `-e` en su formato abreviado:
 
 ```ssh
 $ ansible-playbook --extra-vars "cli_var=production"
