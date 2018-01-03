@@ -92,7 +92,7 @@ tasks:
 
 > En este caso, la primera tarea solo se aplica en servidores Solaris, mientras que la segunda solo se ejecuta en máquinas Red Hat.
 
-# Usar variables del sistema
+# Usando variables del sistema
 
 Para usar variables en Ansible, evidentemente, tienen que haber sido definidas previamente. Hasta ahora hemos visto algunos casos de uso de variables, pero no cómo obtenerlas.
 
