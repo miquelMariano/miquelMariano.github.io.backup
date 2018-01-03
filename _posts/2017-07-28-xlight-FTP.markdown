@@ -5,9 +5,9 @@ layout: post
 image: /assets/images/posts/2017/08/ftplogo.png
 headerImage: true
 tag:
-- Windows
-- DevOps
-- FTP
+- windows
+- devops
+- ftp
 category: blog
 author: miquelMariano
 description: Xlight, un servidor FTP portable

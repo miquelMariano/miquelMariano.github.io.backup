@@ -7,8 +7,8 @@ headerImage: true
 tag:
 - vmware
 - vexpert
-- vCenter
-- VCSA
+- vcenter
+- vcsa
 - updatemanager 
 - vum
 category: blog

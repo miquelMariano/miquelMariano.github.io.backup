@@ -7,10 +7,10 @@ headerImage: true
 tag:
 - vmware
 - vexpert
-- vCenter
-- VCSA
-- DevOps
-- automatización
+- vcenter
+- vcsa
+- devops
+- automation
 category: blog
 author: miquelMariano
 description: Programar backup automático en VCSA 6.5

@@ -5,7 +5,7 @@ layout: post
 image: /assets/images/posts/2017/11/ansible.png
 headerImage: true
 tag:
-- Ansible
+- ansible
 - devops
 - automation
 category: blog

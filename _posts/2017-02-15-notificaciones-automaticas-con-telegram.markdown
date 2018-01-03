@@ -6,8 +6,8 @@ image: /assets/images/posts/2017/02/logo_telegram.jpg
 headerImage: true
 tag:
 - telegram
-- automatización
-- DevOps
+- automation
+- devops
 category: blog
 author: miquelMariano
 description: Notificaciones automáticas con Telegram

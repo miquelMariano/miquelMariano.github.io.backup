@@ -6,6 +6,8 @@ image: /assets/images/posts/2017/01/ansible_logo.png
 headerImage: true
 tag:
 - ansible
+- devops
+- automation
 category: blog
 author: miquelMariano
 description: Ansible for dummies

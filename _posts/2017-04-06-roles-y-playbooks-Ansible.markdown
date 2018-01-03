@@ -6,8 +6,8 @@ image: /assets/images/posts/2017/01/ansible_logo.png
 headerImage: true
 tag:
 - ansible
-- DevOps
-- automatización
+- devops
+- automation
 category: blog
 author: miquelMariano
 description: ¿Como se usan los roles y playbooks en Ansible?

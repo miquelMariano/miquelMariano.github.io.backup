@@ -9,7 +9,8 @@ tag:
 - vexpert
 - vsphere
 - storage
-- VMFS
+- vmfs
+- esxcli
 category: blog
 author: miquelMariano
 description: Reclamar bloques eliminados en datastores VMFS

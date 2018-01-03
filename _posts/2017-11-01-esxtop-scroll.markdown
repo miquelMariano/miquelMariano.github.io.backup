@@ -7,9 +7,9 @@ headerImage: true
 tag:
 - vmware
 - vexpert
-- vCenter
-- VCSA
-- VMFS
+- vcenter
+- vcsa
+- vmfs
 category: blog
 author: miquelMariano
 description: Limitando nuestra vista sin necesidad de scroll para nuestra salida ESXTOP

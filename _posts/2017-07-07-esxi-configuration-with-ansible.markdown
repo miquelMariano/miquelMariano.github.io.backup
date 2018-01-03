@@ -6,10 +6,10 @@ image: /assets/images/posts/2017/01/ansible_logo.png
 headerImage: true
 tag:
 - ansible
-- DevOps
-- automatización
-- vExpert
-- ESXi
+- devops
+- automation
+- vexpert
+- esxi
 category: blog
 author: miquelMariano
 description: Automatizar configuración de ESXi con Ansible

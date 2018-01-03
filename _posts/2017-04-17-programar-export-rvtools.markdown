@@ -5,12 +5,12 @@ date: 2017-04-17 00:00:00
 image: /assets/images/posts/2017/04/RVTools_logo.png
 headerImage: true
 tag:
-- VMWare
-- vSphere
-- vExpert
-- DevOps
-- automatización
-- powerCLI
+- vmware
+- vsphere
+- vexpert
+- devops
+- automation
+- powercli
 category: blog
 author: miquelMariano
 description: Programar export automático de RVTools

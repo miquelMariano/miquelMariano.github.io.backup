@@ -5,12 +5,12 @@ date: 2017-03-10 00:00:00
 image: /assets/images/posts/2017/03/vcenter-migrate-logo.png
 headerImage: true
 tag:
-- VMWare
-- vSphere
-- dvSwitch
-- DRS
-- vExpert
-- PowerCLI
+- vmware
+- vsphere
+- dvswitch
+- drs
+- vexpert
+- powercli
 category: blog
 author: miquelMariano
 description: Migrar configuración de un vCenter a otro

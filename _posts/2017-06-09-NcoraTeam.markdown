@@ -5,12 +5,12 @@ date: 2017-06-09 18:00:00
 image: /assets/images/posts/2017/05/ansible-win.png
 headerImage: false
 tag:
-- VMWare
-- vSphere
-- vExpert
-- DevOps
-- NcoraTeam
-- NcoraTV
+- vmware
+- vsphere
+- vexpert
+- devops
+- ncorateam
+- ncoratv
 category: blog
 author: miquelMariano
 description: NcoraTeam | Miquel Mariano

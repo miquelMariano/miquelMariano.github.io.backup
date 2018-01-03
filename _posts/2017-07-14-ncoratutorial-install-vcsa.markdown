@@ -5,11 +5,11 @@ date: 2017-07-14 00:00:00
 image: /assets/images/posts/2017/01/ansible_logo.png
 headerImage: false
 tag:
-- VMWare
-- vSphere
-- vExpert
-- VCSA
-- NcoraTV
+- vmware
+- vsphere
+- vexpert
+- vcsa
+- ncoratv
 category: blog
 author: miquelMariano
 description: Ncora Tutorial ¿Cómo instalar vCenter Server Appliance 6.5?

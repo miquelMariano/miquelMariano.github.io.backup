@@ -5,10 +5,10 @@ date: 2017-03-23 18:00:00
 image: /assets/images/posts/2017/02/logo_telegram.png
 headerImage: false
 tag:
-- VMWare
-- vSphere
-- vExpert
-- DevOps
+- vmware
+- vsphere
+- vexpert
+- devops
 category: blog
 author: miquelMariano
 description: Backup y restore de vCenter 6.5

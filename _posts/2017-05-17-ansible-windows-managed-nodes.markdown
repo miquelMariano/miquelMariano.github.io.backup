@@ -6,8 +6,8 @@ image: /assets/images/posts/2017/05/ansible-win.png
 headerImage: true
 tag:
 - ansible
-- automatización
-- DevOps
+- automation
+- devops
 - windows
 category: blog
 author: miquelMariano

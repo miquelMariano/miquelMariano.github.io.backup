@@ -5,12 +5,12 @@ layout: post
 image: /assets/images/posts/2017/10/dead-path.jpg
 headerImage: true
 tag:
-- vExpert
+- vexpert
 - devops
-- vSphere
-- ESXi
-- SAN
-- PowerCLI
+- vsphere
+- esxi
+- san
+- powercli
 category: blog
 author: miquelMariano
 description: Checkear dead path en ESXi

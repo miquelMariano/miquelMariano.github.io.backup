@@ -5,12 +5,12 @@ date: 2017-05-05 13:00:00
 image: /assets/images/posts/2017/05/vAutodeploy-header.png
 headerImage: true
 tag:
-- VMWare
-- vSphere
-- vExpert
-- DevOps
-- automatización
-- powerCLI
+- vmware
+- vsphere
+- vexpert
+- devops
+- automation
+- powercli
 category: blog
 author: miquelMariano
 description: vAutodeploy, despliegue masivo de VMs con PowerCLI

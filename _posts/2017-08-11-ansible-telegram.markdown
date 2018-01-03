@@ -6,8 +6,8 @@ image: /assets/images/posts/2017/08/telegram-ansible.png
 headerImage: true
 tag:
 - ansible
-- DevOps
-- automatización
+- devops
+- automation
 - telegram
 category: blog
 author: miquelMariano
