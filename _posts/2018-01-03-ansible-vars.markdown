@@ -1,6 +1,6 @@
 ---
 title: Uso de variables con Ansible
-date: '2018-01-31 00:00:00'
+date: '2018-01-03 00:00:00'
 layout: post
 image: /assets/images/posts/2017/11/ansible.png
 headerImage: true
@@ -14,14 +14,11 @@ description: Uso de variables con Ansible
 hidden: false
 o: "{{"
 c: "}}"
-permalink: /avars/
 ---
-
-https://liquidat.wordpress.com/2016/01/26/howto-introduction-to-ansible-variables/
 
 Buenos dias a tod@as!!
 
-Para permitir mas flexibilidad en playbooks y roles, Ansible tiene la capacidad de trabajar con variables. Estas variables se pueden usar para recorrer una serie de valores determinados, acceder a informacion diversa, como el hostname o la ip de un sistema, e incluso reemplacer ciertas cadenas en una plantilla por valores específicos.
+Para permitir mas flexibilidad en playbooks y roles, Ansible tiene la capacidad de trabajar con [variables](http://docs.ansible.com/ansible/latest/playbooks_variables.html). Estas variables se pueden usar para recorrer una serie de valores determinados, acceder a informacion diversa, como el hostname o la ip de un sistema, e incluso reemplacer ciertas cadenas en una plantilla por valores específicos.
 
 Las variables se pueden proporcionar a través del inventario, de un archivo de variables, o se pueden incluir por linea de comandos al llamar un playbook.
 
