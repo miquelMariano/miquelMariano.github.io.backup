@@ -80,8 +80,8 @@ Las variables se pueden usar dentro de condiciones, lo que garantiza que ciertas
 ```yaml
 tasks:
   - name: Install Apache on Solaris
-    pkg5: name:
-      web/server/apache-24
+    pkg5: 
+      name: web/server/apache-24
     when: ansible_os_family == "Solaris"
  
   - name: Install Apache on RHEL
