@@ -19,7 +19,9 @@ Buenos dias a tod@as!!
 
 https://virtualguido.blogspot.com.es/2016/10/understanding-io-what-about-iops.html
 
+https://deinoscloud.wordpress.com/2010/07/26/understanding-vmfs-block-size-and-file-size/
 
+https://communities.vmware.com/docs/DOC-11458
 
 Un saludo!
 
