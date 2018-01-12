@@ -23,6 +23,10 @@ https://deinoscloud.wordpress.com/2010/07/26/understanding-vmfs-block-size-and-f
 
 https://communities.vmware.com/docs/DOC-11458
 
+https://pibytes.wordpress.com/2013/01/19/partition-alignment-in-vmware-vsphere-5-a-deepdrive-part-1-2/
+
+http://www.yellow-bricks.com/2010/04/08/aligning-your-vms-virtual-harddisks/
+
 Un saludo!
 
 Miquel.

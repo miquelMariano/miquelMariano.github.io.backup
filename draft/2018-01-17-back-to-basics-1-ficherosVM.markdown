@@ -2,7 +2,7 @@
 title: Back-to-basics 1 - Ficheros de una VM
 date: '2018-01-17 00:00:00'
 layout: post
-image: /assets/images/posts/2017/11/vmfiles1.png
+image: /assets/images/posts/2018/01/vmfiles1.png
 headerImage: true
 tag:
 - vmware
@@ -25,13 +25,11 @@ En este primer post, vamos a recordar los diferentes ficheros que conforman una 
 
 # Archivos que conforman una VM
 
-![vmfiles]({{ site.imagesposts2017 }}/11/vmfiles.jpg)
+![vmfiles]({{ site.imagesposts2018 }}/01/vmfiles.jpg)
 
 Los archivos que conforman una Máquina Virtual, generalmente, residen dentro de la carpeta (nombre de su VM) colocada en un datastore. Los archivos presentes en esta carpeta dependerán del estado en el que se encuentre la VM (Encendido / Apagado / Suspendido) y la acción que se está realizando en un momento determinado.
 
 # Ficheros de configuración
-
----
 
 + **vm_name.vmx:**	El fichero de configuración de una máquina virtual contiene todos los detalles para que la VM pueda arrancar. Información del Virtual Hardware, SO, Networking, Almacenamiento, ...
 Cada vez que creamos una VM, el fichero .vmx aparece automaticamente y contiene la información de todas las configuraciones que hemos ido perfilando durante el wizard de creación
@@ -40,50 +38,33 @@ Cada vez que creamos una VM, el fichero .vmx aparece automaticamente y contiene 
 + **vm_name.nvram**	Corresponde al fichero de configuración de la BIOS o EFI que utiliza la VM
 + **vm_name.vmss:** Corresponde al fichero del estado suspendido de una VM. Almacena información cuando una VM está en estado “suspended”. Si la VM está en otro estado, este fichero no existe
 
-
 # Ficheros de disco
 
----
-
 + **vm name.vmdk:**	LLamado "descriptor" o "puntero", es un fichero de texto plano que contiene la información sobre los discos de una VM
-+ **<vm name-flat.vmdk:**	En una VM, es el equivalente a un disco duro físico. Es donde se escriben los datos. No busqueis este fichero en el explorador del vSphere Client. Es el fichero donde apunta el "descriptor" y en el vSphere Client se presenta como un único fichero
++ **vm name-flat.vmdk:** En una VM, es el equivalente a un disco duro físico. Es donde se escriben los datos. No busqueis este fichero en el explorador del vSphere Client. Es el fichero donde apunta el "descriptor" y en el vSphere Client se presenta como un único fichero
 
 # Ficheros de Snapshot
 
----
-
-+ **vm name.vmsd:**	A database containing information about the snapshots taken for a specific virtual machine.
-+ **vm name-Snapshotn.vmsn:*	This file captures the VM’s memory state at the time the snapshot is taken regardless of whether the “Snapshot the virtual machine’s memory” option is selected. Starting with 1, n is incremented at every snapshot taken.
-+ **vm name-00000n-delta.vmdk:**	A delta vmdk is created whenever a snapshot is taken. The pre-snapshot vmdk in use is locked for writing. Any changes from there on are written to the VM’s delta disk. This allows a VM to be restored to any state prior to a specific snapshot being taken.
-+ **vm name-00000n.vmdk:**	The descriptor file for the delta vmdk file.
-
++ **vm name.vmsd:**	Es el fichero de metadatos donde se almacena la información sobre los snapshots de una VM.
++ **vm name-Snapshotn.vmsn:*	TEste fichero, captura el estado de la memoria de una VM en caso de que se haya marcado la opción “Snapshot the virtual machine’s memory” en la creación del snapshot. Empieza en 1 y n se va incrementando cada vez que se realiza un snapshot.
++ **vm name-00000n-delta.vmdk:** El fichero -delta.vmdk se crea cuando la VM tiene snapshot. El fichero .vmdk queda bloqueado en escrituras y todos los cambios se escriben en este disco -delta.vmdk. De esta manera, nos permite restaurar una VM a un estado anterior.
++ **vm name-00000n.vmdk:**	Es el fichero "descroptor" de los discos delta.
 # Ficheros de Log
 
 ---
 
-+ **vmware.log:**	The current log file for the VM. Useful for troubleshooting operations.
-+ **vmware-n.log:**	Older VM log files where larger values of n correspond to recently written files.
++ **vmware.log:** Es el fichero actual de logs de la VM. Se utiliza para tareas de troubleshooting.
++ **vmware-n.log:**	Son los logs antiguos de la VM. Podeis leer mas sobre este tema en [este post, en el blog de Ncora](https://www.ncora.com/blog/configuracion-de-logs-en-maquinas-virtuales/)
 
 # Otros ficheros
 
 ---
 
-+ **vm name-ctk.vmdk:**	This file is created whenever changed block tracking (CBT) is enabled for the VM. CBT is a VMware feature used by incremental backups and leveraged by backup software providers such as Altaro VMBackup.
-+ ***.vswp:**	The VM’s swap file is used to reduce the overhead memory reservation for a VM by swapping out memory to an  ESXi host with over-committed memory.
++ **vm name-ctk.vmdk:**	Este fichero se crea cuando  "Changed block tracking" (CBT) está habilitado en la VM. CBT es una funcionalidad que nos aporta VMware y es utilizada para los principales proveedores de software de backup para realizar copias incrementales.
++ ***.vswp:** El fichero swap de una VM es utilizado para garantizar los recursos de memoria de una VM en caso de que haya mucha saturación en un host ESXi. Se crea cuando la VM pasa a estado "PowerOn" y no tiene ningún tipo de reserva de memoria.
+ 
 
-
-
-
-
-
-http://blog.kanishksethi.in/2016/04/back-to-basics-virtual-machine-files.html
-
-http://www.on-cloud9.com/2012/01/16/virtual_machine_files_explained/
-
-https://www.altaro.com/vmware/the-anatomy-of-a-vmware-virtual-machine/
-
-..
-
+Hasta el próximo post.
 
 Un saludo!
 
