@@ -46,7 +46,7 @@ Cada vez que creamos una VM, el fichero .vmx aparece automaticamente y contiene 
 # Ficheros de Snapshot
 
 + **vm name.vmsd:**	Es el fichero de metadatos donde se almacena la información sobre los snapshots de una VM.
-+ **vm name-Snapshotn.vmsn:*	TEste fichero, captura el estado de la memoria de una VM en caso de que se haya marcado la opción “Snapshot the virtual machine’s memory” en la creación del snapshot. Empieza en 1 y n se va incrementando cada vez que se realiza un snapshot.
++ **vm name-Snapshotn.vmsn:** Este fichero, captura el estado de la memoria de una VM en caso de que se haya marcado la opción “Snapshot the virtual machine’s memory” en la creación del snapshot. Empieza en 1 y n se va incrementando cada vez que se realiza un snapshot.
 + **vm name-00000n-delta.vmdk:** El fichero -delta.vmdk se crea cuando la VM tiene snapshot. El fichero .vmdk queda bloqueado en escrituras y todos los cambios se escriben en este disco -delta.vmdk. De esta manera, nos permite restaurar una VM a un estado anterior.
 + **vm name-00000n.vmdk:**	Es el fichero "descroptor" de los discos delta.
 # Ficheros de Log
