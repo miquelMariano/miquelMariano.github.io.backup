@@ -17,43 +17,43 @@ permalink: /vcap6-dcv/
 ---
 
 # Section 1 - Create and Deploy vSphere 6.x Infrastructure Components
-## Objective 1.1 - Perform Advanced ESXi Host Configuration
-## Objective 1.2 - Deploy and Configure Core Management Infrastructure Components
-## Objective 1.3 - Deploy and Configure Update Manager Components
-## Objective 1.4 - Perform Advanced Virtual Machine Configurations
+### Objective 1.1 - Perform Advanced ESXi Host Configuration
+### Objective 1.2 - Deploy and Configure Core Management Infrastructure Components
+### Objective 1.3 - Deploy and Configure Update Manager Components
+### Objective 1.4 - Perform Advanced Virtual Machine Configurations
 
 # Section 2 - Deploy and Manage a vSphere 6.x Storage Infrastructure
-Objective 2.1 - Implement Complex Storage Solutions
-+ Objective 2.2 - Manage Complex Storage Solutions
-+ Objective 2.3 - Troubleshoot Complex Storage Solutions
+### Objective 2.1 - Implement Complex Storage Solutions
+### Objective 2.2 - Manage Complex Storage Solutions
+### Objective 2.3 - Troubleshoot Complex Storage Solutions
 
 # Section 3 - Deploy and Manage a vSphere 6.x Network Infrastructure
-Objective 3.1 - Implement and Manage vSphere Standard Switch (vSS) Networks
-+ Objective 3.2 - Implement and Manage vSphere 6.x Distributed Switch (vDS) Networks
-+ Objective 3.3 - Scale a vSphere 6.x Network Implementation
-+ Objective 3.4 - Troubleshoot a vSphere 6.x Network Implementation
+### Objective 3.1 - Implement and Manage vSphere Standard Switch (vSS) Networks
+### Objective 3.2 - Implement and Manage vSphere 6.x Distributed Switch (vDS) Networks
+### Objective 3.3 - Scale a vSphere 6.x Network Implementation
+### Objective 3.4 - Troubleshoot a vSphere 6.x Network Implementation
 
 # Section 4 - Configure a vSphere Deployment for Availability and Scalability
-Objective 4.1 - Implement and Maintain Complex vSphere Availability Solutions
-+ Objective 4.2 - Implement and Manage Complex DRS solutions
-+ Objective 4.3 - Troubleshoot vSphere clusters
+### Objective 4.1 - Implement and Maintain Complex vSphere Availability Solutions
+### Objective 4.2 - Implement and Manage Complex DRS solutions
+### Objective 4.3 - Troubleshoot vSphere clusters
 
 # Section 5 - Configure a vSphere Deployment for Manageability
-Objective 5.1 - Execute VMware Cmdlets and Customize Scripts Using PowerCLI
-+ Objective 5.2 - Implement and Maintain Host Profiles
-+ Objective 5.3 - Manage and analyze vSphere log files
-+ Objective 5.4 - Configure and manage Content Library
+### Objective 5.1 - Execute VMware Cmdlets and Customize Scripts Using PowerCLI
+### Objective 5.2 - Implement and Maintain Host Profiles
+### Objective 5.3 - Manage and analyze vSphere log files
+### Objective 5.4 - Configure and manage Content Library
 
 # Section 6 - Configure a vSphere Deployment for Performance
- Objective 6.1 - Utilize Advanced vSphere Performance Monitoring Tools
-+ Objective 6.2 - Optimize Virtual Machine resources
+### Objective 6.1 - Utilize Advanced vSphere Performance Monitoring Tools
+### Objective 6.2 - Optimize Virtual Machine resources
 
 # Section 7 - Configure a vSphere 6.x Environment for Recoverability
-Objective 7.1- Deploy and manage vSphere Replication
-+ Objective 7.2 - Deploy and Manage vSphere Data Protection
-+ Objective 7.3 - Backup and Recover vSphere Configurations
+### Objective 7.1- Deploy and manage vSphere Replication
+### Objective 7.2 - Deploy and Manage vSphere Data Protection
+### Objective 7.3 - Backup and Recover vSphere Configurations
 
 # Section 8 - Configure a vSphere 6.x Environment for Security
-## Objective 8.1 - Manage authentication and end-user security
-## Objective 8.2 - Manage SSL certificates
-## Objective 8.3 - Harden a vSphere 6.x Deployment
+### Objective 8.1 - Manage authentication and end-user security
+### Objective 8.2 - Manage SSL certificates
+### Objective 8.3 - Harden a vSphere 6.x Deployment
