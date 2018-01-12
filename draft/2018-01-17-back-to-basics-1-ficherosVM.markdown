@@ -49,16 +49,13 @@ Cada vez que creamos una VM, el fichero .vmx aparece automaticamente y contiene 
 + **vm name-Snapshotn.vmsn:** Este fichero, captura el estado de la memoria de una VM en caso de que se haya marcado la opción “Snapshot the virtual machine’s memory” en la creación del snapshot. Empieza en 1 y n se va incrementando cada vez que se realiza un snapshot.
 + **vm name-00000n-delta.vmdk:** El fichero -delta.vmdk se crea cuando la VM tiene snapshot. El fichero .vmdk queda bloqueado en escrituras y todos los cambios se escriben en este disco -delta.vmdk. De esta manera, nos permite restaurar una VM a un estado anterior.
 + **vm name-00000n.vmdk:**	Es el fichero "descroptor" de los discos delta.
-# Ficheros de Log
 
----
+# Ficheros de Log
 
 + **vmware.log:** Es el fichero actual de logs de la VM. Se utiliza para tareas de troubleshooting.
 + **vmware-n.log:**	Son los logs antiguos de la VM. Podeis leer mas sobre este tema en [este post, en el blog de Ncora](https://www.ncora.com/blog/configuracion-de-logs-en-maquinas-virtuales/)
 
 # Otros ficheros
-
----
 
 + **vm name-ctk.vmdk:**	Este fichero se crea cuando  "Changed block tracking" (CBT) está habilitado en la VM. CBT es una funcionalidad que nos aporta VMware y es utilizada para los principales proveedores de software de backup para realizar copias incrementales.
 + ***.vswp:** El fichero swap de una VM es utilizado para garantizar los recursos de memoria de una VM en caso de que haya mucha saturación en un host ESXi. Se crea cuando la VM pasa a estado "PowerOn" y no tiene ningún tipo de reserva de memoria.
