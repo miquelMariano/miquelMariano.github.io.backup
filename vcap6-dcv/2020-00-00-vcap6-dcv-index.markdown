@@ -18,6 +18,17 @@ permalink: /vcap6-dcv/
 
 # Section 1 - Create and Deploy vSphere 6.x Infrastructure Components
 ### Objective 1.1 - Perform Advanced ESXi Host Configuration
+* Configure and Manage Auto Deploy configurations
+..* Determine use case for Stateless vs Stateful installs
+..* Create / Modify rules and rule sets
+..* Create and associate Host Profiles for an Auto Deploy reference host
+* Configure Kernel Boot Parameters for scripted install according to a deployment plan:
+..* Modify scripted weasel install (ks.cfg)
+..* Create / Modify scripted installation
+* Configure Advanced System Settings according to a deployment plan:
+..* Edit System Swap / Scratch Configuration
+..* Configure ESXi host to use a central Syslog Server
+* Manage/Edit the Core Dump configuration of an ESXi host
 ### Objective 1.2 - Deploy and Configure Core Management Infrastructure Components
 ### Objective 1.3 - Deploy and Configure Update Manager Components
 ### Objective 1.4 - Perform Advanced Virtual Machine Configurations
