@@ -2,7 +2,7 @@
 title: VCAP6-DCV Deploy
 date: '2018-01-17 00:00:00'
 layout: post
-image: /assets/images/posts/2018/01/vmfiles1.png
+image: /assets/images/posts/2018/01/vcap-logo.png
 headerImage: true
 tag:
 - vmware
