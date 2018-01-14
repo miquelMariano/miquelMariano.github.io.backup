@@ -28,7 +28,14 @@ Para habilitar el servicio Auto deploy, hacemos login en nuestro vCenter a trav�
 
 Administración > Configuración del sistema > Servicios > Auto Deploy
 
+Hacemos click en el desplegable de "Acciones" y le damos a "Iniciar"
+
 ![autodeploy1]({{ site.imagesposts2018 }}/01/autodeploy1.png)
+
+Una vez arrancado el servicio, podemos configurar el arranque automático desde el menú "Editar tipo de inicio"
+
+![autodeploy2]({{ site.imagesposts2018 }}/01/autodeploy2.png)
+![autodeploy3]({{ site.imagesposts2018 }}/01/autodeploy3.png)
 
 ### Configurar DHCP y TFTP
 
