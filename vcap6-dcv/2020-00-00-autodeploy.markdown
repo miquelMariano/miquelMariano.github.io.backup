@@ -71,10 +71,48 @@ Descargaremos el fichero TFTP Boot Zip para posteriormente subirlo en nuestro se
 
 ![autodeploy3]({{ site.imagesposts2018 }}/01/autodeploy3.png)
 
-
-
-
-
 ### Configurar DHCP y TFTP
 
+Una vez arrancado y configurado el servicio auto deploy, el proximo paso es desplegar y configurar nuestro servidor DHCP y TFTP para poder arrancar por [PXE](https://es.wikipedia.org/wiki/Preboot_Execution_Environment) nuestros ESXi.
+
+En mi caso, estoy utilizando un Windows 2012 R2 para levantar los servicios de DHCP y TFTP.
+
+Lo primero, configuraremos el servicio TFTP. Estoy utilizando SolarWinds TFTP Server como servidor, es gratis y se puede descargar desde [aquí.](http://www.solarwinds.com/free-tools/free-tftp-server)
+
+Instalamos el TFTP server y arrancamos la aplicación
+
+> El ejecutable se encuentra en C:\Program Files (x86)\SolarWinds\TFTP Server. Para mas comodidad, os podeis crear un icono en 
+> vuestro escritorio.
+
+
+
+
+
 ### Crear reglas de Autodeploy usando PowerCLI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
