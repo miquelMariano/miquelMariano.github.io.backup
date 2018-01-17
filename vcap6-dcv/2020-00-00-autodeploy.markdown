@@ -69,7 +69,7 @@ Para configurar Autodeploy, navegaremos desde el web client Home > Lista de inve
 
 Descargaremos el fichero TFTP Boot Zip para posteriormente subirlo en nuestro servidor DHCP/TFTP.
 
-![autodeploy3]({{ site.imagesposts2018 }}/01/autodeploy3.png)
+![autodeploy3]({{ site.imagesposts2018 }}/01/autodeploy4.png)
 
 ### Configurar DHCP y TFTP
 
