@@ -32,7 +32,7 @@ Hacemos click en el desplegable de "Acciones" y le damos a "Iniciar"
 
 ![autodeploy1]({{ site.imagesposts2018 }}/01/autodeploy1.png)
 
-Adicionalmente, en caso de tener nuestra instancia sobre VCSA, podremos habilitar el servicio de la siguiente manera
+Adicionalmente, en caso de tener nuestra instancia sobre VCSA, también podremos habilitar el servicio de la siguiente manera:
 
 ```sshCommand>
 Command> shell.set --enabled True
@@ -66,6 +66,14 @@ Una vez arrancado el servicio, podemos configurar el arranque automático desde 
 ![autodeploy3]({{ site.imagesposts2018 }}/01/autodeploy3.png)
 
 Para configurar Autodeploy, navegaremos desde el web client Home > Lista de inventarios globales > Instancias de vCenter Server > seleccionamos nuestro vCenter > Pestaña configuración > Auto Deploy
+
+Descargaremos el fichero TFTP Boot Zip para posteriormente subirlo en nuestro servidor DHCP/TFTP.
+
+![autodeploy3]({{ site.imagesposts2018 }}/01/autodeploy3.png)
+
+
+
+
 
 ### Configurar DHCP y TFTP
 
