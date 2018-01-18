@@ -99,6 +99,24 @@ En el laboratorio utilizaremos el propio servidor DHCP del Windows server 2016, 
 
 Expandimos IPv4 y con el botón secundario, creamos un nuevo ámbito.
 
+![autodeploy7]({{ site.imagesposts2018 }}/01/autodeploy7.png)
+
+y simplemente seguiremos el asistente de configuración hasta llegar a este punto:
+
+![autodeploy8]({{ site.imagesposts2018 }}/01/autodeploy8.png)
+
+Una vez creado nuestro ámbito, con el botón secundario podremos configurar sus opciones
+
+![autodeploy9]({{ site.imagesposts2018 }}/01/autodeploy9.png)
+
+En la opción 066, definiremos nuestro Boot Server. Aquí tenemos que poner la IP/FQDN de nuestro servidor TFTP. Como en este caso ambos servicios están sobre el mismo servidor, pondremos el nombre del servidor DHCP/TFTP
+
+![autodeploy10]({{ site.imagesposts2018 }}/01/autodeploy10.png)
+
+En la opción 067, definiremos el fichero undionly.kpxe.vmw-hardwired. Este binario, se usará para que arranquen los hosts ESXi.
+
+![autodeploy11]({{ site.imagesposts2018 }}/01/autodeploy11.png)
+
 
 
 ### Crear reglas de Autodeploy usando PowerCLI
