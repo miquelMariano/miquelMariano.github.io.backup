@@ -117,6 +117,9 @@ En la opción 067, definiremos el fichero undionly.kpxe.vmw-hardwired. Este bina
 
 ![autodeploy11]({{ site.imagesposts2018 }}/01/autodeploy11.png)
 
+Una vez finalizado, deberiamos tener una configuración similar a esta:
+
+![autodeploy12]({{ site.imagesposts2018 }}/01/autodeploy12.png)
 
 
 ### Crear reglas de Autodeploy usando PowerCLI
