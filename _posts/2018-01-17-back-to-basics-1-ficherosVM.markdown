@@ -22,11 +22,9 @@ En esta [serie que voy a empezar](https://miquelmariano.github.io/tags/#backtoba
 
 En este primer post, vamos a recordar los diferentes ficheros que conforman una Máquina Virtual y para que sirven.
 
-# Archivos que conforman una VM
+Los archivos que conforman una Máquina Virtual, generalmente, residen dentro de la carpeta (nombre de su VM) colocada en un datastore. Los archivos presentes en esta carpeta dependerán del estado en el que se encuentre la VM (Encendido / Apagado / Suspendido) y la acción que se está realizando en un momento determinado.
 
 ![vmfiles]({{ site.imagesposts2018 }}/01/vmfiles.jpg)
-
-Los archivos que conforman una Máquina Virtual, generalmente, residen dentro de la carpeta (nombre de su VM) colocada en un datastore. Los archivos presentes en esta carpeta dependerán del estado en el que se encuentre la VM (Encendido / Apagado / Suspendido) y la acción que se está realizando en un momento determinado.
 
 # Ficheros de configuración
 
