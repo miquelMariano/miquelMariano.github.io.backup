@@ -77,31 +77,36 @@ Una vez arrancado y configurado el servicio auto deploy, el proximo paso es desp
 
 En mi caso, estoy utilizando un Windows 2016 R2 para levantar los servicios de DHCP y TFTP.
 
-Lo primero, configuraremos el servicio TFTP. Estoy utilizando SolarWinds TFTP Server como servidor, es gratis y se puede descargar desde [aquí.](http://www.solarwinds.com/free-tools/free-tftp-server)
+Lo primero, configuraremos el servicio TFTP. Estoy utilizando WinAgent TFTP Server como servidor, es gratis y se puede descargar desde [aquí.](undionly.kpxe.vmw-hardwired)
 
 Instalamos el TFTP server y arrancamos la aplicación.
 
-> El ejecutable se encuentra en C:\Program Files (x86)\SolarWinds\TFTP Server. Para mas comodidad, os podeis crear un icono en 
+> El ejecutable se encuentra en C:\Program Files (x86)\WinAgents\TFTP Server 4. Para mas comodidad, os podeis crear un icono en 
 > vuestro escritorio.
 
 ![autodeploy5]({{ site.imagesposts2018 }}/01/autodeploy5.png)
 
-> No me pregunteis porqué, pero el solarwinds TFTP Server no arranca si el SO está en español. Tampoco investigué mucho sobre el
-> error, simplemente instalé un server en inglés. También está la opción de probar con otro software para el TFTP Server.
+La primera vez, tendremos que arrancar el servicio
 
-Ahora es el momento de descomprimir el fichero TFTP Boot Zip que previamente hemos descargado en el directorio de trabajo de nuestro servidor TFTP. Debaria quedar una cosa similar a esta:
+![autodeploy105]({{ site.imagesposts2018 }}/01/autodeploy105.png)
+
+Ahora es el momento de descomprimir el fichero TFTP Boot Zip que previamente hemos descargado en el directorio de trabajo de nuestro servidor TFTP. Debaría quedar una cosa similar a esta:
 
 ![autodeploy6]({{ site.imagesposts2018 }}/01/autodeploy6.png)
+
+![autodeploy106]({{ site.imagesposts2018 }}/01/autodeploy106.png)
+
+![autodeploy1006]({{ site.imagesposts2018 }}/01/autodeploy1006.png)
 
 Llegados a este punto, ya tenemos nuestro TFTP configurado y listo para usar, el próximo paso será configurar nuestro servidor DHCP.
 
 En el laboratorio utilizaremos el propio servidor DHCP del Windows server 2016, así que una vez implementado el role, abriremos la consola del DHCP server.
 
-Expandimos IPv4 y con el botón secundario, creamos un nuevo ámbito.
+Expandimos IPv4 y con el botón secundario y creamos un nuevo ámbito.
 
 ![autodeploy7]({{ site.imagesposts2018 }}/01/autodeploy7.png)
 
-y simplemente seguiremos el asistente de configuración hasta llegar a este punto:
+Seguiremos el asistente de configuración hasta llegar a este punto:
 
 ![autodeploy8]({{ site.imagesposts2018 }}/01/autodeploy8.png)
 
