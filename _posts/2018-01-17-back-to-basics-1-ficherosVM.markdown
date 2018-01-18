@@ -15,7 +15,7 @@ author: miquelMariano
 description: Back-to-basics 1 - Ficheros de una VM
 hidden: false
 ---
-
+.
 Buenos dias a tod@as!!
 
 En esta [serie que voy a empezar](https://miquelmariano.github.io/tags/#backtobasics), me gustaría dar un repaso a los principales conceptos y aspectos que hay que tener en cuenta en un entorno vSphere.

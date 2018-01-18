@@ -79,7 +79,7 @@ En mi caso, estoy utilizando un Windows 2012 R2 para levantar los servicios de D
 
 Lo primero, configuraremos el servicio TFTP. Estoy utilizando SolarWinds TFTP Server como servidor, es gratis y se puede descargar desde [aquí.](http://www.solarwinds.com/free-tools/free-tftp-server)
 
-Instalamos el TFTP server y arrancamos la aplicación
+Instalamos el TFTP server y arrancamos la aplicación.
 
 > El ejecutable se encuentra en C:\Program Files (x86)\SolarWinds\TFTP Server. Para mas comodidad, os podeis crear un icono en 
 > vuestro escritorio.
