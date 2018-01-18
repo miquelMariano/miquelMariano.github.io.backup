@@ -15,7 +15,7 @@ author: miquelMariano
 description: Back-to-basics 1 - Ficheros de una VM
 hidden: false
 ---
-.
+
 Buenos dias a tod@as!!
 
 En esta [serie que voy a empezar](https://miquelmariano.github.io/tags/#backtobasics), me gustaría dar un repaso a los principales conceptos y aspectos que hay que tener en cuenta en un entorno vSphere.
@@ -47,7 +47,7 @@ Cada vez que creamos una VM, el fichero .vmx aparece automaticamente y contiene 
 + **vm name.vmsd:**	Es el fichero de metadatos donde se almacena la información sobre los snapshots de una VM.
 + **vm name-Snapshotn.vmsn:** Este fichero, captura el estado de la memoria de una VM en caso de que se haya marcado la opción “Snapshot the virtual machine’s memory” en la creación del snapshot. Empieza en 1 y n se va incrementando cada vez que se realiza un snapshot.
 + **vm name-00000n-delta.vmdk:** El fichero -delta.vmdk se crea cuando la VM tiene snapshot. El fichero .vmdk queda bloqueado en escrituras y todos los cambios se escriben en este disco -delta.vmdk. De esta manera, nos permite restaurar una VM a un estado anterior.
-+ **vm name-00000n.vmdk:**	Es el fichero "descroptor" de los discos delta.
++ **vm name-00000n.vmdk:**	Es el fichero "descriptor" de los discos delta.
 
 # Ficheros de Log
 
@@ -60,7 +60,7 @@ Cada vez que creamos una VM, el fichero .vmx aparece automaticamente y contiene 
 + ***.vswp:** El fichero swap de una VM es utilizado para garantizar los recursos de memoria de una VM en caso de que haya mucha saturación en un host ESXi. Se crea cuando la VM pasa a estado "PowerOn" y no tiene ningún tipo de reserva de memoria.
  
 
-Hasta el próximo post.
+Espero que os sea de utilidad. Hasta el próximo post.
 
 Un saludo!
 
