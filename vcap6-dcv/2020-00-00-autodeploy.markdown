@@ -152,7 +152,7 @@ Connect-VIserver <<vcenter name>>
 Añadimos el paquete offline del ESXi
 
 ```powershell
-Add-EsxSoftwareDepot “file location"
+Add-EsxSoftwareDepot "file location"
 ```
 ![autodeploy16]({{ site.imagesposts2018 }}/01/autodeploy16.png)
 
