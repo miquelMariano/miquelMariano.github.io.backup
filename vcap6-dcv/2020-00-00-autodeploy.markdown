@@ -130,10 +130,20 @@ Y si todo ha ido bien, nuestro servidor deberia arrancar por PXE e intentar "hab
 
 ![autodeploy13]({{ site.imagesposts2018 }}/01/autodeploy13.png)
 
+A partir de aqui, necesitaremos disponer de PowerCLI y de los cmdlets para Auto Deploy. Podremos ver las opciones disponibles con el comando `Get-DeployCommand`
 
+![autodeploy14]({{ site.imagesposts2018 }}/01/autodeploy14.png)
 
+Lo primero que haremos, será subir la iso de ESXi. 
 
+> Podremos descargar la versión offline de ESXi desde el portal de [My VMWare](https://my.vmware.com)
 
+Conectamos con nuestro vcenter
+
+```powershell
+Connect-VIserver <<vcenter name>>
+```
+![autodeploy15]({{ site.imagesposts2018 }}/01/autodeploy15.png)
 
 
 
