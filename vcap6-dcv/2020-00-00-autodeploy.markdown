@@ -134,7 +134,7 @@ A partir de aqui, necesitaremos disponer de PowerCLI y de los cmdlets para Auto 
 
 ```powershell
 Get-DeployCommand
-``
+```
 
 ![autodeploy14]({{ site.imagesposts2018 }}/01/autodeploy14.png)
 
@@ -185,7 +185,7 @@ Como parte del plan, es posible añadir un host esxi directamente en vCenter una
 
 ![autodeploy18]({{ site.imagesposts2018 }}/01/autodeploy18.png)
 
-Una vez creada, lanzaremos el siguiente comando desde PowerCLI. Deberemos especificar la imagen del ESXi, la carpeta y la IP que usilizará el host
+Una vez creada, lanzaremos el siguiente comando desde PowerCLI. Deberemos especificar la imagen del ESXi, la carpeta y la IP que utilizará el host
 
 ```powershell
 New-DeployRule -Name “test” -Item “ESXi-image“, “Auto Deploy” -Pattern “ipv4=192.168.7.100”
