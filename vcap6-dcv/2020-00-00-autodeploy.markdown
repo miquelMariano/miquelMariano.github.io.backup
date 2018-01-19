@@ -130,7 +130,11 @@ Y si todo ha ido bien, nuestro servidor deberia arrancar por PXE e intentar "hab
 
 ![autodeploy13]({{ site.imagesposts2018 }}/01/autodeploy13.png)
 
-A partir de aqui, necesitaremos disponer de PowerCLI y de los cmdlets para Auto Deploy. Podremos ver las opciones disponibles con el comando `Get-DeployCommand`
+A partir de aqui, necesitaremos disponer de PowerCLI y de los cmdlets para Auto Deploy. Podremos ver las opciones disponibles con el comando 
+
+```powershell
+Get-DeployCommand
+``
 
 ![autodeploy14]({{ site.imagesposts2018 }}/01/autodeploy14.png)
 
@@ -145,7 +149,21 @@ Connect-VIserver <<vcenter name>>
 ```
 ![autodeploy15]({{ site.imagesposts2018 }}/01/autodeploy15.png)
 
+Añadimos el paquete offline del ESXi
 
+```powershell
+Add-EsxSoftwareDepot “file location"
+```
+![autodeploy16]({{ site.imagesposts2018 }}/01/autodeploy16.png)
+
+Confirmamos que el paquete se ha subido correctamente
+
+```powershell
+Get-EsxImageProfile
+```
+![autodeploy17]({{ site.imagesposts2018 }}/01/autodeploy17.png)
+
+En este punto necesitaremos crear un conjunto de reglas y asociar un perfil de host, pero la infraestructura de Auto Deploy está lista.
 
 ### Crear reglas de Autodeploy usando PowerCLI
 
