@@ -177,7 +177,33 @@ Para configurar "stateful" o "stateless", es necesario que Host Profile esté co
 To enable stateful or stateless a Host Profile must be configured first.  Edit an existing Host Profile via Web Client – Host Profiles – Edit – Advanced Configuration Settings – System Image Cache Configuration
 
 
-### Create / Modify rules and rule sets
+### Crear/modificar reclas y conjunto de reglas
+
+Ahora que tenemos Auto Depooy configurado y la imagen offline del ESXi correctamente subida, necesitaremos crear una regla para el despliegue.
+
+Como parte del plan, es posible añadir un host esxi directamente en vCenter una vez el ESXi está instalado e incluirlo en un cluster o carpeta. En mi caso, he creado una carpeta llamada "Auto Deploy"
+
+![autodeploy18]({{ site.imagesposts2018 }}/01/autodeploy18.png)
+
+Una vez creada, lanzaremos el siguiente comando desde PowerCLI. Deberemos especificar la imagen del ESXi, la carpeta y la IP que usilizará el host
+
+```powershell
+New-DeployRule -Name “test” -Item “ESXi-image“, “Auto Deploy” -Pattern “ipv4=192.168.7.100”
+``` 
+![autodeploy19]({{ site.imagesposts2018 }}/01/autodeploy19.png)
+
+y aplicamos la regla para que el set esté activo
+
+```powershell
+Add-DeployRule -DeployRule “test”
+```
+
+![autodeploy20]({{ site.imagesposts2018 }}/01/autodeploy20.png)
+
+
+
+
+
 
 
 ### Create and associate Host Profiles for an Auto Deploy reference host
