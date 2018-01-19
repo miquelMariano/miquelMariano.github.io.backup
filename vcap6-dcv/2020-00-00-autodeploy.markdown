@@ -126,6 +126,16 @@ Una vez finalizado, deberiamos tener una configuración similar a esta:
 
 ![autodeploy12]({{ site.imagesposts2018 }}/01/autodeploy12.png)
 
+Y si todo ha ido bien, nuestro servidor deberia arrancar por PXE e intentar "hablar" con el servidor TFTP server. Evidentemente, todavía no hemos subido ninguna imagen de ESXi y no va a pasar de ahi
+
+![autodeploy13]({{ site.imagesposts2018 }}/01/autodeploy13.png)
+
+
+
+
+
+
+
 
 ### Crear reglas de Autodeploy usando PowerCLI
 
