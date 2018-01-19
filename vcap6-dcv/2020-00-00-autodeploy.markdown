@@ -165,7 +165,13 @@ Get-EsxImageProfile
 
 En este punto necesitaremos crear un conjunto de reglas y asociar un perfil de host, pero la infraestructura de Auto Deploy está lista.
 
-### Crear reglas de Autodeploy usando PowerCLI
+### Stateful vs. Stateless
+
+
+### Create / Modify rules and rule sets
+
+
+### Create and associate Host Profiles for an Auto Deploy reference host
 
 
 
