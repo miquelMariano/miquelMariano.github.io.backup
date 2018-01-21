@@ -169,7 +169,7 @@ En este punto necesitaremos crear un conjunto de reglas y asociar un perfil de h
 
 Un host desplegado con Auto Deploy se puede dejar en "stateful" (con estado) o "stateless" (sin estado)
 
-Los desplieques "stateful" provisionan al host  y aplican un Host Profile el cual, tanto la imagen del ESXi como la configuración se almacenan en el disco local. Una vez instalado el host y ha arrancado desde el disco, ya no se requiere Auto Deploy.
+Los desplieques "stateful" provisionan el host  y aplican un Host Profile el cual, tanto la imagen del ESXi como la configuración se almacenan en el disco local. Una vez instalado el host y ha arrancado desde el disco, ya no se requiere Auto Deploy.
 
 En cambio, en los despliegues "stateless", mediante Auto Deploy se provisiona el host profile y cada vez que el ESXi arranque, necesitará de Autodeploy. Es posible configurar una caché que permite al host arrancar en caso de que AutoDeploy no esté disponible.
 
