@@ -181,6 +181,10 @@ To enable stateful or stateless a Host Profile must be configured first.  Edit a
 
 Ahora que tenemos Auto Depooy configurado y la imagen offline del ESXi correctamente subida, necesitaremos crear una regla para el despliegue.
 
+Las reglas se utilizan para determinar que hosts de los que estan arrancando deben tener cada versión especifica de ESXi. Dos parametros importantes son necesarios. `Items` y `patterns`
+
+Items determina que objeto asociaremos a cada ESXi y patterns determina que ESXi será parte de cada regla específica.
+
 Como parte del plan, es posible añadir un host esxi directamente en vCenter una vez el ESXi está instalado e incluirlo en un cluster o carpeta. En mi caso, he creado una carpeta llamada "Auto Deploy"
 
 ![autodeploy18]({{ site.imagesposts2018 }}/01/autodeploy18.png)
@@ -188,7 +192,7 @@ Como parte del plan, es posible añadir un host esxi directamente en vCenter una
 Una vez creada, lanzaremos el siguiente comando desde PowerCLI. Deberemos especificar la imagen del ESXi, la carpeta y la IP que utilizará el host
 
 ```powershell
-New-DeployRule -Name “test” -Item “ESXi-image“, “Auto Deploy” -Pattern “ipv4=192.168.7.200”
+New-DeployRule -Name “test” -Item “ESXi-image“, “Auto Deploy” -Pattern “ipv4=192.168.7.200-192.168.7.20”
 ``` 
 ![autodeploy19]({{ site.imagesposts2018 }}/01/autodeploy19.png)
 
@@ -200,14 +204,12 @@ Add-DeployRule -DeployRule “test”
 
 ![autodeploy20]({{ site.imagesposts2018 }}/01/autodeploy20.png)
 
-
 Si no nos hemos saltado ningún paso, es el momento de probar nuestra configuración.
 Crearemos una VM nueva en nuestro vCenter y selecionaremos ESXi 6.0 como SO y la arrancaremos.
 
 Nuestro DHCP le deberia de asignar una IP y poder contactar con el TFTP server para recibir la imagen ESXi.
 
-
-![autodeploy21({{ site.imagesposts2018 }}/01/autodeploy21.png)
+![autodeploy21]({{ site.imagesposts2018 }}/01/autodeploy21.png)
 
 
 
