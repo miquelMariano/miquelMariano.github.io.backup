@@ -188,7 +188,7 @@ Como parte del plan, es posible añadir un host esxi directamente en vCenter una
 Una vez creada, lanzaremos el siguiente comando desde PowerCLI. Deberemos especificar la imagen del ESXi, la carpeta y la IP que utilizará el host
 
 ```powershell
-New-DeployRule -Name “test” -Item “ESXi-image“, “Auto Deploy” -Pattern “ipv4=192.168.7.100”
+New-DeployRule -Name “test” -Item “ESXi-image“, “Auto Deploy” -Pattern “ipv4=192.168.7.200”
 ``` 
 ![autodeploy19]({{ site.imagesposts2018 }}/01/autodeploy19.png)
 
@@ -201,6 +201,13 @@ Add-DeployRule -DeployRule “test”
 ![autodeploy20]({{ site.imagesposts2018 }}/01/autodeploy20.png)
 
 
+Si no nos hemos saltado ningún paso, es el momento de probar nuestra configuración.
+Crearemos una VM nueva en nuestro vCenter y selecionaremos ESXi 6.0 como SO y la arrancaremos.
+
+Nuestro DHCP le deberia de asignar una IP y poder contactar con el TFTP server para recibir la imagen ESXi.
+
+
+![autodeploy21({{ site.imagesposts2018 }}/01/autodeploy21.png)
 
 
 
