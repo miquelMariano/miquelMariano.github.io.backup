@@ -211,6 +211,8 @@ Nuestro DHCP le deberia de asignar una IP y poder contactar con el TFTP server p
 
 ![autodeploy21]({{ site.imagesposts2018 }}/01/autodeploy21.png)
 
+![autodeploy22]({{ site.imagesposts2018 }}/01/autodeploy22.png)
+
 
 
 
