@@ -16,7 +16,7 @@ hidden: false
 permalink: /111/
 ---
 
-Auto deploy usa [PXE](https://es.wikipedia.org/wiki/Preboot_Execution_Environment) para el desplieqgue de ESXi en una red. Cuanto un host se despliega mediante Auto deploy, la información de estado se carga en memoria durante el arranque. El estado, por defecto, no se almacena de forma permanente en el host.
+Auto deploy usa [PXE](https://es.wikipedia.org/wiki/Preboot_Execution_Environment) para el despliegue de ESXi en una red. Cuanto un host se despliega mediante Auto deploy, la información de estado se carga en memoria durante el arranque. El estado, por defecto, no se almacena de forma permanente en el host.
 
 Podemos usar Host Profile con Auto deploy para customizar el estado de nuestros hosts ESXi. A demás, desde  el menú de configuración avanzada de un ESXi, podemos configurar el host sin estado, o con un estado al arrancar.
 
@@ -177,7 +177,7 @@ Para configurar "stateful" o "stateless", es necesario que Host Profile esté co
 To enable stateful or stateless a Host Profile must be configured first.  Edit an existing Host Profile via Web Client – Host Profiles – Edit – Advanced Configuration Settings – System Image Cache Configuration
 
 
-### Crear/modificar reclas y conjunto de reglas
+### Crear/modificar reglas y conjunto de reglas
 
 Ahora que tenemos Auto Depooy configurado y la imagen offline del ESXi correctamente subida, necesitaremos crear una regla para el despliegue.
 
@@ -213,11 +213,14 @@ Nuestro DHCP le deberia de asignar una IP y poder contactar con el TFTP server p
 
 ![autodeploy22]({{ site.imagesposts2018 }}/01/autodeploy22.png)
 
+### Crear y asociar Host Profile para un host de referencia de Auto Deploy
 
+Se debe configurar un host de referencia con la configuración de red, la configuración de NTP, la configuración de Syslog, la configuración de Core Dump y la configuración de seguridad. Este host de referencia puede proporcionar un perfil de host que se aplicará a las implementaciones sin estado de Auto Deploy.
 
+Configure un host utilizando los métodos habituales: Cliente web / CLI y use ese host para crear un perfil de host que se usará como referencia. Es posible crear el perfil de host manualmente.
 
+Como ejemplo, creo un host muy básico y cambio el nombre predeterminado del Grupo de Puertos de la Máquina Virtual para Implementar y agregar una etiqueta VLAN de 99.
 
-### Create and associate Host Profiles for an Auto Deploy reference host
 
 
 
