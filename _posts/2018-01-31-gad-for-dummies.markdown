@@ -18,7 +18,7 @@ hidden: false
 
 Buenos días a tod@dos, queridos lectores del blog.
 
-Hoy quiero recuperar un post que publiqué en #ElBlogDeNcora, en el que hablábamos sobre una de las muchas tecnologías de replicación que tiene Hitachi Vantara. Espero no dejaros indiferentes.
+Hoy quiero recuperar un post que publiqué en [#ElBlogDeNcora](https://www.ncora.com/blog), en el que hablábamos sobre una de las muchas tecnologías de replicación que tiene Hitachi Vantara.
  
 Con la llegada de las cabinas enterprise VSP G1000/1500 y posteriormente la familia midrange VSP Gx00, llegó una nueva tecnología llamada GAD (Global Active Device), pero.. 
 
