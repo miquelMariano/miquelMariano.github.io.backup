@@ -1,6 +1,6 @@
 ---
 title: GAD for dummies
-date: '2018-01-03 00:00:00'
+date: '2018-01-31 00:00:00'
 layout: post
 image: /assets/images/posts/2018/01/gad0.png
 headerImage: true
@@ -14,7 +14,6 @@ category: blog
 author: miquelMariano
 description: GAD for dummies
 hidden: false
-permalink: /gad/
 ---
 
 Buenos días a tod@dos, queridos lectores del blog.
