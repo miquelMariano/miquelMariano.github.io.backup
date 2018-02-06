@@ -47,6 +47,15 @@ Manage / Configure vCenter components according to a deployment plan:
 * Managing vCenter Server advanced configurations
 
 ### [Objective 1.3 - Deploy and Configure Update Manager Components](https://miquelmariano.github.io/113)
+Deploy / Configure Update Manager components according to a deployment plan:
+* Configure VUM Update Manager download service
+* Configure a VUM shared repository
+* Configure VUM smart rebooting
+* Manually download updates to a VUM repository
+* Create and modify VUM baseline groups
+Perform VUM orchestrated vSphere upgrades
+Troubleshoot Update Manager problem areas and issues
+Utilize Update Manager to reconfigure VUM settings
 
 ### Objective 1.4 - Perform Advanced Virtual Machine Configurations
 
