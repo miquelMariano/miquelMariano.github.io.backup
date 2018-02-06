@@ -173,8 +173,7 @@ Los desplieques "stateful" provisionan el host  y aplican un Host Profile el cua
 
 En cambio, en los despliegues "stateless", mediante Auto Deploy se provisiona el host profile y cada vez que el ESXi arranque, necesitará de Autodeploy. Es posible configurar una caché que permite al host arrancar en caso de que AutoDeploy no esté disponible.
 
-Para configurar "stateful" o "stateless", es necesario que Host Profile esté configurado inicialmente. Editamos el 
-To enable stateful or stateless a Host Profile must be configured first.  Edit an existing Host Profile via Web Client – Host Profiles – Edit – Advanced Configuration Settings – System Image Cache Configuration
+Para configurar "stateful" o "stateless", es necesario que Host Profile esté configurado inicialmente. Editamos un host profile existente via web client > Host Profiles > Edit > Advanced Configuration Settings > System Image Cache Configuration
 
 ![autodeploy117]({{ site.vcap_images }}/01/17.png)
 
