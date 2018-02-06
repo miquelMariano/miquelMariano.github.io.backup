@@ -18,27 +18,29 @@ permalink: /vcap6-dcv/
 
 # Section 1 - Create and Deploy vSphere 6.x Infrastructure Components
 ### [Objective 1.1 - Perform Advanced ESXi Host Configuration](https://miquelmariano.github.io/111)
-* Configure and Manage Auto Deploy configurations
-* Configure Kernel Boot Parameters for scripted install according to a deployment plan:
-* Configure Advanced System Settings according to a deployment plan
-* Manage/Edit the Core Dump configuration of an ESXi host
+1. Configure and Manage Auto Deploy configurations
+Determine use case for Stateless vs Stateful installs
+Create / Modify rules and rule sets
+Create and associate Host Profiles for an Auto Deploy reference host
+2. Configure Kernel Boot Parameters for scripted install according to a deployment plan:
+Modify scripted weasel install (ks.cfg)
+Create / Modify scripted installation
+3. Configure Advanced System Settings according to a deployment plan
+Edit System Swap / Scratch Configuration
+Configure ESXi host to use a central Syslog Server
+4. Manage/Edit the Core Dump configuration of an ESXi host
 
 ### [Objective 1.2 - Deploy and Configure Core Management Infrastructure Components](https://miquelmariano.github.io/112)
-* Deploy vCenter core components according to a deployment plan:
-..* Deploy and Configure a Platform Services Controller (PSC):
-....* Determine use case for embedded vs external PSC
-...* Re-point a vCenter Server Appliance to another External PSC
-..* Deploy and Configure Identity Sources for Single Sign-On:
-....* Configure Single Sign-On users and groups
-....* Change Default domain for Single Sign-On
-....* List services registered with Single Sign-on
-..* Deploy and configure vCenter Server
-..* Deploy / Configure Enhanced Link Mode
-* Manage / Configure vCenter components according to a deployment plan:
-..* Configure Global Permissions for vCenter services
-..* Configure Dump Collector service
-..* Configure the Syslog Collector / Syslog service
-..* Managing vCenter Server advanced configurations
+Deploy vCenter core components according to a deployment plan:
+* Deploy and Configure a Platform Services Controller (PSC):
+* Deploy and Configure Identity Sources for Single Sign-On:
+* Deploy and configure vCenter Server
+* Deploy / Configure Enhanced Link Mode
+Manage / Configure vCenter components according to a deployment plan:
+* Configure Global Permissions for vCenter services
+* Configure Dump Collector service
+* Configure the Syslog Collector / Syslog service
+* Managing vCenter Server advanced configurations
 
 ### [Objective 1.3 - Deploy and Configure Update Manager Components](https://miquelmariano.github.io/113)
 
