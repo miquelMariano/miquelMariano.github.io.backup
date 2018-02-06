@@ -23,8 +23,25 @@ permalink: /vcap6-dcv/
 * Configure Advanced System Settings according to a deployment plan
 * Manage/Edit the Core Dump configuration of an ESXi host
 
-### Objective 1.2 - Deploy and Configure Core Management Infrastructure Components
-### Objective 1.3 - Deploy and Configure Update Manager Components
+### [Objective 1.2 - Deploy and Configure Core Management Infrastructure Components](https://miquelmariano.github.io/112)
+* Deploy vCenter core components according to a deployment plan:
+..* Deploy and Configure a Platform Services Controller (PSC):
+....* Determine use case for embedded vs external PSC
+...* Re-point a vCenter Server Appliance to another External PSC
+..* Deploy and Configure Identity Sources for Single Sign-On:
+....* Configure Single Sign-On users and groups
+....* Change Default domain for Single Sign-On
+....* List services registered with Single Sign-on
+..* Deploy and configure vCenter Server
+..* Deploy / Configure Enhanced Link Mode
+* Manage / Configure vCenter components according to a deployment plan:
+..* Configure Global Permissions for vCenter services
+..* Configure Dump Collector service
+..* Configure the Syslog Collector / Syslog service
+..* Managing vCenter Server advanced configurations
+
+### [Objective 1.3 - Deploy and Configure Update Manager Components](https://miquelmariano.github.io/113)
+
 ### Objective 1.4 - Perform Advanced Virtual Machine Configurations
 
 # Section 2 - Deploy and Manage a vSphere 6.x Storage Infrastructure
