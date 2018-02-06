@@ -175,7 +175,7 @@ En cambio, en los despliegues "stateless", mediante Auto Deploy se provisiona el
 
 Para configurar "stateful" o "stateless", es necesario que Host Profile esté configurado inicialmente. Editamos un host profile existente via web client > Host Profiles > Edit > Advanced Configuration Settings > System Image Cache Configuration
 
-![autodeploy117]({{ url.vcap_images }}17.png)
+![autodeploy117]({{ site.vcap_images }}/17.png)
 
 ### Crear/modificar reglas y conjunto de reglas
 
