@@ -17,11 +17,12 @@ permalink: /vcap6-dcv/
 ---
 
 # Section 1 - Create and Deploy vSphere 6.x Infrastructure Components
-### Objective 1.1 - Perform Advanced ESXi Host Configuration
-* [Configure and Manage Auto Deploy configurations](https://miquelmariano.github.io/111)
+### [Objective 1.1 - Perform Advanced ESXi Host Configuration](https://miquelmariano.github.io/111)
+* Configure and Manage Auto Deploy configurations
 * Configure Kernel Boot Parameters for scripted install according to a deployment plan:
 * Configure Advanced System Settings according to a deployment plan
 * Manage/Edit the Core Dump configuration of an ESXi host
+
 ### Objective 1.2 - Deploy and Configure Core Management Infrastructure Components
 ### Objective 1.3 - Deploy and Configure Update Manager Components
 ### Objective 1.4 - Perform Advanced Virtual Machine Configurations
