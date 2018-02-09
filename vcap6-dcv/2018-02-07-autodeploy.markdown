@@ -62,14 +62,14 @@ miquel-vcsa60:~ #
 
 Una vez arrancado el servicio, podemos configurar el arranque automático desde el menú "Editar tipo de inicio"
 
-![autodeploy2]({{ site.imagesposts2018 }}/01/autodeploy2.png)
-![autodeploy3]({{ site.imagesposts2018 }}/01/autodeploy3.png)
+![autodeploy2]({{ site.vcap_images }}/autodeploy2.png)
+![autodeploy3]({{ site.vcap_images }}/autodeploy3.png)
 
 Para configurar Autodeploy, navegaremos desde el web client Home > Lista de inventarios globales > Instancias de vCenter Server > seleccionamos nuestro vCenter > Pestaña configuración > Auto Deploy
 
 Descargaremos el fichero TFTP Boot Zip para posteriormente subirlo en nuestro servidor DHCP/TFTP.
 
-![autodeploy4]({{ site.imagesposts2018 }}/01/autodeploy4.png)
+![autodeploy4]({{ site.vcap_images }}/autodeploy4.png)
 
 ### Configurar DHCP y TFTP
 
@@ -84,19 +84,19 @@ Instalamos el TFTP server y arrancamos la aplicación.
 > El ejecutable se encuentra en C:\Program Files (x86)\WinAgents\TFTP Server 4. Para mas comodidad, os podeis crear un icono en 
 > vuestro escritorio.
 
-![autodeploy5]({{ site.imagesposts2018 }}/01/autodeploy5.png)
+![autodeploy5]({{ site.vcap_images }}/autodeploy5.png)
 
 La primera vez, tendremos que arrancar el servicio
 
-![autodeploy105]({{ site.imagesposts2018 }}/01/autodeploy105.png)
+![autodeploy105]({{ site.vcap_images }}/autodeploy105.png)
 
 Ahora es el momento de descomprimir el fichero TFTP Boot Zip que previamente hemos descargado en el directorio de trabajo de nuestro servidor TFTP. Debaría quedar una cosa similar a esta:
 
-![autodeploy6]({{ site.imagesposts2018 }}/01/autodeploy6.png)
+![autodeploy6]({{ site.vcap_images }}/autodeploy6.png)
 
-![autodeploy106]({{ site.imagesposts2018 }}/01/autodeploy106.png)
+![autodeploy106]({{ site.vcap_images }}/autodeploy106.png)
 
-![autodeploy1006]({{ site.imagesposts2018 }}/01/autodeploy1006.png)
+![autodeploy1006]({{ site.vcap_images }}/autodeploy1006.png)
 
 Llegados a este punto, ya tenemos nuestro TFTP configurado y listo para usar, el próximo paso será configurar nuestro servidor DHCP.
 
@@ -104,31 +104,31 @@ En el laboratorio utilizaremos el propio servidor DHCP del Windows server 2016, 
 
 Expandimos IPv4 y con el botón secundario y creamos un nuevo ámbito.
 
-![autodeploy7]({{ site.imagesposts2018 }}/01/autodeploy7.png)
+![autodeploy7]({{ site.vcap_images }}/autodeploy7.png)
 
 Seguiremos el asistente de configuración hasta llegar a este punto:
 
-![autodeploy8]({{ site.imagesposts2018 }}/01/autodeploy8.png)
+![autodeploy8]({{ site.vcap_images }}/autodeploy8.png)
 
 Una vez creado nuestro ámbito, con el botón secundario podremos configurar sus opciones
 
-![autodeploy9]({{ site.imagesposts2018 }}/01/autodeploy9.png)
+![autodeploy9]({{ site.vcap_images }}/autodeploy9.png)
 
 En la opción 066, definiremos nuestro Boot Server. Aquí tenemos que poner la IP/FQDN de nuestro servidor TFTP. Como en este caso ambos servicios están sobre el mismo servidor, pondremos el nombre del servidor DHCP/TFTP
 
-![autodeploy10]({{ site.imagesposts2018 }}/01/autodeploy10.png)
+![autodeploy10]({{ site.vcap_images }}/autodeploy10.png)
 
 En la opción 067, definiremos el fichero undionly.kpxe.vmw-hardwired. Este binario, se usará para que arranquen los hosts ESXi.
 
-![autodeploy11]({{ site.imagesposts2018 }}/01/autodeploy11.png)
+![autodeploy11]({{ site.vcap_images }}/autodeploy11.png)
 
 Una vez finalizado, deberiamos tener una configuración similar a esta:
 
-![autodeploy12]({{ site.imagesposts2018 }}/01/autodeploy12.png)
+![autodeploy12]({{ site.vcap_images }}/autodeploy12.png)
 
 Y si todo ha ido bien, nuestro servidor deberia arrancar por PXE e intentar "hablar" con el servidor TFTP server. Evidentemente, todavía no hemos subido ninguna imagen de ESXi y no va a pasar de ahi
 
-![autodeploy13]({{ site.imagesposts2018 }}/01/autodeploy13.png)
+![autodeploy13]({{ site.vcap_images }}/autodeploy13.png)
 
 A partir de aqui, necesitaremos disponer de PowerCLI y de los cmdlets para Auto Deploy. Podremos ver las opciones disponibles con el comando 
 
@@ -136,7 +136,7 @@ A partir de aqui, necesitaremos disponer de PowerCLI y de los cmdlets para Auto 
 Get-DeployCommand
 ```
 
-![autodeploy14]({{ site.imagesposts2018 }}/01/autodeploy14.png)
+![autodeploy14]({{ site.vcap_images }}/autodeploy14.png)
 
 Lo primero que haremos, será subir la iso de ESXi. 
 
@@ -147,21 +147,21 @@ Conectamos con nuestro vcenter
 ```powershell
 Connect-VIserver <<vcenter name>>
 ```
-![autodeploy15]({{ site.imagesposts2018 }}/01/autodeploy15.png)
+![autodeploy15]({{ site.vcap_images }}/autodeploy15.png)
 
 Añadimos el paquete offline del ESXi
 
 ```powershell
 Add-EsxSoftwareDepot "file location"
 ```
-![autodeploy16]({{ site.imagesposts2018 }}/01/autodeploy16.png)
+![autodeploy16]({{ site.vcap_images }}/autodeploy16.png)
 
 Confirmamos que el paquete se ha subido correctamente
 
 ```powershell
 Get-EsxImageProfile
 ```
-![autodeploy17]({{ site.imagesposts2018 }}/01/autodeploy17.png)
+![autodeploy17]({{ site.vcap_images }}/autodeploy17.png)
 
 En este punto necesitaremos crear un conjunto de reglas y asociar un perfil de host, pero la infraestructura de Auto Deploy está lista.
 
@@ -175,7 +175,7 @@ En cambio, en los despliegues "stateless", mediante Auto Deploy se provisiona el
 
 Para configurar "stateful" o "stateless", es necesario que Host Profile esté configurado inicialmente. Editamos un host profile existente via web client > Host Profiles > Edit > Advanced Configuration Settings > System Image Cache Configuration
 
-![autodeploy117]({{ site.vcap_images }}/17.png)
+![autodeploy117]({{ site.vcap_images }}/autodeploy117.png)
 
 ### Crear/modificar reglas y conjunto de reglas
 
@@ -187,14 +187,14 @@ Items determina que objeto asociaremos a cada ESXi y patterns determina que ESXi
 
 Como parte del plan, es posible añadir un host esxi directamente en vCenter una vez el ESXi está instalado e incluirlo en un cluster o carpeta. En mi caso, he creado una carpeta llamada "Auto Deploy"
 
-![autodeploy18]({{ site.imagesposts2018 }}/01/autodeploy18.png)
+![autodeploy18]({{ site.vcap_images }}/autodeploy18.png)
 
 Una vez creada, lanzaremos el siguiente comando desde PowerCLI. Deberemos especificar la imagen del ESXi, la carpeta y la IP que utilizará el host
 
 ```powershell
 New-DeployRule -Name “test” -Item “ESXi-image“, “Auto Deploy” -Pattern “ipv4=192.168.7.200-192.168.7.20”
 ``` 
-![autodeploy19]({{ site.imagesposts2018 }}/01/autodeploy19.png)
+![autodeploy19]({{ site.vcap_images }}/autodeploy19.png)
 
 y aplicamos la regla para que el set esté activo
 
@@ -202,16 +202,16 @@ y aplicamos la regla para que el set esté activo
 Add-DeployRule -DeployRule “test”
 ```
 
-![autodeploy20]({{ site.imagesposts2018 }}/01/autodeploy20.png)
+![autodeploy20]({{ site.vcap_images }}/autodeploy20.png)
 
 Si no nos hemos saltado ningún paso, es el momento de probar nuestra configuración.
 Crearemos una VM nueva en nuestro vCenter y selecionaremos ESXi 6.0 como SO y la arrancaremos.
 
 Nuestro DHCP le deberia de asignar una IP y poder contactar con el TFTP server para recibir la imagen ESXi.
 
-![autodeploy21]({{ site.imagesposts2018 }}/01/autodeploy21.png)
+![autodeploy21]({{ site.vcap_images }}/autodeploy21.png)
 
-![autodeploy22]({{ site.imagesposts2018 }}/01/autodeploy22.png)
+![autodeploy22]({{ site.vcap_images }}/autodeploy22.png)
 
 Y hasta aquí por hoy.
 
