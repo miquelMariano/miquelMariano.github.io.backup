@@ -30,7 +30,7 @@ Administración > Configuración del sistema > Servicios > Auto Deploy
 
 Hacemos click en el desplegable de "Acciones" y le damos a "Iniciar"
 
-![autodeploy1]({{ site.imagesposts2018 }}/01/autodeploy1.png)
+![autodeploy1]({{ site.vcap_images }}/autodeploy1.png)
 
 Adicionalmente, en caso de tener nuestra instancia sobre VCSA, también podremos habilitar el servicio de la siguiente manera:
 
@@ -212,7 +212,6 @@ Nuestro DHCP le deberia de asignar una IP y poder contactar con el TFTP server p
 ![autodeploy21]({{ site.imagesposts2018 }}/01/autodeploy21.png)
 
 ![autodeploy22]({{ site.imagesposts2018 }}/01/autodeploy22.png)
-
 
 Y hasta aquí por hoy.
 
