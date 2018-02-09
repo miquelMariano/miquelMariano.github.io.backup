@@ -1,6 +1,6 @@
 ---
-title: Configuración y administración vSphere Auto Deploy
-date: '2018-01-17 00:00:00'
+title: Configuración y administración vSphere Auto Deploy en vSphere 6.0
+date: '2018-02-07 00:00:00'
 layout: post
 image: /assets/images/posts/2018/01/autodeploy.png
 headerImage: true
@@ -11,7 +11,7 @@ tag:
 - vcap
 category: blog
 author: miquelMariano
-description: Configuración y administración vSphere Auto Deploy
+description: Configuración y administración vSphere Auto Deploy en vSphere 6.0
 hidden: false
 permalink: /111/
 ---
@@ -213,13 +213,12 @@ Nuestro DHCP le deberia de asignar una IP y poder contactar con el TFTP server p
 
 ![autodeploy22]({{ site.imagesposts2018 }}/01/autodeploy22.png)
 
-### Crear y asociar Host Profile para un host de referencia de Auto Deploy
 
-Se debe configurar un host de referencia con la configuración de red, la configuración de NTP, la configuración de Syslog, la configuración de Core Dump y la configuración de seguridad. Este host de referencia puede proporcionar un perfil de host que se aplicará a las implementaciones sin estado de Auto Deploy.
+Y hasta aquí por hoy.
 
-Configure un host utilizando los métodos habituales: Cliente web / CLI y use ese host para crear un perfil de host que se usará como referencia. Es posible crear el perfil de host manualmente.
+Un saludo!!!
 
-Como ejemplo, creo un host muy básico y cambio el nombre predeterminado del Grupo de Puertos de la Máquina Virtual para Implementar y agregar una etiqueta VLAN de 99.
+Miquel.
 
 
 
