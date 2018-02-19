@@ -1,6 +1,6 @@
 ---
 title: Back-to-basics 1 - Ficheros de una VM
-date: '2017-11-16 00:00:00'
+date: '2018-02-28 00:00:00'
 layout: post
 image: /assets/images/posts/2017/11/vmfiles1.png
 headerImage: true
