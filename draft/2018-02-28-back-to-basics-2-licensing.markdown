@@ -1,16 +1,18 @@
 ---
-title: Back-to-basics 1 - Ficheros de una VM
+title: Back-to-basics 2 - Licenciemiento vSphere
 date: '2018-02-28 00:00:00'
 layout: post
-image: /assets/images/posts/2017/11/vmfiles1.png
+image: /assets/images/posts/2018/02/logovsphere65.jpeg
 headerImage: true
 tag:
-- Ansible
+- vmware
+- vsphere
+- vexpert
 - devops
-- automation
+- backtobasics
 category: blog
 author: miquelMariano
-description: Back-to-basics 1 - Ficheros de una VM
+description: Back-to-basics 2 - Licenciamiento vSphere
 hidden: false
 permalink: /basics2/
 ---
