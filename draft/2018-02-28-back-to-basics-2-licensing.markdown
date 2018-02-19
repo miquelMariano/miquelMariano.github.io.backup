@@ -26,7 +26,6 @@ https://www.altaro.com/vmware/a-quick-look-at-vmware-vsphere-editions-and-licens
 ![essentials]({{ site.imagesposts2018 }}/02/essentials.png)
 
 
-..
 
 
 Un saludo!
