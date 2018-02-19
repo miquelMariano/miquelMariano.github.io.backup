@@ -21,6 +21,11 @@ Buenos dias a tod@as!!
 
 https://www.altaro.com/vmware/a-quick-look-at-vmware-vsphere-editions-and-licensing/
 
+![enterprise]({{ site.imagesposts2018 }}/02/enterprise.png)
+
+![essentials]({{ site.imagesposts2018 }}/02/essentials.png)
+
+
 ..
 
 
