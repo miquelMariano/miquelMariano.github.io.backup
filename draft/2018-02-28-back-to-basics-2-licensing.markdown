@@ -19,6 +19,8 @@ permalink: /basics2/
 
 Buenos dias a tod@as!!
 
+En esta segunda entrada de la serie [back-to-basics](https://miquelmariano.github.io/tags/#backtobasics), me gustaria
+
 https://www.altaro.com/vmware/a-quick-look-at-vmware-vsphere-editions-and-licensing/
 
 ![enterprise]({{ site.imagesposts2018 }}/02/enterprise.png)
