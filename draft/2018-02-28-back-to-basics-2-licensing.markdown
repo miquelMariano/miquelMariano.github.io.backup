@@ -35,6 +35,11 @@ Los paquetes de VMware vSphere 6 Essentials y VMware vSphere 6 Essentials Plus s
 
 ![essentials]({{ site.imagesposts2018 }}/02/essentials.png)
 
+# Acceleration Kit
+
+![acceleration]({{ site.imagesposts2018 }}/02/accelerationkit.png)
+
+
 
 
 
