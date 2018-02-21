@@ -1,5 +1,5 @@
 ---
-title: Back-to-basics 2 - ESXi logs
+title: Back-to-basics 3 - ESXi logs
 date: '2018-02-28 00:00:00'
 layout: post
 image: /assets/images/posts/2018/03/logs.png
@@ -17,7 +17,7 @@ hidden: false
 permalink: /basics3/
 ---
 
-2018-02-28-back-to-basics-2-licensing.markdown
+https://kb.vmware.com/s/article/1021806
 
 Buenos dias a tod@as!!
 
