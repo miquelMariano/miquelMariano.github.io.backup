@@ -30,7 +30,7 @@ Resaltemos las reglas principales a tener en cuenta al planear y comprar licenci
 + Cada licencia de vSphere requiere un paquete de soporte de servicio (al menos por un año).
 + VMware no impone ninguna restricción al tamaño de la memoria (RAM) instalada en el servidor físico ni a la cantidad de máquinas virtuales en ejecución.
 
-> Nota . Desde el punto de vista de VMware, la plataforma ESXi no requiere licencia. Un usuario puede instalarse un servidor ESXi de manera gratuita, pero no dispondrá de ningún tipo de funcionalidad, mas allá de la propia virtualización.
+> *Nota* . Desde el punto de vista de VMware, la plataforma ESXi no requiere licencia. Un usuario puede instalarse un servidor ESXi de manera gratuita, pero no dispondrá de ningún tipo de funcionalidad, mas allá de la propia virtualización.
 
 En VMware vSphere 6.5, la cantidad de ediciones vSphere se ha reducido en comparación con las versiones anteriores. En verano de 2016, VMware anunció la eliminación de su edición Enterprise. Por lo tanto, en la actualidad disponemos de las siguientes ediciones (antes había 6 ediciones diferentes):
 
@@ -40,8 +40,8 @@ En VMware vSphere 6.5, la cantidad de ediciones vSphere se ha reducido en compar
 
 Para cubrir las necesidades de pequeñas y medianas empresas, VMWare ofrece ediciones vSphere 6 Essentials.
 
-+ VMware vSphere 6 Essentials
-+ VMware vSphere 6 Essentials Plus
++ *VMware vSphere 6 Essentials*
++ *VMware vSphere 6 Essentials Plus*
 
 Estas ediciones permiten licenciar hasta 3 servidores físicos que tengan hasta 2 CPU cada uno. Aquí la diferencia principal está en las características disponibles en comparación con las ediciones enterprise.
 
