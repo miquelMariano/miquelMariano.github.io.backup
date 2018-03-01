@@ -14,7 +14,6 @@ category: blog
 author: miquelMariano
 description: Back-to-basics 2 - Licenciamiento vSphere
 hidden: false
-permalink: /basics2/
 ---
 
 https://www.altaro.com/vmware/a-quick-look-at-vmware-vsphere-editions-and-licensing/
