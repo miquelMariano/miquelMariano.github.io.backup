@@ -33,17 +33,28 @@ Resaltemos las reglas principales a tener en cuenta al planear y comprar licenci
 + Cada licencia de vSphere requiere un paquete de soporte de servicio (al menos por un año).
 + VMware no impone ninguna restricción al tamaño de la memoria (RAM) instalada en el servidor físico ni a la cantidad de máquinas virtuales en ejecución.
 
-# Licencias enterprise
+> Nota . Desde el punto de vista de VMware, la plataforma ESXi no requiere licencia. Un usuario puede instalarse un servidor ESXi de manera gratuita, pero no dispondrá de ningún tipo de funcionalidad, mas allá de la propia virtualización.
+
+En VMware vSphere 6.5, la cantidad de ediciones vSphere se ha reducido en comparación con las versiones anteriores. En verano de 2016, VMware anunció la eliminación de su edición Enterprise. Por lo tanto, en la actualidad disponemos de las siguientes ediciones (antes había 6 ediciones diferentes):
 
 ![enterprise]({{ site.imagesposts2018 }}/02/enterprise.png)
 
 # Kit Essentials
 
-Los paquetes de VMware vSphere 6 Essentials y VMware vSphere 6 Essentials Plus se deben considerar por separado. Han sido diseñados específicamente para pequeñas empresas y pueden virtualizar hasta tres servidores físicos. La administración central de estos servidores solo es posible a través de vCenter Server for Essentials. vCenter Server Standard, que permite la administración central de cualquier número de servidores host físicos, solo se puede usar con licencias regulares de vSphere con o sin vSOM.
+Para cubrir las necesidades de pequeñas y medianas empresas, VMWare ofrece ediciones vSphere 6 Essentials.
+
++ VMware vSphere 6 Essentials
++ VMware vSphere 6 Essentials Plus
+
+Estas ediciones permiten licenciar hasta 3 servidores físicos que tengan hasta 2 CPU cada uno. Aquí la diferencia principal está en las características disponibles en comparación con las ediciones enterprise.
 
 ![essentials]({{ site.imagesposts2018 }}/02/essentials.png)
 
+La diferencia principal entre la edición Essentials y Essentials Plus es que esta última tiene características vMotion y High Availability (HA). En vSphere Essentials, podrá mover una VM entre ESXi o datastores sólo si está apagada.
+
 # Acceleration Kit
+
+Cuando adquieren kits de licencias especiales (Acceleration Kit), puede actualizar vSphere Essentials a ediciones vSphere completas. Ofrecen las mismas características que las ediciones Enterprise de vSphere, pero cada una está bloqueada a un máximo de 3 hosts ESXi (procesadores de mínimo 2) y 1 servidor estándar vCenter.
 
 ![acceleration]({{ site.imagesposts2018 }}/02/accelerationkit.png)
 
