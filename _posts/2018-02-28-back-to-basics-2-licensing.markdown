@@ -16,8 +16,6 @@ description: Back-to-basics 2 - Licenciamiento vSphere
 hidden: false
 ---
 
-https://www.altaro.com/vmware/a-quick-look-at-vmware-vsphere-editions-and-licensing/
-
 Buenos dias a tod@as!!
 
 Incluso los administradores mas experimentados, a veces, se confunden con las peculiaridades de las licencias vSphere, las opciones disponibles y las características.
