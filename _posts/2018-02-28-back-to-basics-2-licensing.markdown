@@ -32,7 +32,7 @@ Resaltemos las reglas principales a tener en cuenta al planear y comprar licenci
 
 > *Nota* . Desde el punto de vista de VMware, la plataforma ESXi no requiere licencia. Un usuario puede instalarse un servidor ESXi de manera gratuita, pero no dispondrá de ningún tipo de funcionalidad, mas allá de la propia virtualización.
 
-En VMware vSphere 6.5, la cantidad de ediciones vSphere se ha reducido en comparación con las versiones anteriores. En verano de 2016, VMware anunció la eliminación de su edición Enterprise. Por lo tanto, en la actualidad disponemos de las siguientes ediciones (antes había 6 ediciones diferentes):
+En VMware vSphere 6.5, la cantidad de ediciones vSphere se ha reducido en comparación con las versiones anteriores. En verano de 2016, VMware anunció la eliminación de su edición Enterprise. Por lo tanto, en la actualidad disponemos de las siguientes ediciones:
 
 ![enterprise]({{ site.imagesposts2018 }}/02/enterprise.png)
 
