@@ -10,6 +10,7 @@ tag:
 - vexpert
 - devops
 - backtobasics
+- licensing
 category: blog
 author: miquelMariano
 description: Back-to-basics 2 - Licenciamiento vSphere
