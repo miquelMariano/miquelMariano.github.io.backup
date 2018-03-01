@@ -21,36 +21,7 @@ Buenos dias a tod@as!!!
 
 El presente post pretende servir de guía para la configuración y posterior uso de vSphere Update Manager como herramienta para la actualización de HW Virtual y VMWare Tools en nuestras máquinas virtuales de un entorno vSphere
 
-# *VMWare Tools*
-
-![vum14]({{ site.imagesposts2017 }}/12/vum14.png)
-
-#### Marcamos el componente de VMware Tools y “Remediate”
-
-![vum15]({{ site.imagesposts2017 }}/12/vum15.png)
-
-![vum16]({{ site.imagesposts2017 }}/12/vum16.png)
-
-![vum17]({{ site.imagesposts2017 }}/12/vum17.png)
-
-![vum18]({{ site.imagesposts2017 }}/12/vum18.png)
-
-![vum19]({{ site.imagesposts2017 }}/12/vum19.png)
-
-![vum20]({{ site.imagesposts2017 }}/12/vum20.png)
-
-> NOTA: La actualización de VMWare Tools requiere de reinicio, por lo que tomar en cuenta cuando se 
-> aplicará este procedimiento
-
-#### Una vez finalizado el proceso, ambos componentes estarán en estado “Compliant”
-
-![vum21]({{ site.imagesposts2017 }}/12/vum21.png)
-
-![vum22]({{ site.imagesposts2017 }}/12/vum22.png)
-
 # *Actualización HW virtual*
-
-> El proceso de actualización de las VMWare Tools es prácticamente idéntico al del VM Hardware
 
 ##### Iniciar sesión en vCenter a través del vSphere Cient
 
@@ -104,6 +75,35 @@ El presente post pretende servir de guía para la configuración y posterior uso
 #### Finalizado el proceso, aparecerá el componente como “Compliant”
 
 ![vum13]({{ site.imagesposts2017 }}/12/vum13.png)
+
+# *VMWare Tools*
+
+#### El proceso de actualización de las VMWare Tools es prácticamente idéntico al del VM Hardware
+
+![vum14]({{ site.imagesposts2017 }}/12/vum14.png)
+
+#### Marcamos el componente de VMware Tools y “Remediate”
+
+![vum15]({{ site.imagesposts2017 }}/12/vum15.png)
+
+![vum16]({{ site.imagesposts2017 }}/12/vum16.png)
+
+![vum17]({{ site.imagesposts2017 }}/12/vum17.png)
+
+![vum18]({{ site.imagesposts2017 }}/12/vum18.png)
+
+![vum19]({{ site.imagesposts2017 }}/12/vum19.png)
+
+![vum20]({{ site.imagesposts2017 }}/12/vum20.png)
+
+> NOTA: La actualización de VMWare Tools requiere de reinicio, por lo que tomar en cuenta cuando se 
+> aplicará este procedimiento
+
+#### Una vez finalizado el proceso, ambos componentes estarán en estado “Compliant”
+
+![vum21]({{ site.imagesposts2017 }}/12/vum21.png)
+
+![vum22]({{ site.imagesposts2017 }}/12/vum22.png)
 
 Espero que os sea de utilidad.
 
