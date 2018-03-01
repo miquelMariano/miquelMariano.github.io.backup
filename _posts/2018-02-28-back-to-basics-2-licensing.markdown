@@ -55,6 +55,7 @@ Cuando adquieren kits de licencias especiales (Acceleration Kit), puede actualiz
 
 ![acceleration]({{ site.imagesposts2018 }}/02/accelerationkit.png)
 
+Espero que os sea de utilidad :-)
 
 Hasta el próximo post....
 
