@@ -1,5 +1,5 @@
 ---
-title: vExpert 2017
+title: vExpert 2018
 layout: post
 date: 2018-03-10 00:14:00
 image: /assets/images/logo_vexpert2018.png
