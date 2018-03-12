@@ -9,9 +9,10 @@ tag:
 - restore
 - esxi
 - vexpert
+- powercli
 category: blog
 author: miquelMariano
-description: Uso de variables con Ansible
+description: Backup & Restore de la configuración de un host ESXi
 hidden: false
 permalink: /esxibackup/
 ---
