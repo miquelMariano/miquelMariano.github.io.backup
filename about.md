@@ -22,7 +22,9 @@ En lo profesional, cuento con mas de 10 años de experiencia en el ámbito de si
  - Automatización con Ansible, scripting con PowerCLI, bash, ...
  - Monitorización con PRTG Network Monitor
 
-He tenido la suerte de poder certificarme en VCP5/6-DCV y en estos últimos 2 años, VMWare me ha nombrado vExpert
+He tenido la suerte de poder certificarme en VCP5/6-DCV y en estos últimos 3 años, VMWare me ha nombrado vExpert
+
+![logo-vExpert18]({{ site.url }}/{{ site.images }}logo_vexpert2018.png)
 
 ![logo-vExpert17]({{ site.url }}/{{ site.images }}logo_vexpert2017.png) 
 
