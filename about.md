@@ -24,7 +24,9 @@ En lo profesional, cuento con mas de 10 años de experiencia en el ámbito de si
 
 He tenido la suerte de poder certificarme en VCP5/6-DCV y en estos últimos 3 años, VMWare me ha nombrado [#vExpert](https://vexpert.vmware.com/directory/753)
 
-También poseo algunas de las [certificaciones profesionales](https://www.certmetrics.com/hitachi/public/transcript.aspx?transcript=E1MSVW11CBREQNSS) de Hitachi Vantara
+También poseo algunas de las [certificaciones profesionales](https://www.certmetrics.com/hitachi/public/transcript.aspx?transcript=E1MSVW11CBREQNSS) de Hitachi Vantara.
+
+Podreis consultar mas información en mi [perfil completo de LinkedIN](https://www.linkedin.com/in/miquelmariano/)
 
 ![logo-vExpert18]({{ site.url }}/{{ site.images }}logo_vexpert2018.png)
 
