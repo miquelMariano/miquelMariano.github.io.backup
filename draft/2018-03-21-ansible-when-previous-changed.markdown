@@ -14,7 +14,7 @@ hidden: false
 permalink: /changed/
 ---
 
-Buenos dias a tod@as!!
+Buenos dias a tod@as!
 
 En el post de hoy, vamos a ver como conseguir que Ansible ejecute acciones sólo cuando la ejecución de otras acciones haya cambiado.
 
