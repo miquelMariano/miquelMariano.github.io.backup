@@ -11,7 +11,6 @@ category: blog
 author: miquelMariano
 description: Ansible - Ejecutar tarea sólo si la acción previa ha cambiado
 hidden: false
-permalink: /changed/
 ---
 
 Buenos dias a tod@as!
@@ -49,5 +48,3 @@ Hasta el próximo post
 Un saludo!
 
 Miquel.
-
-
