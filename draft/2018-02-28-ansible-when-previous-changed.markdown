@@ -1,18 +1,15 @@
 ---
-title: Back-to-basics 2 - Licenciemiento vSphere
+title: Ansible - Ejecutar tarea sólo si la acción previa ha cambiado
 date: '2018-02-28 00:00:00'
 layout: post
-image: /assets/images/posts/2018/02/logovsphere65.jpeg
+image: /assets/images/posts/2018/03/ansible.png
 headerImage: true
 tag:
-- vmware
-- vsphere
-- vexpert
-- devops
-- backtobasics
+- ansible
+- automation
 category: blog
 author: miquelMariano
-description: Back-to-basics 2 - Licenciamiento vSphere
+description: Ansible - Ejecutar tarea sólo si la acción previa ha cambiado
 hidden: false
 permalink: /changed/
 ---
@@ -21,7 +18,7 @@ https://raymii.org/s/tutorials/Ansible_-_Only-do-something-if-another-action-cha
 
 
 ```yaml
-- hosts: "{{ servers }}:!localhost"
+- hosts: esxi
   user: root
   serial: 1
   tasks:
