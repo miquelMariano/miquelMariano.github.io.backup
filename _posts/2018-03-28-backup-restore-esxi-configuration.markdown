@@ -22,7 +22,7 @@ El post de hoy es corto, pero tremendamente útil si vamos a manipular a bajo ni
 
 Se trata de poder hacer de manera sencilla un backup de la configuración de un ESXi y en caso de necesidad, (esperemos que no) poder hacer la restauración.
 
-El método que aquí os enseño está basado en comandos PowerCLI y básicamente son dos:
+El método que aquí os enseño está basado en comandos PowerCLI y básicamente son dos pasos:
 
 * Realizar el backup a un directorio externo de nuestro PC:
 
