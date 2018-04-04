@@ -21,25 +21,6 @@ https://kb.vmware.com/s/article/1021806
 
 Buenos dias a tod@as!!
 
-En esta segunda entrada de la serie [back-to-basics](https://miquelmariano.github.io/tags/#backtobasics), me gustaria dar un repaso al licenciamiento vSphere
-
-
-
-# Licencias enterprise
-
-![enterprise]({{ site.imagesposts2018 }}/02/enterprise.png)
-
-# Kit Essentials
-
-Los paquetes de VMware vSphere 6 Essentials y VMware vSphere 6 Essentials Plus se deben considerar por separado. Han sido diseñados específicamente para pequeñas empresas y pueden virtualizar hasta tres servidores físicos. La administración central de estos servidores solo es posible a través de vCenter Server for Essentials. vCenter Server Standard, que permite la administración central de cualquier número de servidores host físicos, solo se puede usar con licencias regulares de vSphere con o sin vSOM.
-
-![essentials]({{ site.imagesposts2018 }}/02/essentials.png)
-
-# Acceleration Kit
-
-![acceleration]({{ site.imagesposts2018 }}/02/accelerationkit.png)
-
-
 
 
 
