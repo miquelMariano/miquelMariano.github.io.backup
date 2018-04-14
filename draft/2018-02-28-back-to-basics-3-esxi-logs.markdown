@@ -17,9 +17,22 @@ hidden: false
 permalink: /basics3/
 ---
 
-https://kb.vmware.com/s/article/1021806
-
 Buenos dias a tod@as!!
+
+En el post de hoy vamos a ver [donde se encuentran los principales logs de un entorno VMWare](https://kb.vmware.com/s/article/1021806)
+
+| Componente          | Ubicación | Descripción |
+|---------------------|-----------|-------------|
+| VMkernel            |           |             |
+| VMkernel warnings   |           |             |
+| VMkernel summary    |           |             |
+| ESXi host agent log |           |             |
+| vCenter agent log   |           |             |
+| Shell log           |           |             |
+| Authentication      |           |             |
+| System messages     |           |             |
+| Virtual machines    |           |             |
+
 
 
 
