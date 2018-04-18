@@ -14,7 +14,6 @@ category: blog
 author: miquelMariano
 description: Back-to-basics 2 - ESXi logs
 hidden: false
-permalink: /basics3/
 ---
 
 Buenos dias a tod@as!!
