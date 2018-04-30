@@ -26,17 +26,19 @@ En el post de hoy voy a tratar de explicar cómo de forma fácil, podemos actual
 
 
 
-1. Download ESXi 6.0 Offline Bundle
+### 1. Download ESXi 6.0 Offline Bundle
 
 ![esxidownload]({{ site.imagesposts2018 }}/05/downloadesxi67.png)
 
-2. Upload the offline bundle to an ESXi 5.5 datastore 
+### 2. Upload the offline bundle to an ESXi 5.5 datastore 
 
-3. Connect to the ESXi 5.5 host server via SSH 
 
-4. Use esxcli at the console command line to upgrade the server 
 
-5. Check that the ESXi 5.5 Host server has been upgraded 
+### 3. Connect to the ESXi 5.5 host server via SSH 
+
+### 4. Use esxcli at the console command line to upgrade the server 
+
+### 5. Check that the ESXi 5.5 Host server has been upgraded 
 
 
 
