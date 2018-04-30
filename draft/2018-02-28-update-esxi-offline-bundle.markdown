@@ -1,8 +1,8 @@
 ---
-title: Back-to-basics 2 - Licenciemiento vSphere
+title: Actualizar ESXi mediante el bundle offline
 date: '2018-02-28 00:00:00'
 layout: post
-image: /assets/images/posts/2018/02/logovsphere65.jpeg
+image: /assets/images/posts/2018/05/offline.jpeg
 headerImage: true
 tag:
 - vmware
@@ -12,7 +12,7 @@ tag:
 - backtobasics
 category: blog
 author: miquelMariano
-description: Back-to-basics 2 - Licenciamiento vSphere
+description: Actualizar ESXi mediante el bundle offline
 hidden: false
 permalink: /offline/
 ---
