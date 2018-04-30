@@ -22,25 +22,21 @@ https://www.experts-exchange.com/articles/18819/HOW-TO-Upgrade-VMware-ESXi-5-5-t
 
 Buenos dias a tod@as!!
 
-En esta segunda entrada de la serie [back-to-basics](https://miquelmariano.github.io/tags/#backtobasics), me gustaria dar un repaso al licenciamiento vSphere
+En el post de hoy voy a tratar de explicar cómo de forma fácil, podemos actualizar nuestros servidores ESXi con el bundle offline.
 
 
 
-# Licencias enterprise
+1. Download ESXi 6.0 Offline Bundle
 
-![enterprise]({{ site.imagesposts2018 }}/02/enterprise.png)
+![esxidownload]({{ site.imagesposts2018 }}/05/downloadesxi67.png)
 
-# Kit Essentials
+2. Upload the offline bundle to an ESXi 5.5 datastore 
 
-Los paquetes de VMware vSphere 6 Essentials y VMware vSphere 6 Essentials Plus se deben considerar por separado. Han sido diseñados específicamente para pequeñas empresas y pueden virtualizar hasta tres servidores físicos. La administración central de estos servidores solo es posible a través de vCenter Server for Essentials. vCenter Server Standard, que permite la administración central de cualquier número de servidores host físicos, solo se puede usar con licencias regulares de vSphere con o sin vSOM.
+3. Connect to the ESXi 5.5 host server via SSH 
 
-![essentials]({{ site.imagesposts2018 }}/02/essentials.png)
+4. Use esxcli at the console command line to upgrade the server 
 
-# Acceleration Kit
-
-![acceleration]({{ site.imagesposts2018 }}/02/accelerationkit.png)
-
-
+5. Check that the ESXi 5.5 Host server has been upgraded 
 
 
 
