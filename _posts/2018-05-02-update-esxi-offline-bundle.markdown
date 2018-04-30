@@ -33,7 +33,7 @@ A través del ESXi embebed host client, podremos subir el paquete .zip a un data
 
 ![offline1]({{ site.imagesposts2018 }}/05/offline1.png)
 
-## 3| Nos conectamos al servidor ESXi via SSH.
+## 3| Nos conectamos al servidor ESXi a través de un cliente SSH
 
 Nos conectamos a través de un cliente SSH y verificamos la versión actual.
 
