@@ -24,7 +24,6 @@ En esta ocasión, vamos a ver como poder recuperar a partir de este backup.
 
 Vamos al lio!!!
 
-º
 
 ..
 
