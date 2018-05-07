@@ -18,7 +18,7 @@ permalink: /restore/
 
 Buenos dias a tod@as!!
 
-Hace ya varios meses[publiqué un post](https://miquelmariano.github.io/2017/08/backup-vcsa65-automatizado/) sobre cómo realizar una backup de la configuración de nuestro vCenter desde las opciones que nos da nativamente el portal VAMI de nuestro Virtual Center.
+Hace ya varios meses [publiqué un post](https://miquelmariano.github.io/2017/08/backup-vcsa65-automatizado/) sobre cómo realizar una backup de la configuración de nuestro vCenter desde las opciones que nos da nativamente el portal VAMI de nuestro Virtual Center.
 
 En esta ocasión, vamos a ver como poder recuperar a partir de este backup.
 
