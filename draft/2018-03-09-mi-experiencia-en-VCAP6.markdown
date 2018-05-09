@@ -30,6 +30,9 @@ El momento determinante fué recibir un correo de VMWare en el que me recordaban
 
 ![certificationpath]({{ site.imagesposts2018 }}/05/certification-path.png)
 
+bla bla bla.
+
+
 ### Preparación
 
 ### El dia "D"
