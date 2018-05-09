@@ -28,6 +28,8 @@ El momento determinante fué recibir un correo de VMWare en el que me recordaban
 
 ### Información sobre el examen
 
+![certificationpath]({{ site.imagesposts2018 }}/05/certification-path.png)
+
 ### Preparación
 
 ### El dia "D"
