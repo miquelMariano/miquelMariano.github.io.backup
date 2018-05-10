@@ -61,7 +61,7 @@ En mi caso, no tardó ni una hora (que se hizo eterna) en llegar el ansiado corr
 
 Y....   ....PASED!!!!!
 
-![certificationpath]({{ site.imagesposts2018 }}/05/certification-path.png)
+![passed]({{ site.imagesposts2018 }}/05/pass.png)
 
 
 Un saludo!
