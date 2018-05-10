@@ -13,7 +13,7 @@ category: blog
 author: miquelMariano
 description: Mi experiencia con el VCAP6-DCV
 hidden: false
-permalink: /vcap/
+permalink: /vcap-experience/
 ---
 
 Buenos dias a tod@as!!

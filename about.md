@@ -22,7 +22,7 @@ En lo profesional, cuento con mas de 10 años de experiencia en el ámbito de si
  - Automatización con Ansible, scripting con PowerCLI, bash, ...
  - Monitorización con PRTG Network Monitor
 
-He tenido la suerte de poder certificarme en VCP5/6-DCV y en estos últimos 3 años, VMWare me ha nombrado [#vExpert](https://vexpert.vmware.com/directory/753)
+He tenido la suerte de poder sacarme [algunas certificaciones de VMWare](https://www.certmetrics.com/vmware/public/transcript.aspx?transcript=H66R1JVC114EQYC8) y en estos últimos 3 años, VMWare me ha nombrado [#vExpert](https://vexpert.vmware.com/directory/753)
 
 También poseo algunas de las [certificaciones profesionales](https://www.certmetrics.com/hitachi/public/transcript.aspx?transcript=E1MSVW11CBREQNSS) de Hitachi Vantara.
 
@@ -33,6 +33,8 @@ Podreis consultar mas información en mi [perfil completo de Linkedin](https://w
 ![logo-vExpert17]({{ site.url }}/{{ site.images }}logo_vexpert2017.png) 
 
 ![logo-vExpert16]({{ site.url }}/{{ site.images }}logo_vexpert2016.png) 
+
+![logo-vcap6]({{ site.url }}/{{ site.images }}logo_vcap6.jpg) 
 
 ![logo-vcp6]({{ site.url }}/{{ site.images }}logo_vcp6.png) 
 
