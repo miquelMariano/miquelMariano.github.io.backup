@@ -58,7 +58,7 @@ En mi caso, no es una cosa de la que esté demasiado orgulloso, pero hay que dec
 
 Básicamente mi preparación se basó en los siguientes aspectos, ordenados para mi, de mas a menos prioritario.
 
-1. [Guia de estudio en PDF]({{ site.documents }}/VCAP6-DCV-Deployment-Study-Guide.pdf)
+1. [Guia de estudio en PDF](google.com)
 
 Escrita por [@RamyMahmoud](https://twitter.com/RamyMahmoud) y que a mi me ha ido muy bien. Incluso me la imprimí en papel, soy de los que les gusta tocar papel ;-)
 
@@ -73,7 +73,7 @@ Los 2 con mejor contenido fueron estos:
 
 4. Manuales 
 
-Aunque el dia del examen os los encontrareis en el escritorio, [os los dejo aquí también]({{ site.documents }}/vsphere-documentation-60.zip)
+Aunque el dia del examen os los encontrareis en el escritorio, [os los dejo aquí también](google.com)
 
 A parte de material comentado previamente, también es muy importante la práctica. Practicar, practicar, practicar y mas practicar. Hay que tener cierta soltura con el laboratorio y las diferentes interfaces de administración que dispone vSphere. Tendremos "poco" tiempo y esta agilidad sobre el lab será fundamental para ir avanzando.
 
