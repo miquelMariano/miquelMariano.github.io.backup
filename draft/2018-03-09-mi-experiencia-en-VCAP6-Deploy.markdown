@@ -38,7 +38,7 @@ Código del examen: 3V0-623
 
 Certificación requerida: [VCP6-DCV](https://www.vmware.com/education-services/certification/vcp6-dcv-exam.html)
 
-Formato: 100% práctico, utiliza la misma interface que los [HOL](hol.vmware.com) de VMWare
+Formato: 100% práctico, utiliza la misma interface que los [HOL](http://labs.hol.vmware.com/HOL/catalogs/) de VMWare (la cual os recomiendo visitar)
 
 Duración: 190 minutos
 
@@ -58,13 +58,22 @@ En mi caso, no es una cosa de la que esté demasiado orgulloso, pero hay que dec
 
 Básicamente mi preparación se basó en los siguientes aspectos, ordenados para mi, de mas a menos prioritario.
 
-1. Guia de estudio en PDF
+1. [Guia de estudio en PDF]({{ site.documents }}/VCAP6-DCV-Deployment-Study-Guide.pdf)
+
+Escrita por [@RamyMahmoud](https://twitter.com/RamyMahmoud) y que a mi me ha ido muy bien. Incluso me la imprimí en papel, soy de los que les gusta tocar papel ;-)
 
 2. Material de los blogs
 
-3. HOL
+Los 2 con mejor contenido fueron estos:
 
-4. Manuales (están en el escritorio el dia del examen)
+* [vJenner](http://www.vjenner.com/vcap6-dcv-deployment-study-guide/)
+* [vStellar](http://www.vstellar.com/2017/12/29/vcap6-dcv-deploy-study-guide/)
+
+3. [HOL]((http://labs.hol.vmware.com/HOL/catalogs/))
+
+4. Manuales 
+
+Aunque el dia del examen os los encontrareis en el escritorio, [os los dejo aquí también]({{ site.documents }}/vsphere-documentation-60.zip)
 
 A parte de material comentado previamente, también es muy importante la práctica. Practicar, practicar, practicar y mas practicar. Hay que tener cierta soltura con el laboratorio y las diferentes interfaces de administración que dispone vSphere. Tendremos "poco" tiempo y esta agilidad sobre el lab será fundamental para ir avanzando.
 
